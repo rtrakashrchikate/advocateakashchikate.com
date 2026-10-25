@@ -14,7 +14,7 @@ SEO Health Score: **87/100** (25 Oct 2026). Nothing is critical; nothing blocks 
 
 ## Phase 2: On-page polish (weeks 2–3)
 
-> **Built:** plugin v1.1 overrides 57 titles and descriptions (first four items below). Full before/after list in `META-CHANGES.md`.
+> **Built:** plugin v1.1 overrides 57 titles and descriptions (first three items below; the experience figure still needs a manual edit in the page content). Full before/after list in `META-CHANGES.md`.
 - [ ] Trim the 46 meta descriptions over 160 characters, starting with the homepage (230).
 - [ ] Shorten the 15 titles over 60 characters.
 - [ ] Add meta descriptions to `/privacy/`, `/disclaimer/`, `/bar-council-compliance/`; lengthen the one on `/practice-areas/`.
