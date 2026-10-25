@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: AKC Audit Fixes (Oct 2026)
- * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, overrides 57 titles/meta descriptions, noindexes the free-guide sign-up pages and adds takeaways to case notes. Keep active; deactivating undoes every change.
- * Version: 1.2.0
+ * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, overrides 57 titles/meta descriptions, noindexes the free-guide sign-up pages, adds takeaways to case notes, redirects old static-site URLs and enlarges footer tap targets. Keep active; deactivating undoes every change.
+ * Version: 1.3.0
  * Author: Advocate Akash Chikate
  */
 
@@ -319,5 +319,39 @@ add_action( 'wp_head', function() {
         . '.akc-takeaways ul{margin:0;padding-left:1.2rem}'
         . '.akc-takeaways li{margin:.55rem 0;line-height:1.75}'
         . '.akc-takeaways-note{font-size:.85rem;color:var(--gray-600,#4b5563);margin-top:1rem;font-style:italic}'
+        . '</style>' . "\n";
+}, 20 );
+
+/* ════════════════════════════════════════════
+   8. TECHNICAL HOUSEKEEPING
+   - Old static-site URLs (about.html etc.) returned 404; 301 them to the
+     WordPress equivalents. Only fires on a 404, so real pages win.
+   - robots.txt pointed at /sitemap.xml, which 301s to Rank Math's index.
+   - Footer links were 20–23px tall on mobile, under the 24px minimum.
+════════════════════════════════════════════ */
+add_action( 'template_redirect', function() {
+    if ( ! is_404() ) return;
+    $legacy = [
+        'index.html'    => '/',
+        'about.html'    => '/about/',
+        'services.html' => '/practice-areas/',
+        'contact.html'  => '/contact/',
+        'blog.html'     => '/blog/',
+    ];
+    $path = strtolower( trim( (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '', PHP_URL_PATH ), '/' ) );
+    if ( isset( $legacy[ $path ] ) ) {
+        wp_safe_redirect( home_url( $legacy[ $path ] ), 301, 'AKC Audit Fixes' );
+        exit;
+    }
+}, 1 );
+
+add_filter( 'robots_txt', function( $output ) {
+    return str_replace( home_url( '/sitemap.xml' ), home_url( '/sitemap_index.xml' ), $output );
+}, 9999 );
+
+add_action( 'wp_head', function() {
+    echo '<style id="akc-tap-css">'
+        . 'body .footer-links a,body .footer-contact-item a{min-height:26px;align-items:center}'
+        . 'body .footer-bottom-links a,body .akc-bci-actions a{display:inline-block;padding-top:3px;padding-bottom:3px}'
         . '</style>' . "\n";
 }, 20 );

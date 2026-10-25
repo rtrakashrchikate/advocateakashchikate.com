@@ -30,8 +30,11 @@ SEO Health Score: **87/100** (25 Oct 2026). Nothing is critical; nothing blocks 
 - [ ] Optional: hreflang for `/bns-dhara-103-hatya-jamanat-saza-hindi/`, `/jamanat-kitne-din-me-milti-hai-kharcha-documents-pune/`, `/police-kothadi-nyayalayin-kothadi-farak/` only if they get English twins, added through the same plugin that outputs the existing 39 pairs.
 
 ## Phase 4: Technical housekeeping and monitoring (ongoing)
-- [ ] One-hop Cloudflare redirect `http://www.*` → `https://advocateakashchikate.com/$1`.
-- [ ] 301 the old static URLs (`/about.html`, `/services.html`, `/contact.html`, `/blog.html`, `/index.html`) if they were ever indexed.
-- [ ] Change the robots.txt `Sitemap:` line to `/sitemap_index.xml`.
-- [ ] Footer and menu tap targets ≥ 24 px; add width/height to the 3 images without them.
-- [ ] Connect Google Search Console / PageSpeed (or DataForSEO) and re-run the audit for field Core Web Vitals, indexation and rankings.
+
+> **Built:** plugin v1.3 covers the first three items.
+- [ ] 301s for old static URLs: `/index.html` → `/`, `/about.html` → `/about/`, `/services.html` → `/practice-areas/`, `/contact.html` → `/contact/`, `/blog.html` → `/blog/` (only when the URL would otherwise 404).
+- [ ] robots.txt `Sitemap:` line now points at `/sitemap_index.xml`.
+- [ ] Footer and disclaimer-card links ≥ 24 px tall on mobile (measured 26–43 px after the change).
+- [ ] Manual (Cloudflare): Rules → Redirect Rules → new rule: *When* hostname equals `www.advocateakashchikate.com` → *Dynamic* redirect to `concat("https://advocateakashchikate.com", http.request.uri)`, 301, preserve query string. This makes `http://www.` a single hop.
+- [ ] Manual (theme): add `width="847" height="1063"` to the desktop hero `<img>` and `width="800" height="993"` to the mobile/about hero `<img>` (live theme; repo copy is behind).
+- [ ] Connect Google Search Console (and a PageSpeed API key or DataForSEO) and re-run the audit for field Core Web Vitals, indexation and rankings.
