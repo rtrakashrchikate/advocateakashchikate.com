@@ -13,11 +13,12 @@ SEO Health Score: **87/100** (25 Oct 2026). Nothing is critical; nothing blocks 
 - [ ] Add a "Related reported orders" block to practice-area pages, linking the 11 weakly linked case notes.
 
 ## Phase 2: On-page polish (weeks 2–3)
+
+> **Built:** plugin v1.1 overrides 57 titles and descriptions (first four items below). Full before/after list in `META-CHANGES.md`.
 - [ ] Trim the 46 meta descriptions over 160 characters, starting with the homepage (230).
 - [ ] Shorten the 15 titles over 60 characters.
 - [ ] Add meta descriptions to `/privacy/`, `/disclaimer/`, `/bar-council-compliance/`; lengthen the one on `/practice-areas/`.
 - [ ] Use one experience figure everywhere (body "6+", OG "5+"), or "enrolled 2020".
-- [ ] Optional: neutral homepage description wording (drop "Consult today" and "experienced").
 
 ## Phase 3: Content and authority (month 2)
 - [ ] Expand the 8 `/free-*-guide/` pages with a summary of each guide, or set them to noindex.

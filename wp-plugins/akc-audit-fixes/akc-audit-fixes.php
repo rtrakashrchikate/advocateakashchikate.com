@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: AKC Audit Fixes (Oct 2026)
- * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes. Keep active; deactivating undoes every change.
- * Version: 1.0.0
+ * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, and overrides 57 titles/meta descriptions. Keep active; deactivating undoes every change.
+ * Version: 1.1.0
  * Author: Advocate Akash Chikate
  */
 
@@ -245,3 +245,27 @@ add_action( 'wp_head', function() {
         . '.akc-related-hub{margin:1rem 0 0;font-weight:600}'
         . '</style>' . "\n";
 }, 20 );
+
+/* ════════════════════════════════════════════
+   5. TITLE & META DESCRIPTION OVERRIDES
+   46 descriptions were over 160 characters, 15 titles over 60, and three
+   pages had no description. New values live in meta-overrides.php, keyed
+   by URL path; null keeps Rank Math's value. Social titles/descriptions
+   follow so shares match the search snippet.
+════════════════════════════════════════════ */
+function akc_af_meta_override( $i ) {
+    static $map = null;
+    if ( null === $map ) $map = include plugin_dir_path( __FILE__ ) . 'meta-overrides.php';
+    if ( is_admin() || ! is_array( $map ) ) return null;
+
+    $path = wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '/', PHP_URL_PATH );
+    $path = trailingslashit( '/' . ltrim( (string) $path, '/' ) );
+    return $map[ $path ][ $i ] ?? null;
+}
+
+foreach ( [ 'rank_math/frontend/title', 'rank_math/opengraph/facebook/og_title', 'rank_math/opengraph/twitter/twitter_title' ] as $hook ) {
+    add_filter( $hook, function( $v ) { return akc_af_meta_override( 0 ) ?? $v; }, 20 );
+}
+foreach ( [ 'rank_math/frontend/description', 'rank_math/opengraph/facebook/og_description', 'rank_math/opengraph/twitter/twitter_description' ] as $hook ) {
+    add_filter( $hook, function( $v ) { return akc_af_meta_override( 1 ) ?? $v; }, 20 );
+}
