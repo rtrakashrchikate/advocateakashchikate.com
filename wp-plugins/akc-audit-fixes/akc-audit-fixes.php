@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: AKC Audit Fixes (Oct 2026)
- * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, and overrides 57 titles/meta descriptions. Keep active; deactivating undoes every change.
- * Version: 1.1.0
+ * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, overrides 57 titles/meta descriptions, noindexes the free-guide sign-up pages and adds takeaways to case notes. Keep active; deactivating undoes every change.
+ * Version: 1.2.0
  * Author: Advocate Akash Chikate
  */
 
@@ -111,8 +111,9 @@ add_action( 'wp_head', function() {
    Hindi anticipatory bail page.
 ════════════════════════════════════════════ */
 add_filter( 'rank_math/sitemap/entry', function( $url, $type, $object ) {
-    if ( is_array( $url ) && ! empty( $url['loc'] ) && strpos( $url['loc'], '/' . AKC_AF_OLD_SLUG ) !== false ) {
-        return false;
+    if ( is_array( $url ) && ! empty( $url['loc'] ) ) {
+        $path = trailingslashit( (string) wp_parse_url( $url['loc'], PHP_URL_PATH ) );
+        if ( strpos( $path, '/' . AKC_AF_OLD_SLUG ) !== false || akc_af_is_free_guide( $path ) ) return false;
     }
     return $url;
 }, 10, 3 );
@@ -269,3 +270,54 @@ foreach ( [ 'rank_math/frontend/title', 'rank_math/opengraph/facebook/og_title',
 foreach ( [ 'rank_math/frontend/description', 'rank_math/opengraph/facebook/og_description', 'rank_math/opengraph/twitter/twitter_description' ] as $hook ) {
     add_filter( $hook, function( $v ) { return akc_af_meta_override( 1 ) ?? $v; }, 20 );
 }
+
+/* ════════════════════════════════════════════
+   6. FREE-GUIDE SIGN-UP PAGES → NOINDEX, FOLLOW
+   The eight /free-*-guide/ pages are lead forms with ~60 words of their
+   own, each overlapping a full practice-area page or guide. Kept out of
+   the index and sitemap so Google ranks the full pages instead; links on
+   them are still followed and ads can still point at them.
+════════════════════════════════════════════ */
+function akc_af_is_free_guide( $path ) {
+    return (bool) preg_match( '#^/free-[a-z0-9-]+-guide/$#', $path );
+}
+
+add_filter( 'rank_math/frontend/robots', function( $robots ) {
+    $path = wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '/', PHP_URL_PATH );
+    if ( akc_af_is_free_guide( trailingslashit( '/' . ltrim( (string) $path, '/' ) ) ) ) {
+        $robots['index']  = 'noindex';
+        $robots['follow'] = 'follow';
+    }
+    return $robots;
+}, 20 );
+
+/* ════════════════════════════════════════════
+   7. CASE-NOTE TAKEAWAYS
+   Case notes were 440–490 words with no practical guidance. Adds a short
+   "what this means" section from case-takeaways.php, above the related
+   links (section 4 runs at priority 30).
+════════════════════════════════════════════ */
+add_filter( 'the_content', function( $content ) {
+    if ( ! is_singular( 'case_result' ) || ! in_the_loop() || ! is_main_query() ) return $content;
+
+    static $map = null;
+    if ( null === $map ) $map = include plugin_dir_path( __FILE__ ) . 'case-takeaways.php';
+    $points = $map[ get_post_field( 'post_name', get_the_ID() ) ] ?? null;
+    if ( ! $points ) return $content;
+
+    $html = '<section class="akc-takeaways"><h2>What this means if you face a similar situation</h2><ul>';
+    foreach ( $points as $pt ) $html .= '<li>' . wp_kses( $pt, [ 'em' => [] ] ) . '</li>';
+    $html .= '</ul><p class="akc-takeaways-note">Every case turns on its own facts and the order of the court. This is general information, not advice on your matter.</p></section>';
+    return $content . $html;
+}, 25 );
+
+add_action( 'wp_head', function() {
+    if ( ! is_singular( 'case_result' ) ) return;
+    echo '<style id="akc-takeaways-css">'
+        . '.akc-takeaways{margin-top:2.5rem}'
+        . '.akc-takeaways h2{font-size:1.35rem;color:var(--navy,#0d1b3e);margin:0 0 .9rem}'
+        . '.akc-takeaways ul{margin:0;padding-left:1.2rem}'
+        . '.akc-takeaways li{margin:.55rem 0;line-height:1.75}'
+        . '.akc-takeaways-note{font-size:.85rem;color:var(--gray-600,#4b5563);margin-top:1rem;font-style:italic}'
+        . '</style>' . "\n";
+}, 20 );

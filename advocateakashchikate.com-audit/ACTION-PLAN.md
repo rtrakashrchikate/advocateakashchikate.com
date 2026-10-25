@@ -21,11 +21,13 @@ SEO Health Score: **87/100** (25 Oct 2026). Nothing is critical; nothing blocks 
 - [ ] Use one experience figure everywhere (body "6+", OG "5+"), or "enrolled 2020".
 
 ## Phase 3: Content and authority (month 2)
-- [ ] Expand the 8 `/free-*-guide/` pages with a summary of each guide, or set them to noindex.
-- [ ] Add a "What this means for you" paragraph and a practice-area link to each case note.
-- [ ] Decide whether to keep party surnames in case-note slugs.
-- [ ] Add `hreflang` pairs for the Hindi/Marathi pages that have English equivalents.
-- [ ] Show the Google Maps / Business Profile link on `/contact/`.
+
+> **Built:** plugin v1.2 covers the first two items.
+- [ ] Free-guide sign-up pages: **noindex, follow** and removed from the sitemap (they were ~60 words each and overlapped full pages).
+- [ ] Case notes: "What this means if you face a similar situation" section on all 11, with old and new section numbers.
+- [ ] Manual, one line: in `page-contact.php`, change the Maps link from `https://maps.google.com/?q=Ekbote+Complex+Shivajinagar+Pune` to your Business Profile link `https://www.google.com/maps?cid=2771672946981232004`. Make the edit on the live theme (the repo copy is behind).
+- [ ] Manual: use one experience figure in page content (body "6+", enrolment supports "5+").
+- [ ] Optional: hreflang for `/bns-dhara-103-hatya-jamanat-saza-hindi/`, `/jamanat-kitne-din-me-milti-hai-kharcha-documents-pune/`, `/police-kothadi-nyayalayin-kothadi-farak/` only if they get English twins, added through the same plugin that outputs the existing 39 pairs.
 
 ## Phase 4: Technical housekeeping and monitoring (ongoing)
 - [ ] One-hop Cloudflare redirect `http://www.*` → `https://advocateakashchikate.com/$1`.
