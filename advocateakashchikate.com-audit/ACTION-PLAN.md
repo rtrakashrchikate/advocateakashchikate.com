@@ -3,6 +3,9 @@
 SEO Health Score: **87/100** (25 Oct 2026). Nothing is critical; nothing blocks indexing.
 
 ## Phase 1: High impact (this week)
+
+> **Built:** `wp-plugins/akc-audit-fixes/` covers all five items below. Upload the zip, activate it and leave it active; deactivating undoes it. After activating, check by sharing a practice-area link on WhatsApp, or run the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) on `/practice-areas/fir-quashing/`.
+
 - [ ] Rank Math → Titles & Meta → Global Meta → set a default **OpenGraph thumbnail** (1200×630 JPG/PNG of you or the office). This fixes 100 pages with no share image.
 - [ ] Remove the theme's homepage OG/Twitter hook in `functions.php` ("Fix: OG / Open Graph tags for homepage"). Sync the repo copy from the server first.
 - [ ] Remove `/dhangekar-gets-anticipatory-bail-pune-court/` from the sitemap (noindex or delete it; the 301 stays). Point the link on `/agrim-jamanat-anticipatory-bail-hindi-pune/` straight at `/how-to-get-anticipatory-bail-pune/`.
