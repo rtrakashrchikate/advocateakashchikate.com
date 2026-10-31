@@ -7,6 +7,8 @@ Bail, anticipatory bail, FIR quashing, NDPS, 498A (husband's side), cybercrime a
 
 ## Priority 1: Maharashtra-specific, weak competition, urgent intent
 
+> **Built:** #1 Tadipar, English + Marathi, in `wp-plugins/akc-gap-pages/` (v1.0). It creates **drafts**: review the law, then publish, then link the page from `/bombay-high-court-lawyer-pune/` and `/practice-areas/criminal-defence/` and add it to `llms.txt`.
+
 | # | Page | Target searches (English / Marathi) | What ranks now | Why it's worth it |
 |---|---|---|---|---|
 | 1 | **Tadipar (externment) notice in Pune** | tadipar notice pune, externment order pune, section 56 maharashtra police act, तडीपार नोटीस, तडीपारी आदेश अपील | Only judgment PDFs and law reports; no Pune lawyer page | Pune and Pimpri-Chinchwad police issue these regularly. The person has a show-cause notice in hand and a deadline. |
