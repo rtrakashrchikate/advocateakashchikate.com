@@ -1,0 +1,11 @@
+# Local tooling / third-party checkouts
+.claude/
+prompt/
+node_modules/
+
+# Generated build artifacts (rebuild with the make-*.ps1 scripts)
+wp-plugins/*.zip
+wp-theme/*.zip
+
+# Scratch images
+Gemini_Generated_Image_*.png
