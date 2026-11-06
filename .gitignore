@@ -9,3 +9,8 @@ wp-theme/*.zip
 
 # Scratch images
 Gemini_Generated_Image_*.png
+
+# ruflo runtime state (session logs, memory databases)
+.claude-flow/
+.swarm/
+ruvector.db
