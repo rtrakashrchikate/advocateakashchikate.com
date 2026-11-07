@@ -1,0 +1,4 @@
+# OAuth client + token, and drafts that contain reviewer names
+.secrets/
+work/
+__pycache__/
