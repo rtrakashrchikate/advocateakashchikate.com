@@ -74,6 +74,33 @@ Mumbai, Mumbai Suburban, Thane, Palghar, Raigad, Pune, Nashik. **Not** the six d
 
 Nobody looks for a bail lawyer while scrolling. Revisit Meta only for remarketing once the site has ad traffic.
 
+## Trial build: 8 Nov 2026 (in the account, PAUSED)
+
+**Why ads never ran:** the account budget (manual payments) had an approved spending limit of **₹0**, so every campaign showed "Suspended". Funds must be added under Billing before anything serves. Auto-tagging was off; it's now on, so ad clicks carry a click ID.
+
+**Campaign `GOOG_Search_Criminal_Pune_Trial` (ID 24445166105)**
+- ₹800/day cap, Manual CPC, Google Search only (no partners, no Display), Pune + Pimpri-Chinchwad, *Presence* only, English/Hindi/Marathi.
+- 83 campaign negatives (research, jobs, non-criminal practice areas, divorce), plus "chikate" as a negative outside the Brand group.
+
+| Ad group | Max CPC ₹ | Keywords | Landing page |
+|---|---|---|---|
+| Criminal Lawyer Pune | 60 | 14 | /practice-areas/criminal-defence/ |
+| Bail and Anticipatory Bail | 55 | 16 | /practice-areas/anticipatory-bail/ |
+| Arrest Custody Remand | 60 | 17 (arrest terms sent with a clickbait-policy exemption request) | /practice-areas/police-custody-remand/ |
+| Advocate Near Me Pune | 30 | 8 generic; the ad pins "For Criminal Cases Only" to filter out non-criminal clicks | /practice-areas/criminal-defence/ |
+| Brand | 15 | 4 | / |
+| Hindi Jamanat | 40 | 7 | /agrim-jamanat-anticipatory-bail-hindi-pune/ |
+| Marathi Jamin | 40 | 6 | /atakpurva-jaamin-vkil-pune/ |
+
+- One RSA per ad group (15 headlines / 4 descriptions, lengths checked). Situation headline pinned at H1. Facts as you instructed ("Experienced Criminal Advocate", "Hundreds of Matters Handled", no numbers). A Diwali vacation-court line runs for the trial window.
+- Assets: call button **+91 84119 82241** (the website number, so Google can verify it; scheduled 6am–11pm), WhatsApp **+91 86984 00302** (needs advertiser verification to show), 6 sitelinks, 8 callouts, a "Services" snippet.
+- Conversions: "Qualified enquiry (offline)" created for uploads. Google's API refused a 60-second call action (likely India call-forwarding limits), so calls use the account's existing "Clicks to call" action. Real call quality comes from your phone log, recorded in `LEAD-LOG.csv`.
+- Not used in the trial: the lead form. Without a webhook, form leads wait inside Google Ads; calls and WhatsApp reach you instantly.
+
+**Realistic volume (Keyword Planner, Pune city, monthly):** criminal-intent searches about 1,000–1,500; generic "advocate / lawyer in Pune / near me" about 4,200 (mixed practice areas). At full coverage that's about 6–12 clicks a day at ₹30–60, and roughly 1–3 calls or WhatsApps a day. **10 qualified leads a day is not reachable from Pune Google Search alone.** About 5–12 genuine enquiries over 2 weeks is a good result; that number decides whether to widen to the High Court districts and raise the budget.
+
+**Before switching on:** (1) add funds, ₹10,000 suggested for 14 days; (2) check Billing → Advertiser verification; (3) tell me to enable the campaign, or set it to Enabled yourself.
+
 ## Lead-quality setup (v3, from research)
 
 The research: practitioner and agency guides, Google's help pages and Google Ads forum write-ups; sources are listed at the end. It agrees that **lead quality is decided by what you count as a conversion and how fast you answer**, more than by the ads themselves. So the first campaign launches with this setup:
