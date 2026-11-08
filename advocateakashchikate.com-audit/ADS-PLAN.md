@@ -245,3 +245,9 @@ Then I'll build all four campaigns **paused** through Ryze, show you every ad, a
   - Ad 830862722829: "Custody & Remand Advice" and "Regular Bail Applications".
   - Ad 831001210523: pinned Headline 1 is now "Remand & Custody Lawyer, Pune", plus "Regular Bail Applications".
 - Both ads are back in Google's review queue. The old CLICKBAIT status shows until the review finishes.
+
+## 8 Nov 2026 (night): updates from the market check (campaign still paused)
+- Bids: "Advocate Near Me Pune" ad group ₹30 → ₹45. The phrase keywords "criminal lawyer near me" and "criminal advocate near me" go to ₹90 (Google's top-of-page range is ₹20–120).
+- New keywords: "criminal lawyer near me" [exact] ₹100; "advocate near me" [exact] ₹50; "vakil near me" (phrase); "criminal vakil" (phrase); "lawyer for criminal case" (phrase).
+- New campaign negatives: agreement, sale deed, gift deed, stamp paper, name change, gazette, loan, recovery, eviction, arbitration, family lawyer, passport.
+- Near-me ads: each gets a "near you" headline and now links to /criminal-lawyer/criminal-lawyer-shivajinagar-pune/, which ranks organically at #5–6. Both go back to Google review.
