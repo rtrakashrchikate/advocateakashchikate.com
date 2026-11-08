@@ -53,7 +53,7 @@ The old campaigns were removed on 8 November 2026. None had served an ad in the 
 
 ### C2 · GOOG_Search_Criminal_HighCourt (₹150/day) · districts under the Bombay High Court principal seat
 
-Mumbai, Mumbai Suburban, Thane, Palghar, Raigad, Pune, Satara, Sangli, Kolhapur, Solapur, Ratnagiri, Sindhudurg, Nashik. Leave out the Aurangabad and Nagpur bench districts. **Check this list against where you actually take matters.**
+Mumbai, Mumbai Suburban, Thane, Palghar, Raigad, Pune, Nashik. **Not** the six districts moved to the Kolhapur circuit bench on 18 Aug 2025 (Kolhapur, Satara, Sangli, Solapur, Ratnagiri, Sindhudurg), and not the Aurangabad or Nagpur bench districts. If you also take Kolhapur-bench matters, add those six back. **Check this list against where you actually take matters.**
 
 | Ad group | Keywords | Landing page |
 |---|---|---|
@@ -73,6 +73,28 @@ Mumbai, Mumbai Suburban, Thane, Palghar, Raigad, Pune, Satara, Sangli, Kolhapur,
 ### No Meta for now
 
 Nobody looks for a bail lawyer while scrolling. Revisit Meta only for remarketing once the site has ad traffic.
+
+## Lead-quality setup (v3, from research)
+
+The research: practitioner and agency guides, Google's help pages and Google Ads forum write-ups; sources are listed at the end. It agrees that **lead quality is decided by what you count as a conversion and how fast you answer**, more than by the ads themselves. So the first campaign launches with this setup:
+
+1. **Only genuine enquiries teach Google.**
+   - Primary conversion: "Qualified enquiry", uploaded by us (offline import or enhanced conversions for leads). You mark it after the first conversation: a real matter, the right practice area, and the person can engage you.
+   - Secondary (observe only, not used for bidding): raw calls, form sends, WhatsApp taps.
+   - Without this, smart bidding finds more of whatever fills the form, including students, wrong numbers and bots.
+2. **Calls count only at 60 seconds or longer.** Under 60s is mostly wrong numbers and hang-ups. Note: in India, Google does not show the caller's number for ad calls, so to know who called, use your own call log for website calls. For full recording and caller ID, an Indian virtual-number service (Exotel / MyOperator / Knowlarity type) is optional later.
+3. **WhatsApp message asset** (available in India on Search; mobile only; needs advertiser verification). Google doesn't show it next to a call asset, so **schedule the two**: call asset 9am–9pm, WhatsApp asset 9pm–9am and when the office is closed. Arrests happen at night, and a WhatsApp message waits for you; a missed call is wasted money.
+4. **Lead form asset, "more qualified" + SMS OTP** (Search only). Three qualifying questions: *Has an FIR been registered? · Is someone in police or judicial custody now? · Which police station or court?* OTP verification cuts fake numbers and bots. Leads that can't verify are dropped.
+5. **Website form hardening:** capture the click ID (GCLID) in a hidden field so we can report qualified leads back to Google; add a honeypot field and reCAPTCHA; make the phone number required.
+6. **Answer within 5 minutes.** Criminal clients hire within hours; most guides cite ~70% hiring within 48 hours of starting the search. If nobody can answer at night, WhatsApp-only hours (point 3) cover it. Never let ads run into an unanswered phone.
+7. **Hiring-intent words in, research words out.** Keywords carry a situation or a hiring word: *arrested, police station, FIR registered, custody, remand, notice received, near me, advocate, vakil, lawyer, today*. Words like *meaning, section, pdf, judgment, notes, llb* are negatives.
+8. **Ad text speaks to the situation.** Pin headline 1 to the ad group's situation: "Arrested in Pune?" · "FIR Registered Against You?" · "Received a 41A Notice?" · "Bail Rejected? Next Steps". Then add facts: courts, office, languages, hours. Proof such as years at the Bar or matters handled only if you give me the true numbers.
+9. **Click protection:** exclude the office IP and any known competitor or office IPs, check invalid clicks weekly, and dispute repeated invalid clicks with Google.
+10. **Bid by hour later, not now.** After 2–3 weeks of data, raise bids on hours and days that bring qualified enquiries (often late night and weekends for arrest searches).
+
+**Not using:** Local Services Ads (pay-per-lead, "Google Screened"). They're a big win for US criminal firms, but I found no confirmation that legal categories are open in India. Bidding on other advocates' names is allowed by Google but leads to disputes; skip it unless you want it. JustDial / LawRato style paid leads: reviews are mixed and there's no lead-quality data, so they're not part of this plan.
+
+**What nobody can promise:** a guaranteed number of quality leads. Points 1–6 are what make quality likely; after 3–4 weeks we'll have your own cost per qualified enquiry, and that number decides what we scale.
 
 ## Settings (from the playbook)
 
@@ -125,11 +147,11 @@ Final URL: https://advocateakashchikate.com/practice-areas/criminal-defence/ · 
 
 The full set of ads for every ad group gets written at build time, to the same rules, and shown to you before anything goes live.
 
-## Ad wording rules (BCI Rule 36 + Google policy)
+## Ad wording rules (your instruction + Google policy)
 
-- Factual and informational: what the service is, which court, which stage, languages, office.
-- **Never:** best / top / No. 1 / expert / leading, guaranteed, success rates, case results, testimonials, fees, discounts, urgency claims ("get bail today"), the phone number in the text.
-- The keyword "best criminal lawyer in pune" is fine to bid on. The ad text still never says "best".
+- **Your rule:** no direct inducement, and no fees, prices or discounts. The professional-conduct call is yours as the advocate.
+- **Google's rules, which apply regardless:** no guaranteed outcomes ("bail guaranteed"); no phone number in the ad text; no clickbait or excessive punctuation; every claim must be true and checkable on the landing page.
+- **Allowed and recommended:** situation headlines ("Arrested in Pune?"), urgency that's true ("Available after hours on WhatsApp", only if someone actually answers), courts and stages, languages, office location. Facts like years of practice or matters handled only with the true numbers you give me. Case-result pages already exist on the site and can be sitelinks.
 
 ## Running it
 
@@ -151,6 +173,16 @@ The full set of ads for every ad group gets written at build time, to the same r
 | `ai-seo` (marketingskills) | The open question "Does ChatGPT mention my brand?" |
 | `local-seo-manager` (claude-skills) | The Google Business Profile side, alongside gbp-tools |
 | `ad-creative` | Only if Meta is added later |
+
+## Sources (v3 research)
+
+- Google Ads Help: [call reporting](https://support.google.com/google-ads/answer/2454052?hl=en) (no caller numbers in India), [call details](https://support.google.com/google-ads/answer/9099302), [phone call conversions](https://support.google.com/google-ads/answer/6100664?hl=en), [lead form assets](https://support.google.com/google-ads/answer/9423234?hl=en), [create lead form assets](https://support.google.com/google-ads/answer/16726130?hl=en), [offline conversion import](https://support.google.com/google-ads/answer/7014069?hl=en), [restricted businesses (bail bonds)](https://support.google.com/adspolicy/answer/6368711?hl=en)
+- WhatsApp message assets in India: [Search Engine Roundtable](https://www.seroundtable.com/google-ads-click-to-whatsapp-message-assets-37818.html), [Search Engine Land](https://searchengineland.com/google-ads-call-assets-lead-forms-message-assets-476618), [SleekFlow](https://sleekflow.io/blog/google-click-to-whatsapp-ads)
+- Lead quality / offline conversions: [AttorneySync](https://www.attorneysync.com/blog/offline-conversion-imports-for-law-firms/), [Pete Bowen](https://pete-bowen.com/getting-a-lot-of-junk-leads-from-google-ads), [Relevant Audience](https://www.relevantaudience.com/google-ads-en/google-ads-invalid-leads-three-form-checks/), [ClickFortify](https://www.clickfortify.com/blog/google-ads-lead-form-spam)
+- Criminal-defence PPC: [Marketing for Justice, "2 A.M. playbook"](https://www.marketingforjustice.com/resources/criminal-defense-dui-google-ads), [GrowLaw](https://growlaw.co/blog/ppc-for-criminal-defense-lawyers), [ForwardPush](https://forwardpush.com/insights/google-ads-criminal-defense-lawyers/), [Savvy](https://savvylawfirmmarketing.com/blog/google-ads-for-criminal-defense-lawyers/), [Scorpion](https://www.scorpion.co/criminal-defense/insights/blog/verticals/criminal-defense/five-tips-for-criminal-defense-attorney-advertis/)
+- Kolhapur bench: [India Legal](https://indialegallive.com/constitutional-law-news/courts-news/bombay-high-court-circuit-bench-kolhapur/), [Drishti](https://www.drishtiias.com/state-pcs-current-affairs/inauguration-of-circuit-bench-of-bombay-hc)
+
+Most guides are US agency content. Their US benchmarks ($100–300 per lead) don't carry over to India; your own first month sets the real number.
 
 ## What I need from you
 
