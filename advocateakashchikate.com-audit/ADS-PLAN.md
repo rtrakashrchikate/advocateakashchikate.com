@@ -219,3 +219,20 @@ Most guides are US agency content. Their US benchmarks ($100–300 per lead) don
 4. OK the lead-tracking plugin (Step 0 #2).
 
 Then I'll build all four campaigns **paused** through Ryze, show you every ad, and switch them on only after you approve.
+
+## Audit and fixes: 8 Nov 2026 (evening)
+
+**Checked and fine:** Google tag AW-10830296684 (this account) and GTM on every page; the site's "AKC Compliance & Leads" plugin already tracks phone, WhatsApp and form taps and pre-fills WhatsApp with three screening questions plus an "Ads" source tag; Google's automatic ad text is OFF; no auto-apply recommendations; campaign goals count only website leads, calls from ads and qualified enquiries (not map directions).
+
+**Done:**
+- Conversion action "Website lead tap (call / WhatsApp / form)", label `AW-10830296684/oyoRCLqVt7QdEOzspKwo`. It records nothing until the label is pasted into the AKC Compliance & Leads plugin setting (step A).
+- A second RSA in the 4 main ad groups (new angles: "FIR Registered Against You?", "Fear of Arrest in Pune?", "Family Member Arrested?", "Need a Criminal Advocate?" + "Criminal Matters Only"). 11 ads in total.
+- Ad schedule rows: 7 days x 4 six-hour blocks, all on, no bid changes (for hour-of-day data).
+- Audience in observation: Legal Jobs (to spot job-seeker clicks). Legal Education isn't offered for Search.
+- Portrait (square crop, uploaded to the WP media library as ID 2999) and logo uploaded to the Google Ads asset library.
+
+**Blocked by Google:**
+- Business name and logo: refused with CUSTOMER_NOT_VERIFIED. The account isn't advertiser-verified, and Google requires verification for these.
+- Image assets on Search ads: the account isn't eligible yet.
+- 60-second call conversion (AD_CALL): the API refuses it for this account. Calls count as taps; your phone log is the record.
+- Google Business Profile link via the API needs a Business Profile sign-in token. It must be linked in Google Ads (Admin → Linked accounts → Business Profiles).
