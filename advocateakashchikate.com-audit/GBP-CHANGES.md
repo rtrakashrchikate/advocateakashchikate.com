@@ -34,3 +34,6 @@ Hosted in the WordPress media library (IDs 3000–3003), then added to the profi
 
 Not used: two office-interior images that were magazine or designer photos of other offices.
 Still wanted: building front with the Ekbote Complex name board, office door or name plate, desk, interior, Pune court in robes.
+
+## Product card images (8 Nov 2026)
+`gbp-product-images/akc-product-01…06.jpg` (1200×1200, navy and gold), built from real photos only (Bombay High Court photo, portrait) by `make_cards.py`. Google's API can't add Products, so the advocate adds them by hand in Business Profile → Edit profile → Products, with no price and a "Learn more" button linking to the matching practice page.
