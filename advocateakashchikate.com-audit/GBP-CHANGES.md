@@ -25,3 +25,12 @@ Listing: "Advocate Akash Chikate", Office 202-203, Ekbote Complex, Shivajinagar 
 - Photos: Bombay High Court appearance photos to be supplied, plus office and name-board photos.
 - Second listing (listing id -3570399750932637585) is not worked on for now.
 - Accessibility attributes (hearing loop, assisted listening devices, wheelchair restroom) were set earlier; confirm they're accurate.
+
+## Photos added (8 Nov 2026)
+Hosted in the WordPress media library (IDs 3000–3003), then added to the profile:
+- AT_WORK: the advocate in robes at the Bombay High Court, Aurangabad Bench
+- TEAMS: with his senior, Adv. Vipul Dushing (2 photos)
+- TEAMS: with his professor, Adv. Ganesh Shirsad. The caption doesn't mention his Bar Council role, so it doesn't read as an endorsement.
+
+Not used: two office-interior images that were magazine or designer photos of other offices.
+Still wanted: building front with the Ekbote Complex name board, office door or name plate, desk, interior, Pune court in robes.
