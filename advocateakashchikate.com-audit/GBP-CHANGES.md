@@ -37,3 +37,7 @@ Still wanted: building front with the Ekbote Complex name board, office door or 
 
 ## Product card images (8 Nov 2026)
 `gbp-product-images/akc-product-01…06.jpg` (1200×1200, navy and gold), built from real photos only (Bombay High Court photo, portrait) by `make_cards.py`. Google's API can't add Products, so the advocate adds them by hand in Business Profile → Edit profile → Products, with no price and a "Learn more" button linking to the matching practice page.
+
+## Supreme Court photo and new cover (8 Nov 2026)
+- AT_WORK: the advocate in robes at the Supreme Court of India (WP media 3004).
+- COVER: a 16:9 crop of the same photo (WP media 3005) replaces the AI-generated cover Fly uploaded on 6 Nov. Google may take up to a day, or keep the older cover until it re-ranks.
