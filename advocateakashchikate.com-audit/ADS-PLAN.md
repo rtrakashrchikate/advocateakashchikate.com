@@ -236,3 +236,12 @@ Then I'll build all four campaigns **paused** through Ryze, show you every ad, a
 - Image assets on Search ads: the account isn't eligible yet.
 - 60-second call conversion (AD_CALL): the API refuses it for this account. Calls count as taps; your phone log is the record.
 - Google Business Profile link via the API needs a Business Profile sign-in token. It must be linked in Google Ads (Admin → Linked accounts → Business Profiles).
+
+## 8 Nov 2026 (evening): campaign paused by the user, Arrest ad fixed
+
+- The user paused the trial campaign and set the budget to ₹700/day (5:50pm IST). This was their own decision. Leave it paused until they say otherwise.
+- In the Arrest/Custody/Remand ad group, Google rejected 2 headlines as CLICKBAIT: "Family Member Arrested?" and "Bail After Arrest, Pune". Ad 831001210523 was fully disapproved because the rejected one was its pinned Headline 1. Ad 830862722829 was approved with limits.
+- Replacements:
+  - Ad 830862722829: "Custody & Remand Advice" and "Regular Bail Applications".
+  - Ad 831001210523: pinned Headline 1 is now "Remand & Custody Lawyer, Pune", plus "Regular Bail Applications".
+- Both ads are back in Google's review queue. The old CLICKBAIT status shows until the review finishes.
