@@ -251,3 +251,14 @@ Then I'll build all four campaigns **paused** through Ryze, show you every ad, a
 - New keywords: "criminal lawyer near me" [exact] ₹100; "advocate near me" [exact] ₹50; "vakil near me" (phrase); "criminal vakil" (phrase); "lawyer for criminal case" (phrase).
 - New campaign negatives: agreement, sale deed, gift deed, stamp paper, name change, gazette, loan, recovery, eviction, arbitration, family lawyer, passport.
 - Near-me ads: each gets a "near you" headline and now links to /criminal-lawyer/criminal-lawyer-shivajinagar-pune/, which ranks organically at #5–6. Both go back to Google review.
+
+## 9 Nov 2026: campaign switched on
+- Pre-launch checks passed:
+  - All 11 ads approved, including both Arrest ads after the headline fix.
+  - No keyword disapprovals.
+  - Locations are Pune city (1007788) plus target 9040229.
+  - Account budget approved: ₹8,474.58.
+  - Landing page returns 200.
+  - AW-10830296684 and GTM-KHJB7M88 are live on the site.
+- Switched on at ₹700/day, manual CPC, as the user asked ("if everything is perfect, run the ad"). Status: ENABLED / SERVING / ELIGIBLE.
+- JustDial listing is live: https://www.justdial.com/DT-49NW57RMUI3. To do: add it to the akc-schema sameAs.
