@@ -41,3 +41,15 @@ Still wanted: building front with the Ekbote Complex name board, office door or 
 ## Supreme Court photo and new cover (8 Nov 2026)
 - AT_WORK: the advocate in robes at the Supreme Court of India (WP media 3004).
 - COVER: a 16:9 crop of the same photo (WP media 3005) replaces the AI-generated cover Fly uploaded on 6 Nov. Google may take up to a day, or keep the older cover until it re-ranks.
+
+## 9 Nov 2026: interior photos
+Three user-supplied interior photos were uploaded to the Business Profile as INTERIOR, hosted in WP media 3016–3018:
+- consultation cabin
+- law library
+- Marathi Preamble frame
+
+Before upload:
+- Papers on the desk in the cabin photo were blurred so no client document is readable.
+- EXIF/GPS data was stripped and the photos resized to 1200×1600.
+
+The second bookshelf photo was skipped because it duplicates the library shot.
