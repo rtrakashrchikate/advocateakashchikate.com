@@ -262,3 +262,17 @@ Then I'll build all four campaigns **paused** through Ryze, show you every ad, a
   - AW-10830296684 and GTM-KHJB7M88 are live on the site.
 - Switched on at ₹700/day, manual CPC, as the user asked ("if everything is perfect, run the ad"). Status: ENABLED / SERVING / ELIGIBLE.
 - JustDial listing is live: https://www.justdial.com/DT-49NW57RMUI3. To do: add it to the akc-schema sameAs.
+
+## 9 Nov 2026, 10:30 IST: full re-check after launch
+- Live: ENABLED / SERVING / ELIGIBLE, ₹700/day. 0 impressions so far (reporting lag; launched this morning).
+- Settings checked, no change needed:
+  - Google Search only (no Display, no search partners), presence-only location, Pune.
+  - Languages: English, Hindi, Marathi. 24x7 schedule. Audiences in observation only.
+  - Assets: 6 sitelinks, 8 callouts, structured snippet, call (84119 82241) and WhatsApp message.
+- Fixed: 4 ads had POOR ad strength (both Advocate Near Me, both Arrest).
+  - Near-me ads: unpinned Headline 2 and added keyword headlines ("Advocate in Pune", "Lawyer in Pune, Shivajinagar", "Advocate Near You in Pune", "Pune Lawyer for Police Cases", ...).
+  - Arrest ads: added keyword headlines ("Police Custody Lawyer, Pune", "41A Notice Lawyer in Pune", "FIR Lawyer in Pune", "Default Bail After 60/90 Days", "Section 35 Notice Lawyer", "Judicial Custody Bail, Pune").
+  - All 4 are still approved; Google is recalculating ad strength.
+- The other 7 ads are rated AVERAGE. Leave them until there is real data.
+- Quality scores: not shown yet (no impressions).
+- After the Diwali vacation ends, remove the vacation-court callout, headlines and descriptions.
