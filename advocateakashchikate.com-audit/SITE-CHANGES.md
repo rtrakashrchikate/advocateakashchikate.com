@@ -20,3 +20,10 @@ The user approved this from a preview. It was added to the 5 pages with the most
 - To undo it, delete the `akc-cta` div (and its `wp:html` wrapper) from each post, or restore the previous revision.
 
 Measure it in Search Console and Google Ads: compare phone and WhatsApp conversions from these pages over the next 2–4 weeks.
+
+## 9 Nov 2026: JustDial added to sameAs
+- The user approved installing the **Code Snippets** plugin. Snippet #5, "Ryze head code: AKC sameAs directories", is active on wp_head.
+- One of the live AKC plugins (not in this repo; probably akc-seo-toolkit, akc-site-fixes or akc-performance) strips every `application/ld+json` block except `id="akc-schema"`. Rank Math's schema is stripped too.
+- Workaround: a small inline script that adds a JSON-LD node (`@id` …/#legalservice) with sameAs: Google Maps CID, JustDial (https://www.justdial.com/RSL-ITN1794201538), LinkedIn, Facebook, X. Google's renderer picks up JSON-LD added by JavaScript.
+- Checked in headless Chromium: the node is present and valid on the homepage. The only page error, "wp is not defined", was already there and is not from this snippet.
+- To add more directories (LawRato, Sulekha): edit snippet #5 (Snippets → All Snippets) and add each URL to the sameAs array.
