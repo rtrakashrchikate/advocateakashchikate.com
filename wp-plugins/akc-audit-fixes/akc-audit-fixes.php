@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: AKC Audit Fixes (Oct 2026)
- * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, overrides 57 titles/meta descriptions, noindexes the free-guide sign-up pages, adds takeaways to case notes, redirects old static-site URLs and enlarges footer tap targets. Keep active; deactivating undoes every change.
- * Version: 1.3.0
+ * Description: Phase 1 fixes from the 25 Oct 2026 SEO audit — default social share image, removes the duplicate homepage OG tags, drops a redirecting URL from the sitemap, and adds related-links blocks to practice-area pages and case notes, overrides 57 titles/meta descriptions, noindexes the free-guide sign-up pages, adds takeaways to case notes, redirects old static-site URLs, enlarges footer tap targets and points the contact-page map and directions link at the Google Business Profile. Keep active; deactivating undoes every change.
+ * Version: 1.4.0
  * Author: Advocate Akash Chikate
  */
 
@@ -355,3 +355,42 @@ add_action( 'wp_head', function() {
         . 'body .footer-bottom-links a,body .akc-bci-actions a{display:inline-block;padding-top:3px;padding-bottom:3px}'
         . '</style>' . "\n";
 }, 20 );
+
+/* ════════════════════════════════════════════
+   1.4  GOOGLE BUSINESS PROFILE ON THE CONTACT PAGE
+   The contact template embedded a placeholder map (a generic Shivajinagar
+   pin with a made-up place ID) and its "Get directions" link searched for
+   "Ekbote Complex" instead of opening the profile. Both now point at the
+   verified Shivajinagar listing (CID 2771672946981232004), and the schema
+   coordinates on every page match the profile pin. Done by
+   rewriting the page output, so the theme file stays untouched.
+════════════════════════════════════════════ */
+define( 'AKC_AF_GBP_CID', '2771672946981232004' );
+
+add_action( 'template_redirect', function() {
+    if ( is_admin() || is_feed() || wp_doing_ajax() ) return;
+    ob_start( 'akc_af_gbp_output' );
+} );
+
+function akc_af_gbp_output( $html ) {
+    // Schema pin for the Shivajinagar office: use the verified profile's own
+    // coordinates (the theme's were ~300 m off and printed with 40 digits).
+    $html = preg_replace(
+        '#"latitude":18\.53079+\d*,"longitude":73\.84749+\d*#',
+        '"latitude":18.528302,"longitude":73.849788',
+        $html
+    );
+    if ( ! is_page( 'contact' ) ) return $html;
+
+    $embed = 'https://www.google.com/maps/embed?origin=mfe&pb=!1m3!3m2!1m1!4s' . AKC_AF_GBP_CID . '!3m1!1sen!5m1!1sen';
+    $html  = preg_replace(
+        '#https://www\.google\.com/maps/embed\?pb=[^"\']*Shivajinagar[^"\']*#',
+        esc_url( $embed ),
+        $html
+    );
+    return str_replace(
+        'https://maps.google.com/?q=Ekbote+Complex+Shivajinagar+Pune',
+        esc_url( 'https://www.google.com/maps?cid=' . AKC_AF_GBP_CID ),
+        $html
+    );
+}
