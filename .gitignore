@@ -14,3 +14,6 @@ Gemini_Generated_Image_*.png
 .claude-flow/
 .swarm/
 ruvector.db
+
+# Upload-ready plugin zips (rebuild from wp-plugins/)
+dist/
