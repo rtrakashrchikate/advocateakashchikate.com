@@ -79,7 +79,7 @@ Every page carries WhatsApp (7–9 links) and click-to-call. The way enquiries c
 
 **Thin pages (under 500 words):**
 - the **11 case notes** (320–400 words each)
-- the **5 free-guide pages** (about 260 words each)
+- the **10 free-guide pages** (about 260 words each)
 - `/blog/`, `/contact/`, `/disclaimer/` and `/bar-council-compliance/`
 
 **Three content problems that cost clients:**
