@@ -13,3 +13,11 @@ On 11 Nov 2026 this plugin's fixes were saved on the live site as a Code Snippet
   - Everything is wrapped in a `function_exists` guard, so uploading the plugin zip later does not clash; the plugin wins and the snippet stands down.
 
 Do not upload `akc-audit-fixes.zip` as it is: its override map is out of date for the same reason.
+
+## Second snippet: case-note takeaways (11 Nov 2026)
+
+- **Where:** Snippets → "AKC Content Additions 1.1 (case-note takeaways)" (snippet ID 8), active.
+- **What it does:** on each of the 11 case notes, adds "What this means if you face a similar situation" (text from `case-takeaways.php`) and a "Related practice areas" block, inserted just before the end of the article.
+- **Why it rewrites the page output:** the case-note template does not call `the_content`, so the content filters in the plugin files here never ran on case notes. The same applies to the related-links block for case notes in snippet 7.
+- **FAQ markup:** the snippet contains an FAQ generator that is switched off. The blog guides already carry FAQPage data (type `["WebPage","FAQPage"]`) from the site's own schema; the 10 Nov audit note saying no page had FAQ markup was wrong.
+- **Snippet 7 changes the same day:** free-guide rule widened to cover the two `-checklist` pages; the map-pin correction still does not take effect (the coordinates are written by another plugin after this filter runs).
