@@ -1,6 +1,6 @@
 # Draft: Wakad and Pimple Saudagar pages
 
-**Date:** 12 November 2026. **Status:** draft for the advocate's review. Nothing here is live.
+**Date:** 12 November 2026. **Status:** approved by the advocate and published the same day (location pages 2616 and 2626: content and Rank Math title/description). Changes made on approval: the Wakad court line now reads "the Pimpri court or the Pune District and Sessions Court at Shivajinagar, depending on the sections applied"; the Pimple Gurav office mentions stay; the three template claims (experience, free consultation, 24/7) were left as they are at the advocate's instruction. Section numbers were checked against published BNSS/CrPC comparison tables before publishing.
 
 ## What I found on the live pages
 
