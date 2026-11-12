@@ -17,3 +17,5 @@ ruvector.db
 
 # Upload-ready plugin zips (rebuild from wp-plugins/)
 dist/
+agentdb.rvf
+agentdb.rvf.*
