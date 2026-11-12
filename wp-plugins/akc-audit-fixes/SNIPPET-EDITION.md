@@ -21,3 +21,9 @@ Do not upload `akc-audit-fixes.zip` as it is: its override map is out of date fo
 - **Why it rewrites the page output:** the case-note template does not call `the_content`, so the content filters in the plugin files here never ran on case notes. The same applies to the related-links block for case notes in snippet 7.
 - **FAQ markup:** the snippet contains an FAQ generator that is switched off. The blog guides already carry FAQPage data (type `["WebPage","FAQPage"]`) from the site's own schema; the 10 Nov audit note saying no page had FAQ markup was wrong.
 - **Snippet 7 changes the same day:** free-guide rule widened to cover the two `-checklist` pages; the map-pin correction still does not take effect (the coordinates are written by another plugin after this filter runs).
+
+## 12 Nov 2026: links to the criminal defence page
+
+Snippet 7 now appends one sentence linking to `/practice-areas/criminal-defence/` (anchor "criminal lawyer in Pune", or the Hindi/Marathi equivalent) on the five high-traffic guides that had no link to that page: MCOCA, FIR quashing, BNS 103 (Hindi), bail timeline (Hindi) and police custody (Marathi). It skips any post whose content already links there.
+
+Checked the same day and found already done on the live site (by work on 9 Nov, outside this repo): the two BNS Section 103 titles are 53 characters and open with a quick answer that says the offence is non-bailable, and the top guides carry a "bridge" box of situation-specific links after the quick answer. No further "what to do now" boxes were added.
