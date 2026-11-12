@@ -25,7 +25,7 @@ Both pages already have the local detail the audit asked for (police station, zo
 | | Current | Proposed |
 |---|---|---|
 | Title | Criminal Lawyer in Wakad Pune \| Bail & IT Law | Advocate in Wakad, Pune \| Criminal Lawyer for Bail & FIR (56 characters) |
-| Description | (current) | Advocate for Wakad Police Station matters: arrest, bail, anticipatory bail, cyber crime FIRs and police notices. Which court hears the case and what to do first. (161) |
+| Description | (current) | Advocate for Wakad Police Station matters: arrest, bail, anticipatory bail, cyber FIRs and police notices. Which court hears the case and what to do first. (155) |
 
 ### Replace the two intro paragraphs with
 
