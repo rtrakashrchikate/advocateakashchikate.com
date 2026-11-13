@@ -5,11 +5,18 @@
         "source": "github",
         "repo": "AgriciDaniel/claude-seo"
       }
+    },
+    "ai-marketing-hub-claude-ads": {
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-ads"
+      }
     }
   },
   "enabledPlugins": {
     "claude-seo@agricidaniel-claude-seo": true,
-    "seo-cockpit@agricidaniel-claude-seo": true
+    "seo-cockpit@agricidaniel-claude-seo": true,
+    "claude-ads@ai-marketing-hub-claude-ads": true
   },
   "pluginConfigs": {
     "seo-cockpit@agricidaniel-claude-seo": {
