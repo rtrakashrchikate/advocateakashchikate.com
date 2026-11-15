@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chatseo": {
+      "type": "http",
+      "url": "https://api.chatseo.app/mcp"
+    }
+  }
+}
