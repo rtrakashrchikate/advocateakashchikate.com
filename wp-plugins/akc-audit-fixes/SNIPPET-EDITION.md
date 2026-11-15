@@ -32,3 +32,8 @@ Checked the same day and found already done on the live site (by work on 9 Nov, 
 - Snippet 7: added `akc_af_next_step_map` (contextual links from guides to bail / anticipatory bail / cheque bounce practice pages; skipped where the guide already links there).
 - Snippet 9 (Ryze head code): Meta Pixel 2171544603736550, PageView only.
 - `.htaccess` "Security Headers" block, CSP line: added connect.facebook.net, www.facebook.com, googleadservices.com, googleads.g.doubleclick.net, ad.doubleclick.net, www.google.com (connect-src). Backup: `.htaccess.akc-bak-20261113192023` in the web root. Temporary snippets 10 and 11 used for this are in the Code Snippets trash.
+
+## 15 Nov 2026
+- Snippet 7: template_redirect output filter adds a link to /practice-areas/criminal-defence/ ("criminal lawyer in Pune") on all location pages (before "Common Questions"), the homepage "Areas we serve" paragraph (also drops the inaccurate "bench" wording) and the free criminal-lawyer guide.
+- Practice page 2568 (criminal defence): services table, area links, office block, 4 FAQs; new Rank Math title/description.
+- 15 Rank Math titles rewritten from Search Console zero-click analysis (see TOP3-PLAN-CRIMINAL.md).
