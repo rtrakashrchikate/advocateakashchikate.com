@@ -2,7 +2,7 @@ ACTION: NEW
 KEYWORDS_SERVED: latest supreme court judgement on cheque bounce case 1,000; latest judgement on 138 ni act by supreme court 390; latest supreme court judgement on security cheque 260; cheque bounce cases judgements 260; supreme court judgment cheque bounce; section 138 ni act judgments
 SLUG: recent-supreme-court-judgments-cheque-bounce-section-138
 POST_TITLE: Recent Supreme Court Judgments on Cheque Bounce (Section 138 NI Act)
-SEO_TITLE: Supreme Court Judgments on Cheque Bounce: Section 138 (2025-26)
+SEO_TITLE: Supreme Court Cheque Bounce Judgments: Section 138
 META_DESCRIPTION: Recent Supreme Court judgments on cheque bounce under Section 138 NI Act: settlement costs, court jurisdiction, security cheques, notice, interim deposit.
 FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni act, security cheque supreme court, cheque bounce cases judgements, section 138 ni act judgments
 ---HTML---
@@ -29,7 +29,6 @@ FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni
 <tr><td><em>Mansi Finance (Chennai) Ltd. v. M. Lalitha</em> (clarification), 29 Oct 2026 (2026 INSC 1174)</td><td>P.K. Mishra and N.V. Anjaria JJ.</td><td>Unlicensed money-lending in Maharashtra: enforceability to be argued before the trial court</td></tr>
 </tbody>
 </table>
-<p>Earlier decisions that the 2025-26 rulings build on are explained under the themes below.</p>
 
 <h2>Settlement and costs (compounding)</h2>
 <p>Section 147 of the NI Act allows a Section 138 case to be compounded, meaning settled and closed. In <em>Sanjabij Tari</em> (25 September 2025), the Supreme Court revised the cost scheme from <em>Damodar S. Prabhu</em> (2010). The accused pays the cheque amount, and costs depend on the stage:</p>
@@ -41,7 +40,7 @@ FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni
 </ul>
 <p>In <em>Gian Chand Garg</em> (11 August 2025), the Court set aside a conviction after the complainant accepted a settlement. It reasoned that the offence is compoundable under Section 147 at any stage.</p>
 <p>In <em>Rajeev Khandelwal</em> (4 November 2025), a Bombay High Court order had acquitted the accused after settlement but required costs to be deposited with the State Legal Services Authority. The Supreme Court held that <em>Damodar S. Prabhu</em> is not binding in every case. It set the costs aside because the complainant wanted nothing more and the accused could not pay.</p>
-<p><strong>What this means:</strong> an accused who intends to pay does best to say so early, because costs rise with each stage. A payee who settles should record the settlement in writing and ask the court to close the case.</p>
+<p><strong>What this means:</strong> an accused who intends to pay should say so early, because costs rise with each stage. A payee who settles should record the settlement in writing and ask the court to close the case.</p>
 
 <h2>Which court can hear the complaint (jurisdiction)</h2>
 <p>Section 142(2) of the NI Act decides the court by bank branch. In <em>Jai Balaji Industries</em> (28 November 2025), a bench of Justices Pardiwala and Mahadevan held that for an account payee cheque, the court where the payee's home branch is situated has jurisdiction. A cheque deposited at another branch is treated as delivered to the home branch. The Court called the contrary view in <em>Yogesh Upadhyay</em> per incuriam, meaning wrongly decided without regard to the statute.</p>
@@ -57,7 +56,6 @@ FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni
 <li><strong>Renuka v. State of Maharashtra (2026):</strong> a Mumbai Metropolitan Magistrate had issued process on a Rs. 50 crore cheque. A Sessions Court set aside the process, holding there was no enforceable debt, and the Bombay High Court upheld that. The Supreme Court restored the complaint. At the process stage the court checks the basic ingredients, and the presumption cannot be displaced in a summary way. The accused can rebut it at trial.</li>
 <li><strong>Kuntegowda (2026):</strong> a bare denial of any debt does not support the defence. Something probable must be placed on record.</li>
 </ul>
-<p><strong>What this means:</strong> an accused with a real defence should reply to the notice, keep documents, and plan to prove the defence at trial. A payee should keep proof of the transaction.</p>
 
 <h2>Security cheque: what the Court actually held</h2>
 <p>A security cheque is not exempt from Section 138. In <em>Sripati Singh v. State of Jharkhand</em> (28 October 2021), a bench of Justices Bopanna and Shah said a cheque given as security for a loan is not a worthless piece of paper in every circumstance. Once the loan falls due and is unpaid, the cheque matures for presentation. The drawer's defences, such as that the loan was already repaid or the parties agreed to defer payment, are for trial.</p>
@@ -77,10 +75,9 @@ FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni
 <li><strong>Section 148:</strong> in <em>Jamboo Bhandari</em> (4 September 2023), the Court held that the appeal deposit of at least 20% should normally be ordered, but a court can make an exception for recorded reasons.</li>
 <li><strong>Directors:</strong> in <em>Bharat Mittal</em> (18 December 2025), a bench disagreed with two earlier decisions on whether a director can be made to deposit under Section 148 when the company cannot be prosecuted. It referred the question to a larger bench.</li>
 </ul>
-<p>Sanjabij Tari also tells trial courts to use Section 143A "wherever appropriate". Reading it with <em>Rakesh Ranjan</em>, the power stays discretionary.</p>
 
 <h2>Appeal against acquittal: still open</h2>
-<p>In <em>Celestium Financial</em> (8 April 2025), Justices Nagarathna and Sharma held that a Section 138 complainant is a "victim" and can appeal an acquittal under the proviso to Section 372 CrPC (Section 413 BNSS) without special leave under Section 378(4) CrPC (Section 419 BNSS). On 12 February 2026, in <em>Everest Automobiles</em>, a bench of Justices Sanjay Kumar and K. Vinod Chandran said it could not agree and referred the issue to a larger bench. I found no larger bench decision as of 17 November 2026. A complainant considering an appeal should check the current position. For the accused's side, see <a href="/practice-areas/criminal-appeals-suspension-of-sentence/">criminal appeals and suspension of sentence</a>.</p>
+<p>In <em>Celestium Financial</em> (8 April 2025), Justices Nagarathna and Sharma held that a Section 138 complainant is a "victim" and can appeal an acquittal under the proviso to Section 372 CrPC (Section 413 BNSS) without special leave under Section 378(4) CrPC (Section 419 BNSS). On 12 February 2026, in <em>Everest Automobiles</em>, a bench of Justices Sanjay Kumar and K. Vinod Chandran said it could not agree and referred the issue to a larger bench. No larger bench decision had been located as of 17 November 2026. A complainant considering an appeal should check the current position. For the accused's side, see <a href="/practice-areas/criminal-appeals-suspension-of-sentence/">criminal appeals and suspension of sentence</a>.</p>
 
 <h2>Maharashtra: unlicensed money-lending</h2>
 <p>On 29 October 2026 the Supreme Court dealt with a request to clarify its 26 May 2026 judgment in <em>Mansi Finance</em>. The bench noted that, under the Maharashtra Money-Lending (Regulation) Act, 2014, interest-bearing loans against a promissory note by an unlicensed lender are barred and not enforceable. The Court did not decide the point. It left the accused free to argue before the trial court that such a debt is not a legally enforceable debt under Section 138. The earlier 6 April 2026 order it quotes says a private lender should produce a licence at the threshold or show that no interest was charged.</p>
@@ -96,7 +93,7 @@ FOCUS_KEYWORDS: supreme court judgment cheque bounce, latest judgement on 138 ni
 <h2>Frequently asked questions</h2>
 
 <h3>What is the latest Supreme Court judgment on cheque bounce?</h3>
-<p>The most recent ones I read are the 29 October 2026 order in <em>Mansi Finance</em>, <em>Kuntegowda</em> (4 August 2026) and <em>Renuka</em> (7 April 2026). New rulings appear often, so check the Supreme Court website for later ones.</p>
+<p>The most recent ones covered on this page are the 29 October 2026 order in <em>Mansi Finance</em>, <em>Kuntegowda</em> (4 August 2026) and <em>Renuka</em> (7 April 2026). New rulings appear often, so check the Supreme Court website for later ones.</p>
 
 <h3>Is a security cheque safe from a Section 138 case?</h3>
 <p>No. In <em>Sripati Singh</em> the Supreme Court held that a security cheque can be presented once the debt is due and unpaid. The drawer can still argue that the debt was repaid or deferred.</p>
