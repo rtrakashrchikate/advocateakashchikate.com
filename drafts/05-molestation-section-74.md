@@ -14,7 +14,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <ul>
 <li><strong>Section 74 BNS (old 354 IPC):</strong> assault or criminal force on a woman, intending or knowing it is likely to outrage her modesty. Physical contact or force is the core.</li>
-<li><strong>Section 75 BNS (old 354A IPC):</strong> sexual harassment by a man: unwelcome contact with explicit sexual overtures, demanding sexual favours, showing pornography against her will, or sexually coloured remarks.</li>
+<li><strong>Section 75 BNS (old 354A IPC):</strong> sexual harassment by a man. It covers unwelcome contact with sexual overtures, demanding sexual favours, showing pornography, or sexually coloured remarks.</li>
 <li><strong>Section 76 BNS (old 354B IPC):</strong> assault or force with the intention of disrobing a woman.</li>
 <li><strong>Section 77 BNS (old 354C IPC):</strong> voyeurism: watching or capturing images of a woman in a private act, or spreading them.</li>
 <li><strong>Section 78 BNS (old 354D IPC):</strong> stalking by a man: repeatedly following or contacting a woman despite clear disinterest, or monitoring her electronic communication.</li>
@@ -44,11 +44,11 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <h2>If the complainant is under 18: POCSO applies</h2>
 
-<p>If the girl was under 18 at the time, police will usually add charges under the Protection of Children from Sexual Offences (POCSO) Act, which has special courts and stricter rules. See our <a href="/practice-areas/pocso-defence/">POCSO defence</a> page for that situation.</p>
+<p>If the girl was under 18 at the time, police will usually add charges under the Protection of Children from Sexual Offences (POCSO) Act. See our <a href="/practice-areas/pocso-defence/">POCSO defence</a> page for that situation.</p>
 
 <h2>Workplace complaints and the criminal case are separate</h2>
 
-<p>Under the POSH Act, 2013, a woman can complain to her employer's Internal Committee. This is a service inquiry, not a criminal trial. Section 28 of the Act says it is in addition to other laws, and Section 19(g) requires the employer to help her file a criminal complaint if she chooses. So a POSH inquiry does not stop an FIR, and an FIR does not end the inquiry.</p>
+<p>Under the POSH Act, 2013, a woman can complain to her employer's Internal Committee. This is a service inquiry, not a criminal trial. Section 28 says the Act is in addition to other laws. Section 19(g) requires the employer to help her file a criminal complaint if she wishes. So a POSH inquiry does not stop an FIR, and an FIR does not end the inquiry.</p>
 
 <p>If you are the accused employee, give your side to the Committee in writing, but take advice first. What you say there may be used in the criminal case. Section 14 allows action for a malicious complaint, though merely failing to prove a complaint is not enough.</p>
 
@@ -64,7 +64,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <h2>Police notice under Section 35 BNSS and the Arnesh Kumar guidelines</h2>
 
-<p>All of Sections 74 to 79 carry 7 years or less. For such offences, Section 35 BNSS (old Sections 41 and 41A CrPC) allows arrest only if it is necessary for a listed reason, such as proper investigation or preventing tampering with evidence. Police must record reasons in writing. Otherwise they must issue a notice to appear. If you keep complying, you should not be arrested unless police record reasons. If you do not comply, you may be arrested.</p>
+<p>All of Sections 74 to 79 carry 7 years or less. For these, Section 35 BNSS (old Sections 41 and 41A CrPC) allows arrest only when necessary for a listed reason, such as proper investigation. Police must record reasons in writing. Otherwise they must issue a notice to appear. If you keep complying, you should not be arrested unless police record reasons. If you do not comply, you may be arrested.</p>
 
 <p>In <em>Arnesh Kumar v. State of Bihar</em> (2014), the Supreme Court gave directions on arrest. The Court said these directions apply not only to Section 498A cases, but to all offences punishable with up to 7 years. In January 2025, in <em>Satender Kumar Antil v. CBI</em>, the Supreme Court held that this notice cannot be served by WhatsApp or other electronic means. More on this is on our <a href="/practice-areas/police-notice-section-35-bnss/">police notice under Section 35 BNSS</a> page.</p>
 
@@ -84,7 +84,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <p>For the other sections, the only route is a quashing petition in the High Court. Courts treat compromise in sexual offences with caution. In <em>Ramji Lal Bairwa v. State of Rajasthan</em> (2024), the Supreme Court refused to accept a compromise in a case of a teacher accused of molesting a minor student. It repeated the rule from <em>Gian Singh v. State of Punjab</em> (2012): serious offences that affect society cannot be quashed just because the parties have settled.</p>
 
-<p>Even so, the Bombay High Court has sometimes quashed molestation FIRs after a genuine settlement where the dispute was purely personal, as in a 2018 order in a Section 354/509 IPC case from Mumbai. The outcome depends on the facts. Any settlement must be voluntary. Pressuring a complainant can lead to a fresh case and to bail being cancelled.</p>
+<p>Even so, the Bombay High Court has sometimes quashed molestation FIRs after a genuine, purely personal settlement. One example is a 2018 order in a Section 354/509 IPC case from Mumbai. The outcome depends on the facts. Any settlement must be voluntary. Pressuring a complainant can lead to a fresh case and to bail being cancelled.</p>
 
 <h2>Documents to collect</h2>
 
@@ -106,7 +106,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <ul>
 <li>Do not contact the complainant or her family, directly or through others. It can be treated as intimidation.</li>
 <li>Do not delete chats or photos. Deleted data can often be recovered, and deletion looks like hiding evidence.</li>
-<li>Do not post about the case on social media. Under Section 72 BNS, disclosing the identity of a victim in certain sexual offences is itself an offence.</li>
+<li>Do not post about the case online. Disclosing a victim's identity in certain cases is an offence under Section 72 BNS.</li>
 <li>Do not ignore a police notice. Not complying can lead to arrest.</li>
 </ul>
 
