@@ -6,19 +6,19 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 ---HTML---
 <p><strong>In short:</strong> A molestation complaint is now filed under Section 74 of the Bharatiya Nyaya Sanhita (BNS), which replaced Section 354 IPC. It is cognizable and non-bailable, with 1 to 5 years' imprisonment. Related charges run from Section 75 to Section 79 BNS, and some of them are bailable. Since every one of these offences carries 7 years or less, police must usually consider a notice before arresting. The accused can also apply for anticipatory bail.</p>
 
-<p>This page is written for a person accused of such an offence and for his family. Genuine complaints exist, and the law protects women. The aim here is to help you understand the process and respond lawfully and calmly.</p>
+<p>This page is for the accused and his family. The law protects women, and genuine complaints exist. The aim is to help you respond lawfully and calmly.</p>
 
 <h2>What the sections mean: Section 74 to 79 BNS</h2>
 
-<p>The BNS came into force on 1 July 2024. If the incident happened before that date, the FIR will usually use the old IPC sections. The new and old numbers are:</p>
+<p>The BNS came into force on 1 July 2024. For incidents before that date, the FIR will usually use the old IPC sections.</p>
 
 <ul>
-<li><strong>Section 74 BNS (old Section 354 IPC):</strong> assault or use of criminal force on a woman, intending to outrage her modesty, or knowing it is likely to do so. Physical contact or force is the core of this offence.</li>
-<li><strong>Section 75 BNS (old Section 354A IPC):</strong> sexual harassment by a man. This covers unwelcome physical contact with explicit sexual overtures, demanding sexual favours, showing pornography against her will, or sexually coloured remarks.</li>
-<li><strong>Section 76 BNS (old Section 354B IPC):</strong> assault or criminal force with the intention of disrobing a woman.</li>
-<li><strong>Section 77 BNS (old Section 354C IPC):</strong> voyeurism. This means watching or capturing images of a woman in a private act, or spreading such images.</li>
-<li><strong>Section 78 BNS (old Section 354D IPC):</strong> stalking by a man. This means repeatedly following or contacting a woman despite her clear disinterest, or monitoring her internet or electronic communication.</li>
-<li><strong>Section 79 BNS (old Section 509 IPC):</strong> words, sounds, gestures or objects meant to insult a woman's modesty, or intruding on her privacy.</li>
+<li><strong>Section 74 BNS (old 354 IPC):</strong> assault or criminal force on a woman, intending or knowing it is likely to outrage her modesty. Physical contact or force is the core.</li>
+<li><strong>Section 75 BNS (old 354A IPC):</strong> sexual harassment by a man: unwelcome contact with explicit sexual overtures, demanding sexual favours, showing pornography against her will, or sexually coloured remarks.</li>
+<li><strong>Section 76 BNS (old 354B IPC):</strong> assault or force with the intention of disrobing a woman.</li>
+<li><strong>Section 77 BNS (old 354C IPC):</strong> voyeurism: watching or capturing images of a woman in a private act, or spreading them.</li>
+<li><strong>Section 78 BNS (old 354D IPC):</strong> stalking by a man: repeatedly following or contacting a woman despite clear disinterest, or monitoring her electronic communication.</li>
+<li><strong>Section 79 BNS (old 509 IPC):</strong> words, sounds, gestures or objects meant to insult a woman's modesty, or intruding on her privacy.</li>
 </ul>
 
 <p>For other old-to-new section numbers, see the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">IPC to BNS section table</a>.</p>
@@ -40,37 +40,31 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <tr><td>79 BNS (509 IPC)</td><td>Simple imprisonment up to 3 years, and fine</td><td>Yes</td><td>Bailable</td><td>Any Magistrate</td></tr>
 </table>
 
-<p>Many older websites describe sexual harassment (old Section 354A) as bailable. The BNSS First Schedule now lists Section 75 as non-bailable. Always check the schedule that applies to your FIR date.</p>
-
-<p>"Non-bailable" does not mean bail is impossible. It means bail is not an automatic right and the court decides. For a bailable offence, bail must be given on furnishing a bail bond under Section 478 BNSS (old Section 436 CrPC).</p>
+<p>Many older websites call sexual harassment (old Section 354A) bailable, but the BNSS schedule lists Section 75 as non-bailable. "Non-bailable" does not mean bail is impossible; it means the court decides. For a bailable offence, bail is a right under Section 478 BNSS (old Section 436 CrPC).</p>
 
 <h2>If the complainant is under 18: POCSO applies</h2>
 
-<p>If the girl was under 18 at the time, police will usually add charges under the Protection of Children from Sexual Offences (POCSO) Act. POCSO has its own special courts and stricter rules, and the punishments are generally higher. Read our <a href="/practice-areas/pocso-defence/">POCSO defence</a> page for that situation.</p>
+<p>If the girl was under 18 at the time, police will usually add charges under the Protection of Children from Sexual Offences (POCSO) Act, which has special courts and stricter rules. See our <a href="/practice-areas/pocso-defence/">POCSO defence</a> page for that situation.</p>
 
 <h2>Workplace complaints and the criminal case are separate</h2>
 
-<p>Many complaints arise at an office. Under the POSH Act, 2013, a woman can complain to the employer's Internal Committee. This is a service inquiry, not a criminal trial. Its findings lead to action under service rules.</p>
+<p>Under the POSH Act, 2013, a woman can complain to her employer's Internal Committee. This is a service inquiry, not a criminal trial. Section 28 of the Act says it is in addition to other laws, and Section 19(g) requires the employer to help her file a criminal complaint if she chooses. So a POSH inquiry does not stop an FIR, and an FIR does not end the inquiry.</p>
 
-<p>The two tracks can run side by side. Section 28 of the POSH Act says it is in addition to other laws. Section 19(g) requires the employer to help the woman if she chooses to file a criminal complaint. So a POSH inquiry does not stop an FIR, and an FIR does not end the POSH inquiry.</p>
-
-<p>Two points for the accused employee. First, attend the Internal Committee hearing and give your side in writing. Second, what you say there can later be relied on in the criminal case, so take advice before you reply. Section 14 of the POSH Act allows action for a malicious complaint. But it also says that merely failing to prove a complaint is not enough for such action.</p>
+<p>If you are the accused employee, give your side to the Committee in writing, but take advice first. What you say there may be used in the criminal case. Section 14 allows action for a malicious complaint, though merely failing to prove a complaint is not enough.</p>
 
 <h2>What happens after the FIR: the stages</h2>
 
 <ol>
-<li><strong>FIR:</strong> Under Section 173 BNSS (old Section 154 CrPC), the woman's information in these offences must be recorded by a woman police officer or woman officer.</li>
-<li><strong>Victim's statement before a Magistrate:</strong> Under Section 183(6)(a) BNSS (old Section 164 CrPC), the Magistrate records her statement for Sections 74 to 79 BNS cases.</li>
-<li><strong>Notice or arrest:</strong> See the next section.</li>
-<li><strong>Investigation and chargesheet:</strong> Police collect CCTV footage, phone records, messages and witness statements, then file a chargesheet.</li>
-<li><strong>Discharge or trial:</strong> The accused can ask for discharge under Section 262 BNSS (old Section 239 CrPC) in Magistrate cases, or Section 250 BNSS (old Section 227 CrPC) in Sessions cases. Otherwise the case goes to trial.</li>
+<li><strong>FIR:</strong> Under Section 173 BNSS (old 154 CrPC), a woman officer records her information.</li>
+<li><strong>Statement before a Magistrate:</strong> Section 183(6)(a) BNSS (old 164 CrPC) requires the Magistrate to record her statement.</li>
+<li><strong>Notice or arrest:</strong> see the next section.</li>
+<li><strong>Investigation and chargesheet:</strong> police collect CCTV, phone records, messages and witness statements.</li>
+<li><strong>Discharge or trial:</strong> discharge can be sought under Section 262 BNSS (old 239 CrPC) in Magistrate cases, or Section 250 BNSS (old 227 CrPC) in Sessions cases.</li>
 </ol>
 
 <h2>Police notice under Section 35 BNSS and the Arnesh Kumar guidelines</h2>
 
-<p>All of Sections 74 to 79 carry 7 years or less. For such offences, Section 35 BNSS (old Sections 41 and 41A CrPC) says police may arrest only if arrest is necessary for a listed reason. Examples are preventing further offences, proper investigation, or stopping tampering with evidence. Police must record their reasons in writing.</p>
-
-<p>Where arrest is not needed, police must issue a notice to appear. If you comply and keep complying, you should not be arrested, unless police record reasons for it. If you fail to comply, police may arrest you.</p>
+<p>All of Sections 74 to 79 carry 7 years or less. For such offences, Section 35 BNSS (old Sections 41 and 41A CrPC) allows arrest only if it is necessary for a listed reason, such as proper investigation or preventing tampering with evidence. Police must record reasons in writing. Otherwise they must issue a notice to appear. If you keep complying, you should not be arrested unless police record reasons. If you do not comply, you may be arrested.</p>
 
 <p>In <em>Arnesh Kumar v. State of Bihar</em> (2014), the Supreme Court gave directions on arrest. The Court said these directions apply not only to Section 498A cases, but to all offences punishable with up to 7 years. In January 2025, in <em>Satender Kumar Antil v. CBI</em>, the Supreme Court held that this notice cannot be served by WhatsApp or other electronic means. More on this is on our <a href="/practice-areas/police-notice-section-35-bnss/">police notice under Section 35 BNSS</a> page.</p>
 
@@ -90,22 +84,22 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <p>For the other sections, the only route is a quashing petition in the High Court. Courts treat compromise in sexual offences with caution. In <em>Ramji Lal Bairwa v. State of Rajasthan</em> (2024), the Supreme Court refused to accept a compromise in a case of a teacher accused of molesting a minor student. It repeated the rule from <em>Gian Singh v. State of Punjab</em> (2012): serious offences that affect society cannot be quashed just because the parties have settled.</p>
 
-<p>At the same time, the Bombay High Court has in some cases quashed molestation FIRs after a genuine settlement, where it found the dispute purely personal. One example is a 2018 order in a Section 354/509 IPC case from Marine Drive police station in Mumbai. The outcome depends heavily on the facts. Any settlement must be voluntary. Pressuring a complainant is itself an offence and can lead to bail being cancelled.</p>
+<p>Even so, the Bombay High Court has sometimes quashed molestation FIRs after a genuine settlement where the dispute was purely personal, as in a 2018 order in a Section 354/509 IPC case from Mumbai. The outcome depends on the facts. Any settlement must be voluntary. Pressuring a complainant can lead to a fresh case and to bail being cancelled.</p>
 
 <h2>Documents to collect</h2>
 
 <ul>
 <li>A copy of the FIR, and any police notice received.</li>
-<li>Messages, call logs, emails and social media chats, kept unedited with dates.</li>
-<li>Proof of where you were at the time, such as travel tickets, office attendance or location records.</li>
-<li>Names of people who were present, and the location of any CCTV cameras nearby. CCTV footage is often overwritten after a time, so act early.</li>
-<li>Any earlier complaints, civil disputes or property quarrels between the families. These can show a motive for a <a href="/false-fir-pune-legal-remedies/">false FIR</a>.</li>
+<li>Messages, call logs, emails and chats, unedited and with dates.</li>
+<li>Proof of where you were, such as tickets, office attendance or location records.</li>
+<li>Names of people present, and nearby CCTV cameras. Footage is often overwritten, so act early.</li>
+<li>Earlier complaints or property disputes between the families, which may show a motive for a <a href="/false-fir-pune-legal-remedies/">false FIR</a>.</li>
 <li>For workplace cases, the POSH complaint, Internal Committee notices and your replies.</li>
 </ul>
 
 <h2>Realistic time</h2>
 
-<p>Exact timelines vary from court to court and case to case, so no fixed period can be promised. An anticipatory bail application may be decided in one hearing or may take several dates. A trial can take years, depending on the court's workload and how many witnesses there are.</p>
+<p>Timelines vary by court and case, so no fixed period can be promised. Anticipatory bail may be decided in one hearing or take several dates. A trial can take years, depending on the court's workload and the number of witnesses.</p>
 
 <h2>Mistakes to avoid</h2>
 
@@ -114,24 +108,20 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <li>Do not delete chats or photos. Deleted data can often be recovered, and deletion looks like hiding evidence.</li>
 <li>Do not post about the case on social media. Under Section 72 BNS, disclosing the identity of a victim in certain sexual offences is itself an offence.</li>
 <li>Do not ignore a police notice. Not complying can lead to arrest.</li>
-<li>Do not sign any statement you have not read and understood.</li>
 </ul>
 
-<p>A pending case may also affect jobs and passports. See <a href="/pending-criminal-case-job-passport-visa/">pending criminal case and passport or visa</a>.</p>
+<p>A pending case can also affect jobs and travel; see <a href="/pending-criminal-case-job-passport-visa/">pending criminal case and passport or visa</a>.</p>
 
 <h2>Frequently asked questions</h2>
 
 <h3>Is Section 74 BNS bailable or not?</h3>
-<p>No. Under the BNSS First Schedule, Section 74 BNS (old Section 354 IPC) is cognizable and non-bailable. Bail is decided by the court. You can apply for anticipatory bail before arrest, or regular bail after arrest.</p>
+<p>No. Section 74 BNS (old Section 354 IPC) is cognizable and non-bailable, with 1 to 5 years' imprisonment and fine. Bail is decided by the court, before arrest (anticipatory bail) or after arrest (regular bail).</p>
 
 <h3>354 IPC case me jamanat kaise milti hai?</h3>
 <p>Before arrest, an anticipatory bail application can be filed in the Pune Sessions Court or the Bombay High Court. After arrest, bail is sought in the Magistrate court or Sessions Court. The court looks at the facts, the evidence and the risk of influencing witnesses.</p>
 
-<h3>What is the punishment for a 354 IPC case?</h3>
-<p>Section 354 IPC is now Section 74 BNS. It carries imprisonment of at least 1 year and up to 5 years, and a fine. The court decides the sentence only after a trial and a conviction.</p>
-
 <h3>Is Section 75 BNS (sexual harassment) bailable?</h3>
-<p>The BNSS First Schedule lists Section 75 BNS as cognizable and non-bailable, triable by the Court of Session. This differs from what many older websites say about Section 354A IPC. Check which law applies to your FIR date.</p>
+<p>The BNSS First Schedule lists Section 75 BNS as cognizable, non-bailable and triable by the Court of Session. This differs from what many older websites say about Section 354A IPC.</p>
 
 <h3>What can I do in a 354 false case?</h3>
 <p>Collect evidence early, such as messages, CCTV, location data and witnesses. Comply with any police notice. Depending on the facts, you may apply for anticipatory bail, ask the Bombay High Court to quash the FIR, or seek discharge after the chargesheet.</p>
@@ -140,7 +130,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <p>Section 74 BNS is not compoundable, so only the Bombay High Court can quash it on settlement. Courts are cautious and look at whether the dispute is genuinely private. Where the complainant is a minor, the Supreme Court has refused to accept compromise.</p>
 
 <h3>Will a POSH inquiry at my office stop the police case?</h3>
-<p>No. The Internal Committee inquiry and the criminal case are separate. One can continue even if the other ends. Take advice before replying in either.</p>
+<p>No. The Internal Committee inquiry and the criminal case are separate, and one can continue even if the other ends.</p>
 
 <p>Fees depend on the court and the stage of the case and are agreed at consultation; see <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a>. If you need advice on your situation, you can contact the office.</p>
 
