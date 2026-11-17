@@ -16,7 +16,7 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <li>The cheque was presented within <strong>six months of its date or its validity period, whichever is earlier</strong>. Since 1 April 2012 the RBI has fixed cheque validity at three months, so in practice this means three months.</li>
 <li>The payee sent a written demand notice in time, and the drawer did not pay within 15 days of receiving it.</li>
 </ul>
-<p>A return for "signature differs", "account closed" or "payment stopped" raises its own legal questions. The reason on the return memo matters, so show the memo to an advocate. The drawer signed the cheque; the payee received it. This page covers both sides.</p>
+<p>A return for "signature differs", "account closed" or "payment stopped" raises its own legal questions. The reason on the return memo matters, so show the memo to an advocate. This page covers both the drawer (who signed the cheque) and the payee.</p>
 
 <h2>Cheque bounce charges: bank charges and court penalties</h2>
 <p>People searching "cheque bounce charges" usually mean one of two things.</p>
@@ -49,7 +49,7 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <li>If the cheque is presented for payment otherwise than through an account, the court is where the <strong>drawer's bank branch</strong> is located.</li>
 </ul>
 <p>Before the amendment, the Supreme Court in <em>Dashrath Rupsingh Rathod v. State of Maharashtra</em> (2014) had tied the case to the drawee bank's location. Parliament amended the law, and Section 142A moved pending complaints to the correct court. In <em>Jai Balaji Industries Ltd. v. HEG Ltd.</em> (2025 INSC 1362), the Supreme Court held that for an account payee cheque the payee's home branch decides the court.</p>
-<p>So a payee whose account is at a Pune branch files before a Magistrate court in Pune, and one with a Pimpri-Chinchwad branch files in the court covering that area. An accused who lives elsewhere can be summoned to Pune. For Mumbai readers: if the payee's branch is in Mumbai, a Mumbai Magistrate court hears the case. Matters before Mumbai courts and the Bombay High Court are handled, with consultation by phone or video. The office is in Shivajinagar, Pune.</p>
+<p>So a payee whose account is at a Pune branch files before a Magistrate court in Pune, and one with a Pimpri-Chinchwad branch files in the court covering that area. For Mumbai readers: if the payee's branch is in Mumbai, a Mumbai Magistrate court hears the case. Matters before Mumbai courts and the Bombay High Court are handled, with consultation by phone or video; the office is in Shivajinagar, Pune.</p>
 
 <h2>Cheque bounce case procedure: what happens after the complaint</h2>
 <ol>
@@ -61,10 +61,10 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <li><strong>Accused's statement</strong> (Section 351 BNSS, old Section 313 CrPC), then defence evidence if any.</li>
 <li><strong>Arguments and judgment.</strong></li>
 </ol>
-<p>Under Section 143 these cases are tried <strong>summarily</strong>, and in a summary trial the Magistrate can sentence up to <strong>one year</strong>. If a longer sentence may be needed, the Magistrate records reasons and follows the regular procedure. The law asks the court to try to finish within six months of the complaint. Actual time varies by court and by how many applications are filed.</p>
+<p>Under Section 143 these cases are tried <strong>summarily</strong>, and the Magistrate can sentence up to <strong>one year</strong> in a summary trial. If a longer sentence may be needed, the Magistrate follows the regular procedure. The law asks the court to try to finish within six months of the complaint. Actual time varies by court and stage.</p>
 
 <h2>Cheque bounce punishment and penalty under Section 138</h2>
-<p>On conviction, the court can impose imprisonment up to <strong>2 years</strong>, a fine up to <strong>twice the cheque amount</strong>, or both. It can direct that the fine, or part of it, be paid to the complainant as compensation (Section 395 BNSS, old Section 357 CrPC). The sentence depends on the facts of the case.</p>
+<p>On conviction, the court can impose imprisonment up to <strong>2 years</strong>, a fine up to <strong>twice the cheque amount</strong>, or both. It can direct that the fine, or part of it, be paid to the complainant as compensation (Section 395 BNSS, old Section 357 CrPC).</p>
 
 <h2>Interim compensation (Section 143A) and appeal deposit (Section 148)</h2>
 <ul>
@@ -81,7 +81,7 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <li>Before the <strong>Sessions Court or High Court</strong>, in revision or appeal: 7.5%.</li>
 <li>Before the <strong>Supreme Court</strong>: 10%.</li>
 </ul>
-<p>These are guidelines, and the court keeps its discretion. Early settlement costs less. Special Lok Adalats for Section 138 cases are also held at the Pune District Court.</p>
+<p>These are guidelines; the court keeps its discretion. Special Lok Adalats for Section 138 cases are also held at the Pune District Court.</p>
 
 <h2>How to escape from a cheque bounce case: lawful options only</h2>
 <p>You cannot lawfully "escape" a genuine case by avoiding summons or changing address. That leads to a warrant and weakens your position. The lawful options are:</p>
@@ -90,7 +90,6 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <li><strong>Settle.</strong> Compounding is available at every stage, and earlier is cheaper.</li>
 <li><strong>Defend on the facts or the law.</strong> Section 139 presumes the cheque was issued for a debt, but the presumption can be rebutted (<em>Rangappa v. Sri Mohan</em>, (2010) 11 SCC 441). Grounds commonly examined include: no legally enforceable debt; the debt already paid; a defective, late or wrongly addressed notice; a late complaint; the wrong court; a disputed signature; and, for companies, whether a director was in charge of the business (Section 141).</li>
 </ul>
-<p>Whether any ground applies depends entirely on your documents.</p>
 
 <h2>If you received a notice or summons, or your cheque has bounced</h2>
 <p><strong>Accused (drawer):</strong> note the date you received the notice, since the 15 days run from receipt. Do not ignore it. Pay if the amount is owed, or send a written reply if you dispute it. Keep the envelope and payment proofs. If summons come, appear on the date.</p>
@@ -99,27 +98,25 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <h2>Documents to keep</h2>
 <ul>
 <li>The original cheque and the bank's return memo with the reason</li>
-<li>The legal notice, postal receipts and tracking report, and any reply</li>
-<li>Proof of the debt: agreement, invoices, ledger, bank statements, messages</li>
-<li>Identity and address proof; for a company, the authority letter or board resolution</li>
+<li>The legal notice, postal receipts, tracking report and any reply</li>
+<li>Proof of the debt: agreement, invoices, statements, messages</li>
+<li>Identity and address proof; for a company, the authority letter</li>
 <li>For the accused: the summons, the complaint copy and records of payments made</li>
 </ul>
 
 <h2>Common mistakes</h2>
 <ul>
 <li>Sending the notice after 30 days, or counting from the wrong date.</li>
-<li>Sending it to an old address with no proof of delivery.</li>
 <li>Filing the complaint late, or in the wrong court.</li>
 <li>Presenting the cheque after its validity has ended.</li>
-<li>Ignoring the notice or summons.</li>
-<li>Paying in cash without a receipt.</li>
+<li>Paying in cash without a receipt or written acknowledgement.</li>
 </ul>
 
 <h2>After the trial court: appeal and the Bombay High Court</h2>
 <p>An accused convicted by a Magistrate can appeal to the Sessions Court (Section 415(3) BNSS, old Section 374(3) CrPC) and ask for the sentence to be suspended meanwhile. See <a href="/practice-areas/criminal-appeals-suspension-of-sentence/">criminal appeals and suspension of sentence</a>. For a complainant after an acquittal, the Supreme Court is examining whether the High Court's special leave is needed. A February 2026 order (<em>Everest Automobiles</em>) referred the question to a larger bench after doubting <em>Celestium Financial v. A. Gnanasekaran</em> (2025). Check the current position before filing. In limited situations the Bombay High Court can also be approached: see <a href="/fir-quashing-bombay-high-court-pune/">quashing in the Bombay High Court</a> and <a href="/bombay-high-court-lawyer-pune/">Bombay High Court matters</a>.</p>
 
 <h2>What affects the fee</h2>
-<p>The fee depends on your side, the stage (notice, complaint, trial, appeal), the number of cheques and complaints, and the court. It is discussed and agreed at the first consultation. See <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a> and <a href="/practice-areas/criminal-defence/">criminal defence in Pune</a>. Old and new section numbers are in the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS table</a>.</p>
+<p>Fees depend on your side, the stage and the court, and are agreed at the first consultation. See <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a> and <a href="/practice-areas/criminal-defence/">criminal defence in Pune</a>. Old and new section numbers: <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS table</a>.</p>
 
 <h2>Frequently asked questions</h2>
 
@@ -127,10 +124,10 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <p>If you are the payee, collect the bank's return memo and send a legal notice within 30 days. If the drawer does not pay within 15 days, file a complaint within one month. If you are the drawer, note when you received the notice and consider paying or replying in writing within 15 days.</p>
 
 <h3>What is the punishment for cheque bounce under Section 138?</h3>
-<p>Up to 2 years in prison, a fine up to twice the cheque amount, or both. The court can direct that the fine be paid to the complainant as compensation. Many cases are settled before any sentence.</p>
+<p>Up to 2 years in prison, a fine up to twice the cheque amount, or both. The court can direct that the fine be paid to the complainant as compensation.</p>
 
 <h3>How can I get out of a cheque bounce case legally?</h3>
-<p>Pay within the 15-day notice period, settle with the complainant at any stage, or defend the case on the facts and the law. Avoiding summons is not a route. It can lead to a warrant.</p>
+<p>Pay within the 15-day notice period, settle with the complainant at any stage, or defend the case on the facts and the law.</p>
 
 <h3>What are cheque bounce charges?</h3>
 <p>Bank charges for a returned cheque are set by each bank and are not fixed by law, so check your bank's schedule of charges. The court penalty for the offence is the Section 138 punishment of imprisonment, fine, or both.</p>
@@ -139,13 +136,13 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 <p>Present the cheque within its validity, send the notice within 30 days of the return information, allow 15 days to pay, and file the complaint within one month after that. A late complaint is heard only if the court accepts sufficient cause.</p>
 
 <h3>Can a cheque bounce case be filed in Pune if the accused lives elsewhere?</h3>
-<p>Yes, if the payee's bank branch (the branch holding the payee's account) is in Pune or Pimpri-Chinchwad. Under Section 142(2), the bank branch decides the court, not the drawer's address.</p>
+<p>Yes, if the payee's account branch is in Pune or Pimpri-Chinchwad, an accused living elsewhere can be summoned there. Under Section 142(2), the bank branch decides the court, not the drawer's address.</p>
 
 <h3>Is there a new law for cheque bounce?</h3>
 <p>Section 138 itself was not changed by the BNSS in July 2024. Recent changes are the 2015 jurisdiction amendment, the 2018 additions of Sections 143A and 148, and the Supreme Court's September 2025 compounding guidelines in <em>Sanjabij Tari</em>.</p>
 
 <h3>Can a cheque bounce case be settled after the complaint is filed?</h3>
-<p>Yes. Section 147 makes the offence compoundable, so the parties can settle at any stage, including in a Lok Adalat. Under the 2025 guidelines, settling before the accused's evidence is recorded can be allowed without costs.</p>
+<p>Yes. Section 147 makes the offence compoundable, so the parties can settle at any stage, including in a Lok Adalat. Costs rise at later stages.</p>
 
 <p>If you need advice on your situation, you can contact the office.</p>
 <p><em>This page explains the law in general terms and is not legal advice. Every case depends on its own facts.</em></p>
