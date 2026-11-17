@@ -21,7 +21,8 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <h2>Section 528 BNSS (old Section 482 CrPC) and Article 226</h2>
 <p>On 1 July 2024 the BNSS replaced the CrPC. Section 482 CrPC became <strong>Section 528 BNSS</strong>. The wording is the same: nothing in the Sanhita limits the High Court's inherent powers to make orders needed to give effect to any order under it, to prevent abuse of the process of any court, or to secure the ends of justice.</p>
 <p>The section does not give the High Court new powers. It saves powers the court already has. The Supreme Court has also said the High Court does not act as an appeal or revision court when it uses them.</p>
-<p>Petitions are often filed under both Section 528 BNSS and Article 226. FIRs registered before 1 July 2024 are still investigated under the CrPC, so petitions about them may still cite Section 482 CrPC. The legal tests are the same. Our <a href="/section-482-crpc-section-528-bnss-quashing-fir-bombay-high-court/">guide to Section 482 CrPC and Section 528 BNSS</a> explains the section in detail, and the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS table</a> lists other changed numbers.</p>
+<p>Petitions are often filed under both Section 528 BNSS and Article 226. This matters at the chargesheet stage. In a September 2025 order arising from a Bombay High Court petition, the Supreme Court said that once a Magistrate has taken cognisance, Article 226 is no longer available. Section 528 BNSS can still be used to quash the FIR, the chargesheet and the order taking cognisance, if that order is placed on record and a strong case is made out.</p>
+<p>FIRs registered before 1 July 2024 are still investigated under the CrPC, so petitions about them may still cite Section 482 CrPC. The legal tests are the same. Our <a href="/section-482-crpc-section-528-bnss-quashing-fir-bombay-high-court/">guide to Section 482 CrPC and Section 528 BNSS</a> explains the section in detail, and the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS table</a> lists other changed numbers.</p>
 
 <h2>When FIR quashing is available</h2>
 <p>A petition can be filed at different stages. The stage changes what the court can look at.</p>
@@ -117,7 +118,7 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <p>Not automatically. In Neeharika Infrastructure the Supreme Court said such orders should not be passed routinely and that the accused should normally seek anticipatory bail. Whether protection is given depends on the facts and the stage.</p>
 
 <h3>Can I file for quashing after the chargesheet is filed?</h3>
-<p>Yes. A petition can be filed after the chargesheet, and the court may then also look at the police report and documents. Filing a chargesheet does not by itself end the High Court's power to quash.</p>
+<p>Yes. A petition can be filed after the chargesheet, and the court may then also look at the police report and documents. In a September 2025 order, the Supreme Court said that filing a chargesheet does not by itself make a petition under Section 528 BNSS pointless. The petition should ask for the right orders, including quashing of the chargesheet and any cognisance order.</p>
 
 <h3>How long does an FIR quashing petition take?</h3>
 <p>There is no fixed time. It depends on the High Court's list, the replies from the State and complainant, and the stage of the case. A reliable estimate is possible only after the papers have been reviewed.</p>
@@ -134,6 +135,7 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 - State of Haryana v. Bhajan Lal, 1992 Supp (1) SCC 335 (citation and categories as reproduced in the Neeharika judgment above, para 7.3)
 - Gian Singh v. State of Punjab, (2012) 10 SCC 303, Supreme Court, 24 September 2012 (paras 53 to 55 on quashing versus compounding and the civil, commercial and matrimonial category) — https://indiankanoon.org/doc/69949024/
 - Bombay High Court Principal Seat at Mumbai retains jurisdiction over Pune bodies despite 2025 circuit bench (Shekhar Champalal Pagaria v. CFM Assets Reconstruction, 2026 SCC OnLine Bom 1837, 6 March 2026), SCC Online report — https://www.scconline.com/blog/post/2026/03/24/principal-seats-jurisdiction-on-establishment-of-circuit-bench-bom-hc/
+- Pradnya Pranjal Kulkarni v. State of Maharashtra, SLP (Crl.) No. 13424/2025, Supreme Court order of 3 September 2025 (Bombay High Court quashing petition under Article 226 and Section 528 BNSS not infructuous merely because a chargesheet was filed; Article 226 unavailable after cognisance, Section 528 available) — https://api.sci.gov.in/supremecourt/2025/42703/42703_2025_7_30_63987_Order_03-Sep-2025.pdf
 - Section 531 BNSS, repeal and savings (SCC Online discussion) — https://www.scconline.com/blog/post/2024/08/23/crpc-or-bnss-the-tug-of-war-around-july-1-2024/
 ---VERIFY---
 - Confirm with the Bombay High Court Appellate Side rules or registry that a quashing petition against a Pune or Pimpri-Chinchwad FIR is filed at the Principal Seat in Mumbai. I confirmed it only from a March 2026 judgment on a different subject (a Pune tribunal matter) and from the fact that no Pune bench exists.
@@ -143,5 +145,6 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 - No time range is given because none could be verified. Add one only if you want to state your own experience in general terms, bearing Rule 36 in mind.
 - "The State of Maharashtra is made a respondent, and so is the complainant in most cases" and "both are given notice": confirm this matches Bombay High Court practice for your petitions.
 - The statement that Gian Singh treats a settlement as relevant but not conclusive and requires genuineness is my summary of paras 54 to 55 and later practice. Check wording against the judgment.
-- The statement "filing a chargesheet does not by itself end the High Court's power to quash": this is general law but I did not find a Bombay High Court or Supreme Court authority I could open. Confirm or delete.
+- The chargesheet and cognisance paragraphs rest on the Supreme Court's 3 September 2025 order in Pradnya Pranjal Kulkarni (a short record-of-proceedings order, not a reported judgment). I read the order in full. Check whether you want to cite it by name on the page, and whether a later reported decision exists.
+- That order also shows that, in the Bombay High Court's 2025 sitting list, a Division Bench heard criminal writ petitions and applications for quashing FIRs from 2023 onwards. Bench allocation changes with each roster, so I did not state it on the page.
 - Link /section-482-crpc-section-528-bnss-quashing-fir-bombay-high-court/ goes to the new Task 3 page, which does not exist until that draft is published.
