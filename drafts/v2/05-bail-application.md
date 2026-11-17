@@ -44,7 +44,7 @@ FOCUS_KEYWORDS: bail application lawyer in pune, bail application draft, section
 
 <h2>Section 483 BNSS (old Section 439 CrPC): Sessions Court and Bombay High Court</h2>
 <p>Section 483(1) lets the High Court and the Court of Session direct that an accused in custody be released on bail, and set aside or change a condition imposed by a Magistrate. The Section 480 bars on death and life offences do not limit these courts. The Supreme Court said so in <em>Gurcharan Singh v. State (Delhi Administration)</em> (1978) 1 SCC 118. In practice, for offences triable only by the Sessions Court, the Sessions Court is the first stop.</p>
-<p>Before granting bail in an offence triable only by the Court of Session, or one punishable with life imprisonment, the court must notify the Public Prosecutor, unless it records that notice is not practicable. Read the full explanation in our guide to <a href="/section-439-crpc-section-483-bnss-bail-explained/">Section 439 CrPC (Section 483 BNSS)</a>.</p>
+<p>Before granting bail in an offence triable only by the Court of Session, or one punishable with life imprisonment, the court must notify the Public Prosecutor, unless it records that notice is not practicable.</p>
 
 <h2>What courts weigh in a non-bailable case</h2>
 <p>There is no fixed formula. The Supreme Court has said that bail is the rule and jail the exception, that pre-trial detention should not be punishment, and that both the seriousness of the charge and the wider circumstances count (<em>Sanjay Chandra v. CBI</em>, (2012) 1 SCC 40). Courts commonly look at:</p>
