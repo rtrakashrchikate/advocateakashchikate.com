@@ -68,7 +68,7 @@ FOCUS_KEYWORDS: cheque bounce case in Pune, cheque bounce case, section 138 of N
 
 <h2>Interim compensation (Section 143A) and appeal deposit (Section 148)</h2>
 <ul>
-<li><strong>Section 143A, interim compensation.</strong> The trial court may order the accused to pay the complainant up to <strong>20% of the cheque amount</strong> while the case is pending. It is payable within 60 days, extendable by up to 30 days for sufficient cause. If the accused is later acquitted, it must be repaid with interest. In <em>Rakesh Ranjan Shrivastava v. State of Jharkhand</em> (2024 INSC 205), the Supreme Court held that this power is <strong>discretionary, not mandatory</strong>.</li>
+<li><strong>Section 143A, interim compensation.</strong> The trial court may order the accused to pay the complainant up to <strong>20% of the cheque amount</strong> while the case is pending. It is payable within 60 days, extendable by up to 30 days for sufficient cause. If the accused is later acquitted, it must be repaid with interest. In <em>Rakesh Ranjan Shrivastava</em> (2024 INSC 205), the Supreme Court held that this power is <strong>discretionary, not mandatory</strong>.</li>
 <li><strong>Section 148, deposit in appeal.</strong> If a convicted accused appeals, the appellate court may order a deposit of at least <strong>20% of the fine or compensation</strong> awarded, in addition to any interim compensation paid. In <em>Jamboo Bhandari v. M.P. State Industrial Development Corporation Ltd.</em> (2023), the Supreme Court said the deposit should ordinarily be ordered, and that not ordering it needs special reasons.</li>
 </ul>
 
