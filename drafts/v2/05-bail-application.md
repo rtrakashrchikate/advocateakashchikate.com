@@ -3,7 +3,7 @@ KEYWORDS_SERVED: bail application draft (390, KD14); high court bail list (320);
 SLUG: bail-application
 POST_TITLE: Bail Application Lawyer in Pune: Regular Bail After Arrest
 SEO_TITLE: Bail Application Lawyer in Pune: Section 480, 483 BNSS
-META_DESCRIPTION: Bail application in Pune after arrest: Section 480 and 483 BNSS (old 437 and 439 CrPC), Sessions Court, Bombay High Court, conditions, surety, cancellation.
+META_DESCRIPTION: Bail application in Pune after arrest: Section 480 and 483 BNSS (old 437, 439 CrPC), Sessions Court, High Court, conditions, surety, cancellation.
 FOCUS_KEYWORDS: bail application lawyer in pune, bail application draft, section 439 crpc, cancellation of bail, bail rejected what next
 ---HTML---
 <p><strong>In short:</strong> A bail application asks a court to release a person who is already in custody, on a bond and usually with a surety. A Magistrate decides it under Section 480 BNSS (old Section 437 CrPC). The Sessions Court at Shivajinagar and the Bombay High Court decide it under Section 483 BNSS (old Section 439 CrPC). If the offence is bailable, release is a matter of right. If it is non-bailable, the court weighs the facts.</p>
@@ -11,7 +11,7 @@ FOCUS_KEYWORDS: bail application lawyer in pune, bail application draft, section
 <p>This page is for families in Pune and Pimpri-Chinchwad whose relative has been arrested. Anticipatory bail (before arrest) is a different remedy: see <a href="/practice-areas/anticipatory-bail/">anticipatory bail in Pune</a>. The office is in Shivajinagar, Pune, near the Pune District and Sessions Court. Matters before the Bombay High Court in Mumbai and Mumbai courts are also handled, with consultation by phone or video.</p>
 
 <h2>Bailable and non-bailable offences</h2>
-<p>Everything starts with one question: is the offence bailable or non-bailable? The First Schedule to the BNSS lists this for each offence (Section 2(1) BNSS defines both terms). Your FIR copy shows the sections applied. The same FIR can include both kinds.</p>
+<p>Everything starts with one question: is the offence bailable or non-bailable? The First Schedule to the BNSS lists this for each offence (Section 2(1) BNSS defines both terms). Your FIR copy shows the sections applied.</p>
 <ul>
 <li><strong>Bailable offence:</strong> Section 478 BNSS (old Section 436 CrPC) says the person must be released on bail if ready to furnish it. The police officer or the court cannot refuse. If a person cannot give a surety, the court may release an indigent person on a personal bond, and may presume indigence if bail is not furnished within one week of arrest.</li>
 <li><strong>Non-bailable offence:</strong> bail is not a right. The court uses its discretion and records reasons. This is where most bail applications, and most of the work, lie.</li>
@@ -56,7 +56,6 @@ FOCUS_KEYWORDS: bail application lawyer in pune, bail application draft, section
 <li>how far the investigation has come, and whether custody is still needed;</li>
 <li>the time already spent in custody and the likely time for trial.</li>
 </ul>
-<p>An application that sets out these points with dates and documents helps the court more than a general plea.</p>
 
 <h2>Bail conditions</h2>
 <p>For offences punishable with seven years or more, and some other listed offences, Section 480(3) BNSS makes certain conditions compulsory: attend as the bond requires, do not commit a similar offence, do not threaten or induce witnesses, and do not tamper with evidence. The court may add other conditions it thinks necessary. Conditions depend on the case. A Magistrate's conditions can be challenged before the Sessions Court or High Court under Section 483(1)(b). Breaking a condition is a ground to seek cancellation.</p>
@@ -104,11 +103,9 @@ FOCUS_KEYWORDS: bail application lawyer in pune, bail application draft, section
 <h2>Mistakes to avoid</h2>
 <ul>
 <li>Filing in the wrong court, or using anticipatory bail after arrest has already happened.</li>
-<li>Missing the 24-hour production and remand stage, where bail can be asked for.</li>
 <li>Giving a general plea with no dates, documents or address proof.</li>
 <li>Hiding an earlier rejected application. Courts expect it to be disclosed.</li>
 <li>Breaking a condition, such as not attending the police station or court.</li>
-<li>Letting a surety turn up without papers, which delays release.</li>
 </ul>
 
 <h2>Frequently asked questions</h2>
