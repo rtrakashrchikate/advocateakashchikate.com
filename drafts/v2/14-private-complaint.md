@@ -9,7 +9,7 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 <p><strong>In short:</strong> A private complaint is a written complaint made directly to a Magistrate, instead of to the police. It is made under Section 200 CrPC, which is now Section 223 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS). When the police refuse to register an FIR, the usual order is to go to the police station, then to the Superintendent of Police, and then to the Magistrate. The BNSS also now requires the Magistrate to hear the accused before taking cognizance.</p>
 <h2>What a private complaint is</h2>
 <p>An FIR starts with the police. A private complaint starts in court. The Magistrate examines the complainant on oath and decides whether there is enough ground to proceed.</p>
-<p>The Bharatiya Nagarik Suraksha Sanhita replaced the Code of Criminal Procedure on 1 July 2024. Offences from before that date are still dealt with under the old laws, so check which law applies to your dates. Our <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS section table</a> lists the old and new numbers.</p>
+<p>The BNSS replaced the Code of Criminal Procedure on 1 July 2024. Offences from before that date are still dealt with under the old laws, so check which law applies to your dates. Our <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS section table</a> lists the old and new numbers.</p>
 <table>
 <thead>
 <tr>
@@ -59,7 +59,7 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 <h2>Step 1 and 2: the police station, then the Superintendent of Police</h2>
 <p>For a cognizable offence, such as theft, cheating or assault, you first give the information to the police station. Under Section 173(1) BNSS (old Section 154(1) CrPC) the police must record it. It can be given orally or by electronic communication.</p>
 <p>If the station refuses, Section 173(4) BNSS (old Section 154(3) CrPC) lets you send the substance of the information, in writing and by post, to the Superintendent of Police. In Pune City, Pimpri-Chinchwad and Mumbai, the senior police office is a Commissioner of Police, so ask which officer receives such complaints. If the officer is satisfied that a cognizable offence is disclosed, the officer must investigate or direct an investigation. If that also fails, the same sub-section says you may apply to the Magistrate.</p>
-<p>Keep proof of both steps: the written application with the station&#8217;s stamp, and the postal receipt for the letter. The Magistrate will ask for them.</p>
+<p>Keep proof of both steps: the stamped application and the postal receipt. The Magistrate will ask for them.</p>
 <h2>Step 3: two routes to the Magistrate</h2>
 <table>
 <thead>
@@ -85,7 +85,7 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 
 <h3>Application under Section 175(3) BNSS (old Section 156(3) CrPC)</h3>
 <p>Section 175(3) allows a Magistrate empowered to take cognizance to order an investigation. The text now says the Magistrate acts after considering an application supported by an affidavit, after such inquiry as he thinks necessary, and after the submission made by the police officer. So the police are heard before the order.</p>
-<p>The affidavit requirement comes from <em>Priyanka Srivastava v. State of U.P.</em> (2015) 6 SCC 287. The Supreme Court held that applications under Section 156(3) CrPC must be supported by the applicant&#8217;s affidavit and must state that the applicant has already used Sections 154(1) and 154(3). A false affidavit can lead to prosecution.</p>
+<p>The affidavit requirement comes from <em>Priyanka Srivastava v. State of U.P.</em> (2015) 6 SCC 287. The Supreme Court held that applications under Section 156(3) CrPC must be supported by the applicant&#8217;s affidavit and must state that the applicant has already used Sections 154(1) and 154(3).</p>
 <p>For a complaint against a public servant for official acts, there are extra steps. In <em>XXX v. State of Kerala</em> (2026 INSC 88), the Supreme Court held that such a complaint must be in writing and supported by an affidavit. The Magistrate should also consider the public servant&#8217;s version and a report from the superior officer.</p>
 <h3>Private complaint under Section 223 BNSS (old Section 200 CrPC)</h3>
 <p>Under Section 223(1), the Magistrate examines the complainant and any witnesses present on oath. The substance is written down and signed by the complainant, the witnesses and the Magistrate. A complaint by a public servant or a court does not need this examination.</p>
@@ -98,7 +98,7 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 </ol>
 <p>If you receive summons on a private complaint, do not ignore it. Under Section 228 BNSS the Magistrate can allow you to appear through your advocate, but may order personal attendance later. Missing dates can lead to a warrant. See <a href="/non-bailable-warrant-cancellation-pune/">non-bailable warrant cancellation</a> and <a href="/practice-areas/bail-application/">bail applications</a>. A complaint that discloses no offence may be challenged by <a href="/practice-areas/fir-quashing/">quashing</a> or at the <a href="/practice-areas/discharge-application/">discharge stage</a>.</p>
 <h2>Which court in Pune and Mumbai</h2>
-<p>A complaint goes to the Magistrate who has jurisdiction over the place of the offence and can try it. In Pune and Pimpri-Chinchwad, these are the Judicial Magistrate First Class courts. The BNSS has dropped the post of Metropolitan Magistrate, so a Mumbai complaint also goes to a Judicial Magistrate. The court registry can tell you which court takes which area and offence. Revisions and quashing petitions go to the Sessions Court or the Bombay High Court in Mumbai. There is no Pune bench of the High Court.</p>
+<p>A complaint goes to the Magistrate who has jurisdiction over the place of the offence and can try it. In Pune and Pimpri-Chinchwad, these are the Judicial Magistrate First Class courts. The BNSS has dropped the post of Metropolitan Magistrate, so a Mumbai complaint also goes to a Judicial Magistrate. The court registry can tell you which court takes which area. Revisions and quashing petitions go to the Sessions Court or the Bombay High Court in Mumbai. There is no Pune bench of the High Court.</p>
 <h2>Documents to collect</h2>
 <ul>
 <li>Your written application to the police station, with the stamped acknowledgement.</li>
@@ -107,10 +107,10 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 <li>Supporting documents: messages, bills, agreements, bank records, medical papers.</li>
 <li>A list of witnesses and their addresses.</li>
 <li>An affidavit sworn by you, for an application under Section 175(3). Affidavits for use in court are covered by Section 333 BNSS.</li>
-<li>Copies of the complaint for each accused. A copy goes with each summons.</li>
+<li>A copy of the complaint for each accused.</li>
 </ul>
 <h2>Time limits and how long it takes</h2>
-<p>Section 514 BNSS (old Section 468 CrPC) bars a court from taking cognizance of minor offences after a fixed period: six months for an offence punishable with fine only, one year for imprisonment up to one year, and three years for imprisonment above one year up to three years. The relevant date is the date of filing the complaint under Section 223. Longer offences have no such bar.</p>
+<p>Section 514 BNSS (old Section 468 CrPC) bars a court from taking cognizance of minor offences after a fixed period: six months for an offence punishable with fine only, one year for imprisonment up to one year, and three years for imprisonment above one year up to three years. The relevant date is the date of filing the complaint under Section 223.</p>
 <p>How long a complaint takes depends on the court and the offence. No fixed period can be promised.</p>
 <h2>What a complaint should contain</h2>
 <p>People search for a &#8220;criminal complaint format&#8221; or &#8220;FIR complaint format&#8221;. There is no one form to fill in, and a copied template often misses what the Magistrate needs. A well-drafted complaint usually covers these points:</p>
@@ -126,16 +126,15 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 <ul>
 <li><strong>Skipping the police and Superintendent of Police steps.</strong> A Magistrate can refuse a Section 175(3) application that does not show them.</li>
 <li><strong>Filing without an affidavit</strong> where one is needed.</li>
-<li><strong>Vague allegations.</strong> Say who did what, when and where.</li>
+<li><strong>Vague allegations.</strong> Say who did what, and when.</li>
 <li><strong>Naming relatives with no role.</strong> This weakens the case and invites a quashing petition. See <a href="/false-fir-pune-legal-remedies/">false cases and remedies</a>.</li>
 <li><strong>Missing the limitation period</strong> for minor offences.</li>
-<li><strong>Ignoring summons</strong> if a complaint is made against you.</li>
 </ul>
 <p>To see whether an FIR already exists, read how to <a href="/how-to-check-fir-registered-against-you-maharashtra/">check an FIR in Maharashtra</a>. For the wider picture, see <a href="/practice-areas/criminal-defence/">criminal defence</a>.</p>
 <p>Matters before the Bombay High Court and Mumbai courts are handled, with consultation by phone or video. The office is in Shivajinagar, Pune. If you need advice on your situation, you can contact the office.</p>
 <h2>Frequently asked questions</h2>
 <h3>What is a private complaint under Section 200 CrPC?</h3>
-<p>It is a complaint made directly to a Magistrate, who examines the complainant on oath before deciding whether to proceed. For complaints under the new law, the provision is Section 223 BNSS. It is used when the police do not act, or when the offence is one the police cannot investigate on their own.</p>
+<p>It is a complaint made directly to a Magistrate, who examines the complainant on oath before deciding whether to proceed. For complaints under the new law, the provision is Section 223 BNSS. It is used when the police do not act.</p>
 <h3>Is Section 200 CrPC now Section 223 BNSS?</h3>
 <p>Yes, from 1 July 2024. Section 223 adds a rule that the accused must be heard before the Magistrate takes cognizance.</p>
 <h3>Can I go straight to the Magistrate if the police refuse my FIR?</h3>
@@ -174,5 +173,4 @@ FOCUS_KEYWORDS: private complaint under section 200 crpc, private complaint unde
 - Revision against dismissal under Section 438 BNSS (old Section 397 CrPC): Section 438 text confirmed in the Gazette. I stated that a dismissed complainant "can consider" a revision. Confirm the forum (Sessions Court or High Court) and any limitation for revision in this situation.
 - Section 225 BNSS text confirmed in the Gazette (mandatory inquiry or investigation when the accused lives outside the Magistrate's area; no investigation direction for offences triable only by the Court of Session; complainant must produce all witnesses).
 - Affidavit "Section 333 BNSS": the Gazette heading shows affidavits to be used before any Court may be sworn before certain authorities. Confirm the authority before whom a complainant's affidavit should be sworn in Pune and Mumbai, and any local court-fee or process-fee requirement. I stated no fees.
-- The "which route fits" table row "Suits you when" is general guidance written by me, not from a source. Confirm or edit.
 - The brief's list of keywords included "FIR complaint format". I did not supply a format, as instructed, and listed contents only.

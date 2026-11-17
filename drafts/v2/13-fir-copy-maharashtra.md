@@ -22,11 +22,11 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 <li>Open the <a href="https://citizen.mahapolice.gov.in/citizen/mh/PublishedFIRs.aspx" target="_blank" rel="noopener">Published FIRs page</a> (citizen.mahapolice.gov.in). You can switch the page between English and Marathi.</li>
 <li>Enter Date From and Date To. Both are required. The page says the from-date must be after 1 January 2017 and the gap between the two dates must be less than 90 days.</li>
 <li>Choose the Unit (the district or police unit) and then the Police Station. Or enter the FIR number if you know it.</li>
-<li>Select how many records to show per page (10 to 50) and read the results list.</li>
+<li>Choose how many records to show per page and read the results.</li>
 </ol>
 <p>Search a few weeks around the dispute. If you see nothing, try nearby police stations.</p>
 <h3>2. Use the Mumbai Police and Pimpri-Chinchwad Police websites</h3>
-<p>The Mumbai Police website lists &#8220;Find and view published FIRs&#8221;, and it opens the same Maharashtra Police portal page. It also links to a search for arrested accused on the portal. Its online complaint page is for reporting a new complaint. It is not a way to check whether a case exists against you. The Pimpri-Chinchwad Police website also lists published FIRs and links to the citizen portal.</p>
+<p>The Mumbai Police website lists &#8220;Find and view published FIRs&#8221;, and it opens the same Maharashtra Police portal page. Its online complaint page is for reporting a new complaint, not for checking whether a case exists against you. The Pimpri-Chinchwad Police website also lists published FIRs and links to the citizen portal.</p>
 <h3>3. Ask the police station in writing</h3>
 <p>A polite written request is a normal and lawful step. Address it to the Senior Police Inspector of the station. Ask whether any FIR or complaint application about you is pending, and request a copy if an FIR exists. Keep the stamped acknowledgement and do not argue the merits.</p>
 <h3>4. Check eCourts once the case reaches court</h3>
@@ -62,7 +62,7 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 <li>Open the FIR from the results list. It opens as a PDF.</li>
 <li>Save and print it. Note the FIR number, date and police station, because any application will need them.</li>
 </ol>
-<p>The copy on the portal is the FIR as published. It may be in Marathi, so get a trusted translation before you decide anything. Sensitive FIRs cannot be downloaded this way.</p>
+<p>The copy is the FIR as published. It may be in Marathi, so get a trusted translation. Sensitive FIRs cannot be downloaded this way.</p>
 <h2>Who is entitled to an FIR copy, and how to apply</h2>
 <ul>
 <li><strong>Complainant or victim:</strong> Section 173(2) BNSS says a copy of the recorded information is given forthwith, free of cost, to the informant or the victim. The old Section 154(2) CrPC named only the informant.</li>
@@ -79,7 +79,7 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 <li><strong>FIR number, year and police station:</strong> The number is a serial for that station and year. Always quote all three together, as the same number can exist at different stations.</li>
 <li><strong>Date and time:</strong> When the information reached the station, and when the offence is said to have happened. The FIR should give a reason for a long gap.</li>
 <li><strong>Act and sections:</strong> Check whether they are bailable or non-bailable and the maximum punishment.</li>
-<li><strong>Complainant and accused:</strong> You may be named, or described only as &#8220;unknown&#8221;.</li>
+<li><strong>Complainant and accused:</strong> You may be named, or called &#8220;unknown&#8221;.</li>
 <li><strong>Place and narrative:</strong> The complainant&#8217;s account of what happened.</li>
 </ul>
 <p>An FIR is only the complainant&#8217;s version. It is not a finding that you did anything.</p>
