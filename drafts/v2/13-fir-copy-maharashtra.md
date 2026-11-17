@@ -8,7 +8,7 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 ---HTML---
 <p><strong>In short:</strong> In Maharashtra, most FIRs are published on the Maharashtra Police citizen portal, where you can search by date, unit and police station and download the FIR as a PDF. The Mumbai Police website and the Pimpri-Chinchwad Police website link to the same portal. Sensitive cases are not published, and uploads are sometimes late. If you find nothing, ask the police station in writing, check eCourts, and take advice before you ignore a notice.</p>
 <h2>What is an FIR, and why you may not be told about it</h2>
-<p>An FIR (First Information Report) is the written record of information about a cognizable offence, such as theft, cheating or assault. It is recorded under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), which replaced Section 154 CrPC on 1 July 2024. For offences before that date, the old CrPC and the Indian Penal Code still apply, so an older FIR will cite IPC sections. Our <a href="/crpc-to-bnss-ipc-to-bns-section-table/">section comparison table</a> helps you read both.</p>
+<p>An FIR (First Information Report) is the written record of information about a cognizable offence, such as theft, cheating or assault. It is recorded under Section 173 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS), which replaced Section 154 CrPC on 1 July 2024. For offences before that date, the old CrPC and the Indian Penal Code still apply, so an older FIR will cite IPC sections. Our <a href="/crpc-to-bnss-ipc-to-bns-section-table/">section table</a> lists both numbers.</p>
 <p>Police do not have to inform the accused that an FIR has been registered. Many people learn of a case only from a notice or a visit. Also, a complaint does not always become an FIR straight away:</p>
 <ul>
 <li><strong>Complaint application:</strong> Often one side gives a written application and the police call both parties. No FIR exists at that stage.</li>
@@ -17,22 +17,22 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 </ul>
 <h2>How to find out if an FIR is registered against you</h2>
 <h3>1. Search the Maharashtra Police citizen portal</h3>
-<p>The portal is run on the CCTNS system (Crime and Criminal Tracking Network and Systems). Its page &#8220;Search &amp; View Published FIR&#8221; is the official place to look for FIRs in Pune City, Pimpri-Chinchwad and Mumbai.</p>
+<p>The portal page &#8220;Search &amp; View Published FIR&#8221; is the official place to look for FIRs in Pune City, Pimpri-Chinchwad and Mumbai.</p>
 <ol>
 <li>Open the <a href="https://citizen.mahapolice.gov.in/citizen/mh/PublishedFIRs.aspx" target="_blank" rel="noopener">Published FIRs page</a> (citizen.mahapolice.gov.in). You can switch the page between English and Marathi.</li>
 <li>Enter Date From and Date To. Both are required. The page says the from-date must be after 1 January 2017 and the gap between the two dates must be less than 90 days.</li>
 <li>Choose the Unit (the district or police unit) and then the Police Station. Or enter the FIR number if you know it.</li>
 <li>Select how many records to show per page (10 to 50) and read the results list.</li>
 </ol>
-<p>Search a few weeks around the dispute, not one day. If you see nothing, try nearby police stations and then the next 90-day window.</p>
+<p>Search a few weeks around the dispute. If you see nothing, try nearby police stations.</p>
 <h3>2. Use the Mumbai Police and Pimpri-Chinchwad Police websites</h3>
 <p>The Mumbai Police website lists &#8220;Find and view published FIRs&#8221;, and it opens the same Maharashtra Police portal page. It also links to a search for arrested accused on the portal. Its online complaint page is for reporting a new complaint. It is not a way to check whether a case exists against you. The Pimpri-Chinchwad Police website also lists published FIRs and links to the citizen portal.</p>
 <h3>3. Ask the police station in writing</h3>
-<p>A polite written request is a normal and lawful step. Address it to the Senior Police Inspector of the station you think holds the complaint. Ask whether any FIR or complaint application concerning you is pending and request a copy if an FIR exists. Submit a hard copy, keep the stamped acknowledgement, and do not argue the merits in the letter.</p>
+<p>A polite written request is a normal and lawful step. Address it to the Senior Police Inspector of the station. Ask whether any FIR or complaint application about you is pending, and request a copy if an FIR exists. Keep the stamped acknowledgement and do not argue the merits.</p>
 <h3>4. Check eCourts once the case reaches court</h3>
-<p>The eCourts services website and app let you search court cases by party name, case registration number, advocate name or CNR number for a court complex, such as the Pune District Court. A criminal case usually appears there only after a charge-sheet is registered or an application is filed. Try different spellings of your name. &#8220;No summons&#8221; does not mean &#8220;no case&#8221;, because summons can be sent to an old address.</p>
+<p>The eCourts services website and app let you search court cases by party name, case registration number, advocate name or CNR number for a court complex, such as the Pune District Court. A criminal case usually appears there only after a charge-sheet is registered or an application is filed. &#8220;No summons&#8221; does not mean &#8220;no case&#8221;, because summons can go to an old address.</p>
 <h2>FIR status: what the portal does and does not show</h2>
-<p>People search &#8220;FIR status&#8221;, but the Published FIRs page shows the FIR as registered. It does not tell you about arrest, investigation, charge-sheet or bail.</p>
+<p>The Published FIRs page shows the FIR as registered. It does not show arrest, investigation, charge-sheet or bail.</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -71,16 +71,16 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 </ul>
 <h2>Why some FIRs are not online</h2>
 <p>In <em>Youth Bar Association of India</em> (decided 7 September 2016), the Supreme Court directed that FIRs be uploaded on the police website within 24 hours of registration. It made exceptions for sensitive cases, with examples such as sexual offences, offences under the POCSO Act, and insurgency or terrorism cases. The Court allowed short extensions where connectivity problems cause delay.</p>
-<p>If a copy is withheld as sensitive, the accused or an authorised person can apply for a certified copy to the court to which the FIR was sent. The Court said it should be supplied within three days of the application. It also allowed a petition to the Superintendent of Police, who is to have a committee of three officers decide it. The Court also said that failure to upload an FIR does not, by itself, entitle a person to anticipatory bail.</p>
-<p>Uploads can also be late. Newspaper reports in 2026 quote activists alleging that some Mumbai police stations upload FIRs ten days to a month late, or not at all. If your FIR is missing, use the written request in step 3 above.</p>
+<p>If a copy is withheld as sensitive, the accused or an authorised person can apply for a certified copy to the court to which the FIR was sent. The Court said it should be supplied within three days. A petition to the Superintendent of Police is also allowed, and a committee of three officers decides it. Failure to upload an FIR does not, by itself, entitle a person to anticipatory bail.</p>
+<p>Uploads can also be late. A 2026 newspaper report quotes activists alleging that some Mumbai stations upload FIRs ten days to a month late, or not at all. If your FIR is missing, use the written request above.</p>
 <h2>What the FIR number and fields mean</h2>
-<p>Police forms differ slightly, but an FIR normally carries these details:</p>
+<p>Forms differ slightly. An FIR normally carries these details:</p>
 <ul>
 <li><strong>FIR number, year and police station:</strong> The number is a serial for that station and year. Always quote all three together, as the same number can exist at different stations.</li>
-<li><strong>Date and time:</strong> When the information reached the station, and when the offence is said to have happened. A long gap is called delay, and the FIR should give a reason for it.</li>
+<li><strong>Date and time:</strong> When the information reached the station, and when the offence is said to have happened. The FIR should give a reason for a long gap.</li>
 <li><strong>Act and sections:</strong> Check whether they are bailable or non-bailable and the maximum punishment.</li>
 <li><strong>Complainant and accused:</strong> You may be named, or described only as &#8220;unknown&#8221;.</li>
-<li><strong>Place of occurrence and narrative:</strong> The complainant&#8217;s story, in the complainant&#8217;s words.</li>
+<li><strong>Place and narrative:</strong> The complainant&#8217;s account of what happened.</li>
 </ul>
 <p>An FIR is only the complainant&#8217;s version. It is not a finding that you did anything.</p>
 <h2>Found an FIR against you: what next</h2>
@@ -89,28 +89,23 @@ FOCUS_KEYWORDS: fir maharashtra, mumbai police fir copy, fir copy online, online
 <li><strong>Do not ignore a police notice.</strong> For offences where arrest is not required, police may issue a <a href="/practice-areas/police-notice-section-35-bnss/">notice under Section 35(3) BNSS (old Section 41A CrPC)</a>. Reply and attend as the notice directs.</li>
 <li><strong>Consider anticipatory bail.</strong> Section 482 BNSS (old Section 438 CrPC) lets a person who has reason to believe they may be arrested for a non-bailable offence apply to the Sessions Court or the High Court. See <a href="/practice-areas/anticipatory-bail/">anticipatory bail</a> and <a href="/how-to-get-anticipatory-bail-pune/">how it is sought in Pune</a>.</li>
 <li><strong>Think about quashing next.</strong> If the FIR is plainly false or a dispute has been settled, <a href="/practice-areas/fir-quashing/">FIR quashing</a> under Section 528 BNSS (old Section 482 CrPC) before the Bombay High Court may be an option. See <a href="/fir-quashing-bombay-high-court-pune/">FIR quashing in the Bombay High Court</a> and <a href="/false-fir-pune-legal-remedies/">remedies against a false FIR</a>.</li>
-<li><strong>Keep your evidence:</strong> chats, emails, payment records and the names of witnesses.</li>
 </ol>
 <h2>Found nothing: should you still act?</h2>
-<p>Possibly. If you have been threatened with a case, or the police have called you, a complaint application may be pending even though no FIR exists. Keep copies of everything that shows your side and note any calls from the police. Anticipatory bail needs a real reason to believe you may be arrested, not a general fear. For an overview, see <a href="/practice-areas/criminal-defence/">criminal defence</a>.</p>
+<p>Possibly. If you have been threatened with a case, or the police have called you, a complaint application may be pending even though no FIR exists. Keep your records and note any calls from the police. Anticipatory bail needs a real reason to believe you may be arrested, not a general fear. See <a href="/practice-areas/criminal-defence/">criminal defence</a>.</p>
 <p>Matters before the Bombay High Court and Mumbai courts are handled, with consultation by phone or video. The office is in Shivajinagar, Pune. If you need advice on your situation, you can contact the office.</p>
 <h2>Frequently asked questions</h2>
 <h3>How do I check if an FIR is registered against me in Maharashtra?</h3>
-<p>Search the Maharashtra Police citizen portal&#8217;s Published FIRs page by date, unit and police station. If nothing shows, ask the police station in writing and check eCourts. Some FIRs, such as sensitive ones, are not published.</p>
+<p>Search the portal&#8217;s Published FIRs page by date, unit and police station. If nothing shows, ask the police station in writing and check eCourts.</p>
 <h3>How do I get a Mumbai Police FIR copy online?</h3>
 <p>The Mumbai Police website links to the Maharashtra Police portal&#8217;s Published FIRs page. Search the date range and police station, then open the FIR as a PDF. If it is not published, apply to the police station or to the court for a certified copy.</p>
 <h3>Why can&#8217;t I find my FIR online?</h3>
 <p>The FIR may be sensitive, the upload may be late, or the date range or police station may be wrong. The search covers less than 90 days at a time. It may also be that only a complaint application exists so far.</p>
-<h3>Is an FIR copy free?</h3>
-<p>The informant or victim gets a free copy under Section 173(2) BNSS. An accused who applies for a certified copy may have to pay the prescribed fee. The portal download costs nothing, as far as the page shows.</p>
 <h3>Where can I check the status of an FIR in Pune?</h3>
 <p>The portal shows the FIR itself, not the investigation status. For progress, ask the investigating officer in writing. After a charge-sheet, check eCourts for the Pune District Court or the relevant Magistrate court.</p>
 <h3>What does the FIR number mean?</h3>
 <p>It is the serial number of the FIR at one police station for one year. Quote it with the police station and year when you apply for a copy or file anything in court.</p>
 <h3>Can I apply for anticipatory bail before an FIR is registered?</h3>
 <p>Yes, if you have reason to believe you may be arrested for a non-bailable offence, for example after a threat, a police call or a notice. Courts look at the facts you show, not just your fear.</p>
-<h3>Will asking the police station about an FIR make things worse?</h3>
-<p>Generally no. A polite written request, often sent through an advocate, is a normal step. It records that you came forward and were willing to cooperate.</p>
 <p><em>This page explains the law in general terms and is not legal advice. Every case depends on its own facts.</em></p>
 ---SOURCES---
 - Maharashtra Police, Search & View Published FIR (fields: Date From, Date To, Unit, Police Station, FIR number; from-date after 1 Jan 2017; gap under 90 days; English/Marathi) — https://citizen.mahapolice.gov.in/citizen/mh/PublishedFIRs.aspx

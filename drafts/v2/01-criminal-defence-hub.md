@@ -9,9 +9,9 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 <p><strong>In short:</strong> A criminal lawyer in Pune advises and appears for a person who is accused of an offence, has received a police notice or has been arrested. The work changes at each stage: before an FIR or notice, at arrest and remand, at bail, after the charge sheet, at trial and on appeal. This page explains each stage, which court in Pune or Mumbai hears it, and what to bring to a first consultation. The office is in Shivajinagar, near the Pune District and Sessions Court.</p>
 
 <h2>What a criminal lawyer in Pune does</h2>
-<p>People search for a criminal lawyer, criminal advocate, crime lawyer or criminal attorney. In Indian courts the person who appears for you is an advocate, enrolled with a State Bar Council. A criminal defence advocate reads the FIR and the papers, explains the sections and the court, and appears for the accused at each hearing.</p>
+<p>People search for a criminal lawyer, criminal advocate, crime lawyer or criminal attorney. In Indian courts the person who appears for you is an advocate, enrolled with a State Bar Council. A criminal defence advocate reads the papers, explains the sections and the court, and appears at each hearing.</p>
 <p>Advocate Akash R. Chikate is enrolled with the Bar Council of Maharashtra &amp; Goa (MAH/4681/2020) and holds B.A. LL.B. and LL.M. degrees. Consultations are in Marathi, Hindi and English.</p>
-<p>Since 1 July 2024 the Bharatiya Nyaya Sanhita (BNS) replaces the IPC, the Bharatiya Nagarik Suraksha Sanhita (BNSS) replaces the CrPC, and the Bharatiya Sakshya Adhiniyam (BSA) replaces the Evidence Act. This page gives new and old section numbers together. A case based on an offence before that date is generally dealt with under the old laws, so the lawyer first checks which code applies. For a full comparison, see the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS and IPC to BNS section table</a>.</p>
+<p>Since 1 July 2024 the Bharatiya Nyaya Sanhita (BNS) replaces the IPC, the Bharatiya Nagarik Suraksha Sanhita (BNSS) replaces the CrPC, and the Bharatiya Sakshya Adhiniyam (BSA) replaces the Evidence Act. Offences before that date are generally dealt with under the old laws, so the lawyer first checks which code applies. This page gives new and old numbers together. See the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS and IPC to BNS section table</a>.</p>
 
 <h2>What a criminal lawyer does at each stage</h2>
 
@@ -26,7 +26,7 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 
 <h3>Arrest and remand</h3>
 <p>After arrest, the police must tell the person the grounds of arrest and the right to bail (Section 47 BNSS, old Section 50 CrPC). They must inform a relative or friend (Section 48, old Section 50A). The arrested person may meet an advocate during interrogation (Section 38, old Section 41D).</p>
-<p>The person must be produced before a Magistrate within 24 hours (Section 58 BNSS, old Section 57 CrPC). The Magistrate decides on remand under Section 187 BNSS (old Section 167 CrPC): police custody, judicial custody, or release. Police custody is limited to 15 days in total. The lawyer appears at this hearing, opposes unnecessary custody and checks that the arrest followed the law. See <a href="/practice-areas/police-custody-remand/">police custody and remand</a>, the difference between <a href="/police-kothadi-nyayalayin-kothadi-farak/">police and judicial custody</a>, and <a href="/rights-when-arrested-india/">your rights when arrested</a>.</p>
+<p>The person must be produced before a Magistrate within 24 hours (Section 58 BNSS, old Section 57 CrPC). The Magistrate decides on remand under Section 187 BNSS (old Section 167 CrPC): police custody, judicial custody, or release. Police custody is limited to 15 days in total. The lawyer appears at this hearing and checks that the arrest followed the law. See <a href="/practice-areas/police-custody-remand/">police custody and remand</a>, the difference between <a href="/police-kothadi-nyayalayin-kothadi-farak/">police and judicial custody</a>, and <a href="/rights-when-arrested-india/">your rights when arrested</a>.</p>
 
 <h3>Bail</h3>
 <p>Bail depends on whether the offence is bailable. For a non-bailable offence, a regular bail application is made under Section 480 BNSS (old Section 437 CrPC) before the Magistrate or Section 483 BNSS (old Section 439 CrPC) before the Sessions Court or High Court. See <a href="/practice-areas/bail-application/">regular bail applications</a> and the <a href="/bail-after-arrest-pune-guide/">bail after arrest guide</a>. Two other routes exist for long custody:</p>
@@ -44,7 +44,7 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 <p>If the court frames a charge (Section 251 or 263 BNSS, old Sections 228 and 240 CrPC), the trial begins. The prosecution leads its witnesses, and the defence cross-examines them. The accused is then examined on the evidence against him (Section 351 BNSS, old Section 313 CrPC). The defence may lead its own evidence. The court hears arguments and delivers judgment. Serious offences such as murder are tried by the Sessions Court; see <a href="/practice-areas/sessions-trial-defence/">Sessions trial defence</a>.</p>
 
 <h3>Appeal</h3>
-<p>A conviction can be challenged. An appeal against a Magistrate's conviction lies to the Sessions Court. An appeal against a Sessions Judge's conviction lies to the Bombay High Court (Section 415 BNSS, old Section 374 CrPC). The appellant can ask the appeal court to suspend the sentence and grant bail while the appeal is pending (Section 430 BNSS, old Section 389 CrPC). Appeals have short time limits, so the judgment should be taken to a lawyer promptly. See <a href="/practice-areas/criminal-appeals-suspension-of-sentence/">criminal appeals and suspension of sentence</a>.</p>
+<p>A conviction can be challenged. An appeal against a Magistrate's conviction lies to the Sessions Court. An appeal against a Sessions Judge's conviction lies to the Bombay High Court (Section 415 BNSS, old Section 374 CrPC). The appellant can ask the appeal court to suspend the sentence and grant bail while the appeal is pending (Section 430 BNSS, old Section 389 CrPC). Appeals have short time limits, so see a lawyer promptly. See <a href="/practice-areas/criminal-appeals-suspension-of-sentence/">criminal appeals and suspension of sentence</a>.</p>
 
 <h2>All criminal defence services in Pune</h2>
 <div class="table-wrap"><table>
@@ -101,7 +101,6 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 </tr>
 </tbody>
 </table></div>
-<p>Each has its own page with the detail. This page is the overview above all of them.</p>
 
 <h2>Which court hears the case: Pune and Mumbai</h2>
 <p>The court depends on the offence and the stage.</p>
@@ -111,7 +110,6 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 <li><strong>Bombay High Court, Mumbai.</strong> It hears bail after the Sessions Court, FIR quashing, criminal appeals and revisions. See below.</li>
 <li><strong>Mumbai courts.</strong> If the FIR is registered in Mumbai, the case goes to the Metropolitan Magistrate courts and the City Civil and Sessions Court in Mumbai, which has a court at Dindoshi for the suburbs. The police station decides which court applies.</li>
 </ul>
-<p>Going to a court at the wrong level wastes time. The first consultation fixes the right court and stage.</p>
 
 <h2>Bombay High Court in Mumbai</h2>
 <p>There is no Pune bench of the Bombay High Court. A matter from Pune is heard at its principal seat in Mumbai. The High Court hears bail after the Sessions Court, anticipatory bail, FIR quashing under Section 528 BNSS, criminal appeals and writ petitions. If you are searching for a high court criminal lawyer, the office also appears there; see the <a href="/bombay-high-court-lawyer-pune/">Bombay High Court criminal lawyer page</a>. The office is in Pune, not Mumbai. Consultation for a Mumbai matter can be by phone or video.</p>
@@ -136,7 +134,6 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 <li>What papers do you need from me, and by when?</li>
 <li>Who will appear at each hearing, and how will I be updated?</li>
 <li>What does the fee cover, and is it agreed in writing? See <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a>.</li>
-<li>What should I avoid doing in the meantime?</li>
 </ul>
 
 <h2>Criminal lawyers near me: Pune and Pimpri-Chinchwad</h2>
@@ -148,7 +145,7 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 
 <h2>Questions people ask about criminal lawyers in Pune</h2>
 <h3>How do I find a criminal lawyer or advocate in Pune?</h3>
-<p>Check that the advocate is enrolled. Each State Bar Council keeps a roll of advocates, and the Bar Council of Maharashtra &amp; Goa keeps the one for Maharashtra. Ask which court your matter is in, whether the advocate appears there, and whether the fee is agreed in writing. Be cautious of anyone who guarantees bail or an outcome.</p>
+<p>Check that the advocate is enrolled. Each State Bar Council keeps a roll of advocates, and the Bar Council of Maharashtra &amp; Goa keeps the one for Maharashtra. Ask which court your matter is in, whether the advocate appears there, and whether the fee is agreed in writing. Be cautious of anyone who guarantees an outcome.</p>
 <h3>Where can I get a list of advocates in Pune?</h3>
 <p>There is no single public list that fits every need. The Bar Council of Maharashtra &amp; Goa holds the official roll of enrolled advocates. For a criminal matter, choose an advocate by the court and stage of your case, and ask for the enrolment number.</p>
 <h3>Which court will hear my case in Pune?</h3>
@@ -171,6 +168,7 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 - Section 187 BNSS, 60 and 90 days, 15 days police custody (and the Karnataka High Court reading of "ten years or more") — https://www.livelaw.in/top-stories/bnss-right-to-default-bail-under-bharatiya-nagarik-suraksha-sanhita-282457
 - Section 479 BNSS (one-half, one-third for first-time offenders, excluded for death or life imprisonment) — https://www.livelaw.in/articles/first-time-offenders-section479-bnss-555262 ; retrospective application: https://livelaw.in/top-stories/supreme-court-allows-benefit-of-section-479-bnss-to-undertrials-in-cases-registered-before-july-1-2024-267487
 - Section 531(2)(a) BNSS, cases pending before 1 July 2024 continue under the CrPC; High Court differences on later applications — https://www.scconline.com/blog/post/2024/08/23/crpc-or-bnss-the-tug-of-war-around-july-1-2024/ ; https://www.lawweb.in/2024/08/bombay-hc-cases-filed-before-july-1.html
+- Section 478 BNSS (old 436), bail in bailable offences — mapping from the correspondence table above.
 - Section 415 BNSS (appeals: Magistrate to Sessions Court, Sessions Judge to High Court) — https://courtbook.in/bnss/section-415 ; https://www.latestlaws.com/bare-acts/central-acts-rules/bnss-section-415-appeals-from-convictions/
 - Sections 482 and 483 BNSS (High Court or Court of Session) — https://www.apnilaw.com/bare-act/bnss/section-482-bharatiya-nagarik-suraksha-sanhita-bnss-direction-for-grant-of-bail-to-person-apprehending-arrest ; https://apnilaw.com/bare-act/bnss/section-483-bharatiya-nagarik-suraksha-sanhita-bnss-special-powers-of-high-court-or-court-of-session-regarding-bail
 - Advocates Act, 1961, Section 17 (State Bar Councils maintain the roll) and Section 29 — https://lawx.in/acts/section/65/585/5682 ; https://lawx.in/acts/section/65/586/5696
@@ -189,8 +187,9 @@ FOCUS_KEYWORDS: criminal lawyer in Pune, criminal lawyers in Pune, criminal advo
 - Mumbai courts: I could confirm the City Civil and Sessions Court in the Old Secretariat building (Fort), a Dindoshi court and Metropolitan Magistrate courts. I could not confirm which police stations fall under which court. The draft says "the police station decides which court applies".
 - Appeal wording: Section 415 BNSS, Magistrate to Sessions Court and Sessions Judge to High Court, is from commentary. Time limits for appeal (Limitation Act, Article 115) conflicted between sources, so the draft gives none. Please check and, if you want, add them.
 - "Police custody is limited to 15 days in total" comes from the correspondence table summary of Section 187(2). Check the exact text, since the table mentions the initial 40 or 60 days.
+- Bailable offences (FAQ on jamanat): "bail is a right" relies on Section 478 BNSS (old Section 436 CrPC), which I confirmed only as a mapping in the correspondence table. Check the wording.
 - Section 531 BNSS: courts differ on bail or quashing applications filed after 1 July 2024 for older FIRs. I have kept the FAQ general and did not name a case. Check the current Bombay High Court position.
-- The live page said Mr. Adv. Vipul Dushing guided the practice and that the advocate has appeared "since 2021". Neither is in BRIEF.md facts, so I removed both. Add back only if you want them and they comply with Rule 36.
+- The live page said the advocate practises under the guidance of Adv. Vipul Dushing and has appeared in courts "since 2021". Neither is in BRIEF.md facts, so I removed both. Add back only if you want them and they comply with Rule 36.
 - The Bombay High Court name: no rename has been enacted as far as I could find (2016 bill). Confirm no change before publication.
 - Family law page link (/practice-areas/family-law-divorce/) was in the live text and is removed here because it is not a criminal service. Re-add if you want it on this page.
 ---PRESERVE---

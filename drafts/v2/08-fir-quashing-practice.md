@@ -3,10 +3,10 @@ KEYWORDS_SERVED: quashing of FIR (2,900, KD10); quash petition (2,400, KD13); qu
 SLUG: fir-quashing
 POST_TITLE: FIR Quashing at the Bombay High Court: Section 528 BNSS
 SEO_TITLE: Quashing of FIR in Bombay High Court | Section 528 BNSS
-META_DESCRIPTION: Quashing of FIR at the Bombay High Court in Mumbai: when it is possible, Section 528 BNSS (old 482 CrPC), grounds, compromise, interim relief and documents.
+META_DESCRIPTION: Quashing of FIR at the Bombay High Court in Mumbai: when it is possible, Section 528 BNSS (old 482 CrPC), grounds, compromise, interim relief.
 FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, Section 528 BNSS, grounds for quashing of FIR
 ---HTML---
-<p><strong>In short:</strong> Quashing of an FIR means asking the Bombay High Court to cancel the FIR and the case that follows from it. The petition is filed under Section 528 BNSS (old Section 482 CrPC) and, often, Article 226 of the Constitution. It is not routine. The High Court allows it only where the FIR discloses no offence, the case is plainly an abuse of process, or a private dispute has genuinely been settled.</p>
+<p><strong>In short:</strong> Quashing of an FIR means asking the Bombay High Court to cancel the FIR and the case that follows from it. The petition is filed under Section 528 BNSS (old Section 482 CrPC) and, often, Article 226 of the Constitution. It is not routine. The court allows it only where the FIR discloses no offence, the case abuses the process of the court, or a private dispute has genuinely been settled.</p>
 
 <h2>What quashing of an FIR means</h2>
 <p>An FIR starts a police investigation. If the police find enough material, they file a chargesheet and a trial follows. Quashing asks the High Court to stop the case before that point, or at any later stage before the trial ends.</p>
@@ -19,9 +19,9 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <p>The office is in Shivajinagar, Pune. Matters before the Bombay High Court and Mumbai courts are handled, and consultation can be by phone or video. For the High Court side of the practice, see <a href="/bombay-high-court-lawyer-pune/">Bombay High Court criminal lawyer</a>.</p>
 
 <h2>Section 528 BNSS (old Section 482 CrPC) and Article 226</h2>
-<p>On 1 July 2024 the BNSS replaced the CrPC. Section 482 CrPC became <strong>Section 528 BNSS</strong>. The wording is the same: nothing in the Sanhita limits the High Court's inherent powers to make orders needed to give effect to any order under it, to prevent abuse of the process of any court, or to secure the ends of justice.</p>
+<p>On 1 July 2024 the BNSS replaced the CrPC. Section 482 CrPC became <strong>Section 528 BNSS</strong>. The wording is the same. Nothing in the Sanhita limits the High Court's inherent powers to make orders that give effect to an order under it, prevent abuse of the process of any court, or secure the ends of justice.</p>
 <p>The section does not give the High Court new powers. It saves powers the court already has. The Supreme Court has also said the High Court does not act as an appeal or revision court when it uses them.</p>
-<p>Petitions are often filed under both Section 528 BNSS and Article 226. This matters at the chargesheet stage. In a September 2025 order arising from a Bombay High Court petition, the Supreme Court said that once a Magistrate has taken cognisance, Article 226 is no longer available. Section 528 BNSS can still be used to quash the FIR, the chargesheet and the order taking cognisance, if that order is placed on record and a strong case is made out.</p>
+<p>Petitions are often filed under both Section 528 BNSS and Article 226. This matters at the chargesheet stage. In a September 2025 order arising from a Bombay High Court petition, the Supreme Court said Article 226 is no longer available once a Magistrate has taken cognisance. Section 528 BNSS can still quash the FIR, the chargesheet and the cognisance order, if that order is on record and a strong case is made out.</p>
 <p>FIRs registered before 1 July 2024 are still investigated under the CrPC, so petitions about them may still cite Section 482 CrPC. The legal tests are the same. Our <a href="/section-482-crpc-section-528-bnss-quashing-fir-bombay-high-court/">guide to Section 482 CrPC and Section 528 BNSS</a> explains the section in detail, and the <a href="/crpc-to-bnss-ipc-to-bns-section-table/">CrPC to BNSS table</a> lists other changed numbers.</p>
 
 <h2>When FIR quashing is available</h2>
@@ -46,12 +46,12 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <li>The case is plainly malicious, filed to take revenge because of a private grudge.</li>
 </ol>
 <p>Categories 2 and 4 refer to Sections 156 and 155 CrPC. The BNSS equivalents are Section 175 and Section 174. A petition succeeds only when the facts fit one of these categories. A general statement of innocence does not.</p>
-<p>The Supreme Court has also warned that quashing should be exercised sparingly and is the exception, not the rule. In <strong>Neeharika Infrastructure Pvt. Ltd. v. State of Maharashtra (2021)</strong>, a three-judge bench said the court should not examine whether the allegations in an FIR are reliable or genuine at this stage.</p>
+<p>The Supreme Court has also warned that quashing should be exercised sparingly and is the exception, not the rule. In <strong>Neeharika Infrastructure Pvt. Ltd. v. State of Maharashtra (2021)</strong>, a three-judge bench said the court should not test whether the FIR's allegations are reliable or genuine.</p>
 
 <h2>Quashing after a compromise or settlement</h2>
-<p>Many petitions come from matrimonial and money disputes that have been settled. Examples are a case under Section 85 BNS (old Section 498A IPC), or a cheating or breach-of-trust case under Section 318(4) or Section 316(2) BNS (old Sections 420 and 406 IPC) that began as a business dispute.</p>
-<p>In <strong>Gian Singh v. State of Punjab (2012)</strong>, the Supreme Court held that the High Court can quash a case on settlement even where the offence is not compoundable under Section 320 CrPC (now Section 359 BNSS). The two powers are different. The court said quashing on settlement is not the same as compounding.</p>
-<p>The court drew a line. Serious offences such as murder and rape cannot be settled this way, and nor can offences of moral turpitude under special statutes such as the Prevention of Corruption Act. But offences that are mainly civil in flavour can be quashed. The court named civil, commercial, financial, partnership and matrimonial or family disputes, where the wrong is basically to the victim and both sides have settled.</p>
+<p>Many petitions come from matrimonial and money disputes that have been settled. Examples are a case under Section 85 BNS (old Section 498A IPC), or a cheating or breach-of-trust case under Section 318(4) or 316(2) BNS (old Sections 420 and 406 IPC).</p>
+<p>In <strong>Gian Singh v. State of Punjab (2012)</strong>, the Supreme Court held that the High Court can quash a case on settlement even where the offence is not compoundable under Section 320 CrPC (now Section 359 BNSS). Quashing on settlement is not the same as compounding.</p>
+<p>The court drew a line. Serious offences such as murder and rape cannot be settled this way. Nor can offences of moral turpitude under special statutes such as the Prevention of Corruption Act. But offences that are mainly civil in flavour can be quashed. The court named civil, commercial, financial, partnership and matrimonial or family disputes, where the wrong is basically to the victim and both sides have settled.</p>
 <p>A settlement is not enough by itself. The court checks that it is genuine, that it covers the dispute, and whether continuing the case would serve any purpose. Each case is judged on its own facts.</p>
 
 <h2>What a quashing petition contains</h2>
@@ -68,8 +68,8 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 
 <h2>Interim protection while the petition is pending</h2>
 <p>Many people file a quashing petition hoping the court will also stop their arrest. The Supreme Court has set limits on this.</p>
-<p>In Neeharika Infrastructure, the Court said an interim order staying the investigation can be passed only with circumspection and not routinely or mechanically. It said that, normally, while an investigation is in progress and the facts are hazy, the High Court should not pass an order of "no coercive steps". The accused should instead apply for anticipatory bail under Section 438 CrPC, now <a href="/practice-areas/anticipatory-bail/">Section 482 BNSS</a>.</p>
-<p>The Court added that where a High Court does grant interim protection, it must give brief reasons and must make clear what "no coercive steps" means. So interim protection is possible, but it is not automatic, and it is argued separately from the final question of quashing.</p>
+<p>In Neeharika Infrastructure, the Court said an interim order staying the investigation can be passed only with circumspection, not routinely or mechanically. Normally, while an investigation is in progress and the facts are hazy, the High Court should not pass an order of "no coercive steps". The accused should instead apply for anticipatory bail under Section 438 CrPC, now <a href="/practice-areas/anticipatory-bail/">Section 482 BNSS</a>.</p>
+<p>Where a High Court does grant interim protection, it must give brief reasons and make clear what "no coercive steps" means. So interim protection is possible, but it is not automatic, and it is argued separately from the final question of quashing.</p>
 
 <h2>Documents to collect</h2>
 <ul>
@@ -84,7 +84,7 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <p>If you do not yet have the FIR, see <a href="/how-to-check-fir-registered-against-you-maharashtra/">how to check an FIR registered against you in Maharashtra</a>.</p>
 
 <h2>How long a quashing petition takes</h2>
-<p>There is no fixed statutory time for deciding a quashing petition, and we have not found an official figure to quote. It depends on the High Court's cause list, whether the State and the complainant file replies, the stage of the case, and whether the matter is argued in full. Treat any promise of a fixed number of weeks or months with caution.</p>
+<p>There is no fixed statutory time for deciding a quashing petition, and no official figure to quote. It depends on the High Court's cause list, replies from the State and complainant, and the stage of the case. Treat any promise of a fixed number of weeks or months with caution.</p>
 <p>If the petition is dismissed, the case continues before the trial court. Bail, discharge and trial defence remain open. See <a href="/practice-areas/sessions-trial-defence/">sessions trial defence</a>.</p>
 
 <h2>Common mistakes to avoid</h2>
@@ -94,7 +94,6 @@ FOCUS_KEYWORDS: quashing of FIR, FIR quashing petition, quashing in High Court, 
 <li><strong>Relying on a weak settlement.</strong> An unsigned, partial or pressured settlement may not be accepted, and serious offences cannot be settled away.</li>
 <li><strong>Arguing disputed facts.</strong> The court does not hold a mini-trial in a quashing petition. Facts that need evidence belong at trial.</li>
 <li><strong>Filing without the papers.</strong> A petition without the FIR, chargesheet and orders is slow to be heard.</li>
-<li><strong>Using Article 226 or Section 528 for every grievance.</strong> Where another remedy fits better, such as discharge or revision, the court may send you there.</li>
 </ul>
 
 <h2>Frequently asked questions</h2>
