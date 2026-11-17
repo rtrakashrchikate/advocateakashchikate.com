@@ -28,7 +28,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <p>The classification below is taken from the First Schedule of the Bharatiya Nagarik Suraksha Sanhita (BNSS), as published in the Gazette of India.</p>
 
 <table>
-<tr><th>Section</th><th>Maximum punishment</th><th>Cognizable?</th><th>Bailable?</th><th>Triable by</th></tr>
+<tr><th>Section</th><th>Punishment</th><th>Cognizable?</th><th>Bailable?</th><th>Triable by</th></tr>
 <tr><td>74 BNS (354 IPC)</td><td>1 to 5 years, and fine</td><td>Yes</td><td>Non-bailable</td><td>Any Magistrate</td></tr>
 <tr><td>75(2) BNS (354A IPC): contact, demand, pornography</td><td>Up to 3 years rigorous imprisonment, or fine, or both</td><td>Yes</td><td>Non-bailable</td><td>Court of Session</td></tr>
 <tr><td>75(3) BNS (354A IPC): remarks</td><td>Up to 1 year, or fine, or both</td><td>Yes</td><td>Non-bailable</td><td>Court of Session</td></tr>
@@ -82,7 +82,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <p>Sections 74 to 78 BNS are not compoundable under Section 359 BNSS (old Section 320 CrPC). The parties cannot simply close them by agreement. Only Section 79 BNS can be compounded, by the woman concerned, with the court's permission.</p>
 
-<p>For the other sections, the only route is a quashing petition in the High Court. Courts treat compromise in sexual offences with caution. In <em>Ramji Lal Bairwa v. State of Rajasthan</em> (2024), the Supreme Court refused to accept a compromise in a case of a teacher accused of molesting a minor student. It repeated the rule from <em>Gian Singh v. State of Punjab</em> (2012): serious offences that affect society cannot be quashed just because the parties have settled.</p>
+<p>For the other sections, a settlement can end the case only through a quashing petition in the High Court. Courts treat compromise in sexual offences with caution. In <em>Ramji Lal Bairwa v. State of Rajasthan</em> (2024), the Supreme Court refused to accept a compromise in a case of a teacher accused of molesting a minor student. It repeated the rule from <em>Gian Singh v. State of Punjab</em> (2012): serious offences that affect society cannot be quashed just because the parties have settled.</p>
 
 <p>Even so, the Bombay High Court has sometimes quashed molestation FIRs after a genuine, purely personal settlement. One example is a 2018 order in a Section 354/509 IPC case from Mumbai. The outcome depends on the facts. Any settlement must be voluntary. Pressuring a complainant can lead to a fresh case and to bail being cancelled.</p>
 
@@ -106,7 +106,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 <ul>
 <li>Do not contact the complainant or her family, directly or through others. It can be treated as intimidation.</li>
 <li>Do not delete chats or photos. Deleted data can often be recovered, and deletion looks like hiding evidence.</li>
-<li>Do not post about the case online. Disclosing a victim's identity in certain cases is an offence under Section 72 BNS.</li>
+<li>Do not post about the case or the complainant online. Such posts can be treated as intimidation and lead to fresh complaints.</li>
 <li>Do not ignore a police notice. Not complying can lead to arrest.</li>
 </ul>
 
@@ -136,7 +136,7 @@ FOCUS_KEYWORDS: 354 ipc case, section 74 bns bailable or not, molestation case p
 
 <p><em>This page explains the law in general terms and is not legal advice. Every case depends on its own facts.</em></p>
 ---SOURCES---
-- The Bharatiya Nyaya Sanhita, 2023 (Gazette of India copy, PRS India) — text and punishments of Sections 72, 74, 75, 76, 77, 78, 79 BNS — https://prsindia.org/files/bills_acts/bills_parliament/2023/The%20Bharatiya%20Nyaya%20Sanhita,%202023.pdf
+- The Bharatiya Nyaya Sanhita, 2023 (Gazette of India copy, PRS India) — text and punishments of Sections 74, 75, 76, 77, 78, 79 BNS — https://prsindia.org/files/bills_acts/bills_parliament/2023/The%20Bharatiya%20Nyaya%20Sanhita,%202023.pdf
 - The Bharatiya Nagarik Suraksha Sanhita, 2023 (Gazette of India copy, PRS India) — First Schedule entries for BNS 74, 75(2), 75(3), 76, 77, 78(2), 79 (pages 161–162); Section 35 (notice and arrest); Section 173(1) proviso (woman officer); Section 183(6)(a) (Magistrate statement); Section 250, 262 (discharge); Section 359(2) table (Section 79 compoundable with court permission); Section 478, 480, 482, 483, 528 — https://prsindia.org/files/bills_acts/bills_parliament/2023/The%20Bharatiya%20Nagarik%20Suraksha%20Sanhita,%202023.pdf
 - BNS–IPC comparative table (Uttar Pradesh Police) — 74 = 354, 75 = 354A, 76 = 354B, 77 = 354C, 78 = 354D, 79 = 509 — https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf
 - BNSS–CrPC comparison summary (Kerala Prisons Department) — 35 = 41 & 41A, 173 = 154, 183 = 164, 250 = 227, 262 = 239, 359 = 320, 478 = 436, 480 = 437, 482 = 438, 483 = 439, 528 = 482 — https://keralaprisons.gov.in/userfiles/act-and-rules/comparison_summary_BNSS_to_CrPC.pdf
