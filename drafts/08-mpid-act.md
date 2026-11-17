@@ -9,18 +9,18 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 <h2>What the MPID Act covers</h2>
 <p>The Act applies to a <strong>"financial establishment"</strong>. Section 2(d) defines this as any person accepting deposits under any scheme or arrangement, or in any other manner. "Person" includes a company, firm or group of people. Government-owned corporations and co-operative societies, and banking companies, are excluded.</p>
 <p>A <strong>"deposit"</strong> under Section 2(c) is very wide. It covers money or valuables received to be returned later, in cash, in kind or as a service, with or without interest, bonus or profit. Some receipts are excluded, such as share capital, partners' capital, bank loans, security deposits, advances for goods, and chit subscriptions.</p>
-<p>The Supreme Court has read these definitions broadly. In <em>State of Maharashtra v. 63 Moons Technologies Ltd.</em> (2022), it held that NSEL was a financial establishment and upheld the attachment of its parent company's property. The Supreme Court had earlier upheld the Act's validity, reversing a 2005 Bombay High Court ruling.</p>
+<p>The Supreme Court reads these definitions broadly. In <em>State of Maharashtra v. 63 Moons Technologies Ltd.</em> (2022), it held NSEL was a financial establishment and upheld attachment of its parent company's property.</p>
 
 <h2>The Section 3 offence: "fraudulent default"</h2>
 <p>Section 3 applies when a financial establishment fraudulently fails to repay a deposit on maturity, with the promised interest or benefit. It also covers a fraudulent failure to give the service promised against the deposit.</p>
 <p>The punishment falls on "every person including the promoter, partner, director, manager or any other person or an employee responsible for the management of or conducting of the business or affairs" of the establishment. On conviction, the Act provides imprisonment up to six years and a fine up to one lakh rupees. The establishment itself can be fined up to one lakh rupees.</p>
-<p>The Explanation to Section 3 says when a default is treated as fraudulent. This includes a default with intent to cause wrongful gain or loss. It also includes a default caused by unrealistic, commercially unviable promises, or by putting deposit money into risky investments. So the prosecution does not always need to prove a direct intention to cheat.</p>
-<p>In July 2026, news reports said the Maharashtra Legislative Assembly passed a bill amending the Act. It brings crypto and other virtual digital assets within "deposit" and limits adjournments. Check the current status before relying on any amended provision.</p>
+<p>The Explanation to Section 3 treats some defaults as fraudulent by law. These include defaults caused by commercially unviable promises, or by putting deposit money into risky investments. So direct intent to cheat is not always needed.</p>
+<p>In July 2026, reports said the Legislative Assembly passed a bill bringing crypto assets within "deposit". Check its current status.</p>
 
 <h2>Attachment of property: Section 4, the Competent Authority and the Designated Court</h2>
 <p>Under Section 4, the State Government can attach money or property bought from the deposits. This happens on depositors' complaints, or where it believes the establishment is acting to defraud depositors. If that money or property is not available, the property of the establishment or of its promoters, directors, partners, managers or members can be attached.</p>
 <p>The Government appoints a <strong>Competent Authority</strong> under Section 5. That officer must apply to the Designated Court to confirm the attachment. Under Section 7, the court issues a show cause notice to the person whose property is attached and to others with an interest. It then decides objections by a summary procedure. It can make the attachment absolute, release part of the property, or cancel it. An appeal is provided under Section 11.</p>
-<p>This attachment case runs alongside the criminal case. Family members who own property in their own name, from their own income, should file objections with proof in time.</p>
+<p>This runs alongside the criminal case. Family members who bought property from their own income should object in time, with proof.</p>
 
 <h2>Who investigates, and which BNS sections are added</h2>
 <p>In Pune city, many large deposit and investment fraud cases are investigated by the <strong>Economic Offences Wing (EOW) of Pune Police</strong>. Some FIRs are first registered at a local police station and later transferred to the EOW. Read our guide on <a href="/eow-economic-offence-wing-pune-summons/">EOW Pune summons and questioning</a>.</p>
@@ -37,8 +37,8 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 
 <h2>What happens next: the usual stages</h2>
 <ol>
-<li><strong>Complaints and FIR.</strong> Depositors complain, often in groups. An FIR is registered under the MPID Act and BNS.</li>
-<li><strong>Investigation.</strong> Police collect bank records, deposit receipts and investor lists. They may issue notices or make arrests.</li>
+<li><strong>FIR.</strong> Depositors complain, often in groups, and an FIR is registered.</li>
+<li><strong>Investigation.</strong> Police collect bank records and investor lists, and may issue notices or arrest.</li>
 <li><strong>Remand.</strong> Arrested persons are produced before the Special MPID Court for police or judicial custody.</li>
 <li><strong>Attachment.</strong> The State may notify attachment of properties, and the Competent Authority applies to the Designated Court.</li>
 <li><strong>Chargesheet.</strong> If it is not filed within the period under Section 187(3) BNSS (old Section 167(2) CrPC), the accused can claim <a href="/practice-areas/default-bail-undertrial-release/">default bail</a>. The period is 60 or 90 days, depending on the offences.</li>
@@ -58,7 +58,7 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 <h3>Do repayment plans or deposits help bail?</h3>
 <p>Many families offer to repay depositors to get bail. Be careful. In <em>Ramesh Kumar v. State (NCT of Delhi)</em> (2023), the Supreme Court said a payment condition can create an impression that bail can be bought. It said such conditions may be considered only in exceptional cases involving public money.</p>
 <p>In <em>Gajanan Dattatray Gore v. State of Maharashtra</em> (2025), the Supreme Court directed courts not to grant bail only on an undertaking to deposit money. Bail must be decided on merits. In that case, bail was cancelled because the accused did not pay what he had promised.</p>
-<p>A genuine repayment record can still help show good faith and help the attachment process. But never promise an amount the family cannot actually pay.</p>
+<p>Genuine repayments can still show good faith. But never promise an amount the family cannot pay.</p>
 
 <h2>Are agents and employees treated differently?</h2>
 <p>Section 3 reaches employees and other persons "responsible for the management of or conducting of the business". An agent's real role and control therefore matters. But being "only an agent" is not an automatic defence.</p>
@@ -67,7 +67,7 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 <li>In <em>Anandrao Prakash Ghorpade v. State of Maharashtra</em> (2024), applicants said they were only agents and had invested their own money. The High Court still refused anticipatory bail because the FIR showed they had induced investors.</li>
 <li>In <em>Jayesh Dedhia v. State of Maharashtra</em> (2020), the High Court held that accepting deposits personally or through one's entities falls within the MPID Act. An offer to pay did not secure anticipatory bail.</li>
 </ul>
-<p>An agent's defence usually rests on documents: commission statements, the absence of signing authority, and proof that money went straight to the company's account. Also see <a href="/investment-fraud-trading-app-scam-pune/">investment fraud cases in Pune</a>.</p>
+<p>An agent's defence usually rests on documents: commission statements, no signing authority, and money paid straight to the company. Also see <a href="/investment-fraud-trading-app-scam-pune/">investment fraud cases in Pune</a>.</p>
 
 <h2>Documents to collect</h2>
 <ul>
@@ -80,7 +80,7 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 </ul>
 
 <h2>Realistic time</h2>
-<p>No fixed timeline can be given. Bail hearings, investigation and trial vary with the number of depositors, accused persons and court workload. The attachment proceedings also run on their own track. Ask for an estimate for your stage at consultation.</p>
+<p>No fixed timeline can be given. It varies with the number of depositors and accused, and with court workload.</p>
 
 <h2>Mistakes to avoid</h2>
 <ul>
@@ -92,12 +92,10 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 </ul>
 
 <h2>Frequently asked questions</h2>
-<h3>What is the punishment under MPID Act Section 3?</h3>
-<p>On conviction, up to six years' imprisonment and a fine up to one lakh rupees. The establishment can also be fined. Connected BNS sections such as 316(5) can carry higher punishment.</p>
 <h3>Where is the MPID court in Pune?</h3>
 <p>The Special MPID Court sits at the Shivajinagar court complex, which houses the Pune District and Sessions Court. Check the exact courtroom on the eCourts website or the cause list.</p>
 <h3>MPID case me anticipatory bail milti hai kya?</h3>
-<p>Yes, an anticipatory bail application can be filed under Section 482 BNSS (old 438 CrPC). The MPID Act does not bar bail. Courts decide on facts, so it is not automatic. Also read about <a href="/anticipatory-bail-conditions-pune/">anticipatory bail conditions</a>.</p>
+<p>Yes, an application can be filed under Section 482 BNSS (old 438 CrPC). The MPID Act does not bar bail, but it is not automatic. Courts decide on the facts.</p>
 <h3>Can my family's property be attached in an MPID case?</h3>
 <p>Property bought from deposit money can be attached even if it is in another person's name. Property of promoters, directors and partners can also be attached. A family member who bought property from their own income can object before the Designated Court.</p>
 <h3>Can I get bail if I repay the depositors?</h3>
@@ -105,9 +103,9 @@ FOCUS_KEYWORDS: mpid act case pune, mpid act anticipatory bail, mpid court pune,
 <h3>I was only an agent who got commission. Am I liable?</h3>
 <p>It depends on your role. Courts have granted bail to an employee with no control, and refused it to agents who induced investors. Your records and role decide the outcome.</p>
 <h3>Can an MPID case be quashed?</h3>
-<p>A petition can be filed in the Bombay High Court if the facts do not disclose an offence. It is decided case by case. See our page on <a href="/practice-areas/eow-financial-crimes-defence/">EOW and financial crimes defence</a>.</p>
+<p>A petition can be filed in the Bombay High Court if the facts disclose no offence. See our page on <a href="/practice-areas/eow-financial-crimes-defence/">EOW and financial crimes defence</a>.</p>
 
-<p>Fees depend on the court and stage, and are agreed at consultation. See <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a>. If you need advice on your situation, you can contact the office.</p>
+<p>Fees depend on court and stage. See <a href="/criminal-lawyer-fees-pune/">criminal lawyer fees in Pune</a>. If you need advice on your situation, you can contact the office.</p>
 <p><em>This page explains the law in general terms and is not legal advice. Every case depends on its own facts.</em></p>
 ---SOURCES---
 - MPID Act, 1999 (official text, India Code) — https://www.indiacode.nic.in/handle/123456789/16377
