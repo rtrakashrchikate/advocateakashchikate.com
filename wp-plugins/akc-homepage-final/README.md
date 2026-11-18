@@ -1,6 +1,6 @@
 # AKC homepage, final version
 
-Status: built and tested locally against a saved copy of the live homepage. NOT deployed.
+Status: DEPLOYED 18 Nov 2026 as Code Snippet id 13 "AKC Homepage final (Nov 2026)". Companion snippet id 12 "AKC Homepage title and description sync" makes the homepage title and sharing tags follow the Rank Math fields on page 2551. Revert: deactivate the snippet(s).
 
 What it replaces: everything from the hero to just before "Areas We Serve" (hero, courts bar, about, stats, services,
 why, process, blog). The areas block, the consultation form (Contact Form 7), the footer and the floating buttons stay as
