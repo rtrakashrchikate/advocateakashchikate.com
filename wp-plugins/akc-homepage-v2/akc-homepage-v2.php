@@ -156,9 +156,9 @@ AKC_HERO_HTML;
 .hero2 .h2-lede{max-width:33em; margin:18px 0 26px; font:400 clamp(1rem,1.22vw,1.16rem)/1.72 'Inter',system-ui,sans-serif; color:rgba(255,255,255,.82)}
 
 .hero2 .h2-actions{display:flex; flex-wrap:wrap; gap:14px; margin:0}
-.hero2 .h2-find{display:inline-flex; align-items:center; gap:10px; margin-top:24px; padding-bottom:3px; font:500 .95rem/1.3 'Inter',system-ui,sans-serif; color:var(--gl); text-decoration:none; border-bottom:1px solid rgba(232,195,85,.4); transition:border-color .25s,gap .25s}
+.hero2 .h2-find{display:inline-flex; align-items:center; gap:10px; margin-top:24px; font:500 .95rem/1.3 'Inter',system-ui,sans-serif; color:var(--gl); text-decoration:underline; text-decoration-color:rgba(232,195,85,.4); text-decoration-thickness:1px; text-underline-offset:.4em; transition:text-decoration-color .25s,gap .25s}
 .hero2 .h2-find span{display:inline-block; animation:h2nudge 1.8s ease-in-out infinite}
-.hero2 .h2-find:hover{border-color:var(--gl); gap:14px}
+.hero2 .h2-find:hover{text-decoration-color:var(--gl); gap:14px}
 @keyframes h2nudge{50%{transform:translateY(4px)}}
 
 .hero2 .h2-facts{list-style:none; display:flex; flex-wrap:wrap; gap:16px 34px; margin:30px 0 0; padding:20px 0 0; border-top:1px solid rgba(255,255,255,.13)}
@@ -185,14 +185,20 @@ AKC_HERO_HTML;
 
 /* load-in sequence */
 .hero2 .h2-copy > *{opacity:0; transform:translateY(18px); animation:h2up .8s cubic-bezier(.2,.7,.2,1) forwards}
-.hero2 .h2-copy > :nth-child(1){animation-delay:.05s}
-.hero2 .h2-copy > :nth-child(2){animation-delay:.14s}
-.hero2 .h2-copy > :nth-child(3){animation-delay:.24s}
-.hero2 .h2-copy > :nth-child(4){animation-delay:.34s}
-.hero2 .h2-copy > :nth-child(5){animation-delay:.44s}
-.hero2 .h2-copy > :nth-child(6){animation-delay:.54s}
-.hero2 .h2-copy > :nth-child(7){animation-delay:.62s}
-.hero2 .h2-copy > :nth-child(8){animation-delay:.72s}
+.hero2 .h2-copy{--stagger:.09s}
+@supports (animation-delay: calc(sibling-index() * 0.1s)) {
+  .hero2 .h2-copy > *{animation-delay:calc(sibling-index() * var(--stagger))}
+}
+@supports not (animation-delay: calc(sibling-index() * 0.1s)) {
+  .hero2 .h2-copy > :nth-child(1){animation-delay:.05s}
+  .hero2 .h2-copy > :nth-child(2){animation-delay:.14s}
+  .hero2 .h2-copy > :nth-child(3){animation-delay:.24s}
+  .hero2 .h2-copy > :nth-child(4){animation-delay:.34s}
+  .hero2 .h2-copy > :nth-child(5){animation-delay:.44s}
+  .hero2 .h2-copy > :nth-child(6){animation-delay:.54s}
+  .hero2 .h2-copy > :nth-child(7){animation-delay:.62s}
+  .hero2 .h2-copy > :nth-child(8){animation-delay:.72s}
+}
 .hero2 .h2-portrait{opacity:0; animation:h2rise 1.1s .25s cubic-bezier(.2,.7,.2,1) forwards}
 @keyframes h2up{to{opacity:1; transform:none}}
 @keyframes h2rise{from{opacity:0; transform:translateY(34px) scale(.985)} to{opacity:1; transform:none}}
@@ -224,10 +230,15 @@ AKC_HERO_HTML;
 
 .sit2-more{display:flex; flex-wrap:wrap; align-items:center; gap:10px 22px; margin:clamp(30px,4vw,46px) 0 0; padding-top:24px; border-top:1px solid rgba(13,27,62,.12); font:400 .92rem/1.4 'Inter',system-ui,sans-serif; color:#4b5563}
 .sit2-more span{font-weight:600; color:var(--n)}
-.sit2-more a{color:var(--n); text-decoration:none; border-bottom:1px solid rgba(201,160,48,.6); padding-bottom:2px; transition:color .2s,border-color .2s}
-.sit2-more a:hover{color:#a07820; border-color:#a07820}
+.sit2-more a{color:var(--n); text-decoration:underline; text-decoration-color:rgba(201,160,48,.6); text-decoration-thickness:1px; text-underline-offset:.3em; transition:color .2s,text-decoration-color .2s}
+.sit2-more a:hover{color:#a07820; text-decoration-color:#a07820}
 
-/* scroll reveal (only when JS adds .h2-js) */
+/* scroll reveal: CSS scroll-driven animation where supported */
+@supports (animation-timeline: view()) {
+  .sit2-card{animation:sit2-in linear both; animation-timeline:view(); animation-range:entry 4% entry 38%}
+  @keyframes sit2-in{from{opacity:0; transform:translateY(26px)}}
+}
+/* fallback (only when JS adds .h2-js because scroll-driven animations are unsupported) */
 .h2-js .sit2-card{opacity:0; transform:translateY(24px)}
 .h2-js .sit2-card.is-in{opacity:1; transform:none; transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .35s}
 .h2-js .sit2-card.is-in:hover{transform:translateY(-6px)}
@@ -306,7 +317,7 @@ AKC_CSS;
   /* Scroll reveal for the situation cards. Cards stay visible if JS or IntersectionObserver is missing. */
   try {
     var cards = document.querySelectorAll('.sit2-card');
-    if (cards.length && 'IntersectionObserver' in window &&
+    if (cards.length && 'IntersectionObserver' in window && !(window.CSS && CSS.supports && CSS.supports('animation-timeline: view()')) &&
         !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
       root.classList.add('h2-js');
       var io = new IntersectionObserver(function (entries) {

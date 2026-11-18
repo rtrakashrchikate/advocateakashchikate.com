@@ -35,7 +35,7 @@
   /* Scroll reveal for the situation cards. Cards stay visible if JS or IntersectionObserver is missing. */
   try {
     var cards = document.querySelectorAll('.sit2-card');
-    if (cards.length && 'IntersectionObserver' in window &&
+    if (cards.length && 'IntersectionObserver' in window && !(window.CSS && CSS.supports && CSS.supports('animation-timeline: view()')) &&
         !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) {
       root.classList.add('h2-js');
       var io = new IntersectionObserver(function (entries) {
