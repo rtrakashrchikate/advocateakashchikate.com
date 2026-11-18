@@ -1,0 +1,46 @@
+[
+  {
+    "q": "Which court hears an anticipatory bail application from Pune?",
+    "a": "The application can be made to the Sessions Court in Pune or to the Bombay High Court in Mumbai. If the Sessions Court refuses, a fresh application can be made to the High Court. The provision is Section 482 BNSS, which replaced Section 438 CrPC."
+  },
+  {
+    "q": "Is there a Pune bench of the Bombay High Court?",
+    "a": "No. The Bombay High Court sits at its principal seat in Mumbai, and bail, quashing and appeal matters from Pune are heard there. First-stage bail and trial matters are heard in the Pune courts."
+  },
+  {
+    "q": "What is the difference between anticipatory bail and regular bail?",
+    "a": "Anticipatory bail (Section 482 BNSS, old 438 CrPC) is sought before arrest, so that a person is released on bail if arrested. Regular bail is sought after arrest: from the Magistrate under Section 480 BNSS (old 437 CrPC), or from the Sessions Court or High Court under Section 483 BNSS (old 439 CrPC)."
+  },
+  {
+    "q": "A police notice under Section 35 BNSS has come. Does that mean I will be arrested?",
+    "a": "Not by itself. A Section 35 BNSS notice (old Section 41A CrPC) asks a person to appear before the police, in a case where arrest is not required. The notice should be read carefully and complied with, and advice on the next step is sensible.",
+    "link": [
+      "Read about the police notice",
+      "https://advocateakashchikate.com/practice-areas/police-notice-section-35-bnss/"
+    ]
+  },
+  {
+    "q": "How can I check whether an FIR has been registered against me in Maharashtra?",
+    "a": "Published FIRs can be searched on the Maharashtra Police citizen portal by police station and date. Sensitive FIRs are not published, so the police station can also confirm whether one exists.",
+    "link": [
+      "How to check an FIR in Maharashtra",
+      "https://advocateakashchikate.com/how-to-check-fir-registered-against-you-maharashtra/"
+    ]
+  },
+  {
+    "q": "In which languages and where are consultations held?",
+    "a": "Marathi, Hindi and English. Consultations are held in person at the Shivajinagar office near the Pune District and Sessions Court, by phone or on video. The Pimple Gurav office is by appointment."
+  },
+  {
+    "q": "When is the office open?",
+    "a": "Monday to Saturday, 10 AM to 7 PM. You can call 84119 82241 or message on WhatsApp at 86984 00302. A message sent outside these hours is read when the office opens."
+  },
+  {
+    "q": "Where are Bombay High Court matters heard, and can I consult from Mumbai?",
+    "a": "The Bombay High Court sits in Mumbai, and bail, anticipatory bail, FIR quashing and criminal appeals from Pune are heard there. The office is in Pune, and a consultation can be by phone or video if you are in Mumbai.",
+    "link": [
+      "Bombay High Court matters",
+      "https://advocateakashchikate.com/bombay-high-court-lawyer-pune/"
+    ]
+  }
+]
