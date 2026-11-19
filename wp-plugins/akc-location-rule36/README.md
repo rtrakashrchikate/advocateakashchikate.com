@@ -1,5 +1,7 @@
 # AKC location pages: Rule 36 wording
 
+STATUS 19 Nov 2026 (later): snippet 15 DEACTIVATED and the 11 pages restored to their original text at the owner's direction. Homepage snippet 13 now has AKC_HOME_COPY_FIXES set to false.
+
 Deployed 19 Nov 2026 as Code Snippet id 15 "AKC Location pages Rule 36 wording (Nov 2026)". Front-end, location_page posts only.
 Rewrites fixed phrases the theme template prints ("10+/6+ Years Experience", "Available for Bail Emergencies",
 "Call Now - Available 24/7", "Fast Response ... same day", "first consultation is free", "Need a Lawyer in X?").
