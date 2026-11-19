@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@500;600;700&family=Noto+Sans+Devanagari:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1730;--gold:#c9a227;--gold2:#e4c35c;--ink:#f6f1e4;--mute:#c3cad8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:1200px;overflow:hidden;background:var(--navy)}
+.c{position:relative;width:1200px;height:1200px;overflow:hidden;font-family:Inter,sans-serif;color:var(--ink)}
+.ph{position:absolute;inset:0;overflow:hidden}
+.ph img{position:absolute;display:block}
+.shade{position:absolute;inset:0;background:
+ linear-gradient(180deg,rgba(11,23,48,.35) 0%,rgba(11,23,48,0) 18%,rgba(11,23,48,0) 34%,rgba(11,23,48,.62) 50%,rgba(11,23,48,.9) 62%,rgba(11,23,48,.97) 74%,#0b1730 100%),
+ radial-gradient(120% 90% at 50% 30%,rgba(0,0,0,0) 55%,rgba(5,10,24,.55) 100%)}
+.frame{position:absolute;inset:36px;border:1.5px solid rgba(228,195,92,.5);border-radius:20px;pointer-events:none}
+.brand{position:absolute;left:84px;top:84px;display:flex;align-items:center;gap:14px;font-size:22px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold2);text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.brand i{display:grid;place-items:center;width:54px;height:54px;border-radius:50%;border:1.5px solid var(--gold2);font-style:normal;font-family:'Playfair Display',serif;font-size:22px;letter-spacing:0;background:rgba(11,23,48,.55)}
+.txt{position:absolute;left:84px;right:84px;bottom:214px}
+.eyebrow{display:flex;align-items:center;gap:16px;font-size:26px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--gold2)}
+.eyebrow:before{content:"";width:56px;height:2px;background:var(--gold)}
+h1{margin-top:22px;max-width:1030px;font-family:'Playfair Display',serif;font-weight:700;font-size:var(--fs,104px);line-height:1.04;letter-spacing:-.5px;text-wrap:balance;text-shadow:0 4px 24px rgba(0,0,0,.5)}
+.row{margin-top:30px;display:flex;flex-wrap:wrap;align-items:center;gap:18px 26px}
+.sec{display:inline-block;padding:12px 26px;border:1.5px solid rgba(228,195,92,.75);border-radius:999px;font-size:32px;font-weight:600;color:#fff;background:rgba(201,162,39,.14);white-space:nowrap}
+.tag{font-family:'Noto Sans Devanagari',Inter,sans-serif;font-size:36px;font-weight:600;color:var(--gold2)}
+.foot{position:absolute;left:84px;right:84px;bottom:84px;display:flex;align-items:flex-end;justify-content:space-between;padding-top:26px;border-top:1.5px solid rgba(228,195,92,.42)}
+.who b{display:block;font-family:'Playfair Display',serif;font-size:36px;font-weight:700}
+.who span{display:block;margin-top:6px;font-size:21px;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);font-weight:600}
+.site{text-align:right;font-size:23px;color:var(--mute);line-height:1.45}
+.site b{color:var(--ink);font-weight:600;font-size:26px}
+</style></head><body>
+<div class="c">
+ <div class="ph"><img id="im" alt=""></div>
+ <div class="shade"></div>
+ <div class="frame"></div>
+ <div class="txt">
+  <div class="eyebrow" id="eb"></div>
+  <h1 id="t"></h1>
+  <div class="row"><div class="sec" id="s"></div><div class="tag" id="g"></div></div>
+ </div>
+ <div class="foot">
+  <div class="who"><b>Adv. Akash R. Chikate</b><span>Criminal Lawyer · Pune</span></div>
+  <div class="site">Shivajinagar, Pune<br><b>advocateakashchikate.com</b></div>
+ </div>
+</div>
+<script>
+async function fill(p){
+ const im=document.getElementById('im');const cr=p.crop||{l:0,t:0,s:1};const W=1200/cr.s;
+ im.style.width=W+'px';im.style.height=W+'px';im.style.left=(-cr.l*W)+'px';im.style.top=(-cr.t*W)+'px';
+ im.src=p.img;await im.decode();
+ document.getElementById('eb').textContent=p.eyebrow;document.getElementById('t').textContent=p.title;
+ document.getElementById('s').textContent=p.sec;document.getElementById('g').textContent=p.tag;
+ const h=document.getElementById('t');let fs=112;h.style.setProperty('--fs',fs+'px');
+ while((h.scrollHeight>2*fs*1.04+6||h.scrollWidth>1032)&&fs>60){fs-=4;h.style.setProperty('--fs',fs+'px')}
+ const s=document.getElementById('s');let ss=32;while(s.scrollWidth>1032&&ss>20){ss-=1;s.style.fontSize=ss+'px'}
+}
+</script>
+</body></html>
