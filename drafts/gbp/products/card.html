@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@500;600;700&family=Noto+Sans+Devanagari:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1730;--navy2:#13264a;--gold:#c9a227;--gold2:#e4c35c;--ink:#f4efe2;--mute:#b9c2d3}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1200px;height:1200px;overflow:hidden;background:var(--navy)}
+.c{position:relative;width:1200px;height:1200px;font-family:Inter,sans-serif;color:var(--ink);
+ background:radial-gradient(110% 80% at 80% 0%,#1d3a70 0%,var(--navy2) 40%,var(--navy) 78%)}
+.grain{position:absolute;inset:0;opacity:.07;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:3px 3px}
+svg.arch{position:absolute;left:50%;top:70px;transform:translateX(-50%);width:880px;height:900px}
+.frame{position:absolute;inset:36px;border:1.5px solid rgba(201,162,39,.45);border-radius:22px}
+.mid{position:absolute;left:100px;right:100px;top:140px;bottom:232px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:28px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--gold2)}
+.eyebrow:before,.eyebrow:after{content:"";width:46px;height:2px;background:var(--gold)}
+h1{margin-top:40px;max-width:960px;text-wrap:balance;font-family:'Playfair Display',serif;font-weight:700;font-size:var(--fs,104px);line-height:1.04;letter-spacing:-.5px}
+.sec{margin:40px auto 0;display:inline-block;padding:14px 28px;border:1.5px solid rgba(201,162,39,.7);border-radius:999px;font-size:38px;font-weight:600;color:#fff;background:rgba(201,162,39,.1)}
+.tag{margin-top:30px;font-family:'Noto Sans Devanagari',Inter,sans-serif;font-size:42px;font-weight:600;color:var(--gold2)}
+.foot{position:absolute;left:84px;right:84px;bottom:84px;display:flex;align-items:center;gap:24px;padding-top:30px;border-top:1.5px solid rgba(201,162,39,.4)}
+.foot img{width:104px;height:104px;border-radius:50%;object-fit:cover;object-position:50% 20%;border:2px solid var(--gold)}
+.who b{display:block;font-family:'Playfair Display',serif;font-size:36px}
+.who span{display:block;margin-top:4px;font-size:22px;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);font-weight:600}
+.site{margin-left:auto;text-align:right;font-size:24px;color:var(--mute);line-height:1.4}
+.site b{color:var(--ink);font-weight:600}
+</style></head><body>
+<div class="c">
+ <div class="grain"></div>
+ <svg class="arch" viewBox="0 0 600 620" fill="none" stroke="#c9a227" stroke-width="1.2">
+  <path opacity=".36" d="M20 620V300a280 280 0 0 1 560 0v320"/>
+  <path opacity=".2" d="M70 620V300a230 230 0 0 1 460 0v320"/>
+ </svg>
+ <div class="frame"></div>
+ <div class="mid">
+  <div class="eyebrow" id="eb"></div>
+  <h1 id="t"></h1>
+  <div class="sec" id="s"></div>
+  <div class="tag" id="g"></div>
+ </div>
+ <div class="foot">
+  <img src="portrait.webp" alt="">
+  <div class="who"><b>Adv. Akash R. Chikate</b><span>Criminal Lawyer · Pune</span></div>
+  <div class="site">Shivajinagar, Pune<br><b>advocateakashchikate.com</b></div>
+ </div>
+</div>
+<script>
+function fill(p){document.getElementById('eb').textContent=p.eyebrow;document.getElementById('t').textContent=p.title;
+ document.getElementById('s').textContent=p.sec;document.getElementById('g').textContent=p.tag;
+ const h=document.getElementById('t');let fs=150;h.style.setProperty('--fs',fs+'px');
+ while((h.scrollHeight>2*fs*1.06+4||h.scrollWidth>960)&&fs>64){fs-=4;h.style.setProperty('--fs',fs+'px')}
+ const s=document.getElementById('s');let ss=38;while(s.scrollWidth>980&&ss>20){ss-=1;s.style.fontSize=ss+'px'}}
+</script>
+</body></html>
