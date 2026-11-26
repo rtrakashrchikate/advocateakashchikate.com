@@ -1,0 +1,202 @@
+<title>Pune Defence Search Research</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column (max 860px) of findings, then wide scrollable tables; brief style, chambers palette (navy, brass). */
+:root{
+  --bg:#f4f6fa; --surface:#ffffff; --fg:#13203a; --muted:#56627a; --line:#dde2ec;
+  --accent:#8a6b0e; --accent-soft:#f3ecd6; --navy:#0b1730;
+  --me:#1f5fae; --me-soft:#e4eefb; --you:#8a4b0e; --you-soft:#f7eadb;
+  --good:#1d7a4a; --warn:#a45b00; --bad:#b3261e;
+  --display:'Playfair Display',Georgia,'Times New Roman',serif;
+  --body:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Noto Sans Devanagari',sans-serif;
+  --deva:'Noto Sans Devanagari',Inter,system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1730; --surface:#12223f; --fg:#eef1f7; --muted:#a9b4c9; --line:#25365a;
+  --accent:#e4c35c; --accent-soft:#2a2a1c; --navy:#060f22;
+  --me:#8db8ef; --me-soft:#16305a; --you:#f0b57a; --you-soft:#3a2614;
+  --good:#6fd39b; --warn:#f2b45a; --bad:#ff8a80; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1730; --surface:#12223f; --fg:#eef1f7; --muted:#a9b4c9; --line:#25365a;
+  --accent:#e4c35c; --accent-soft:#2a2a1c; --navy:#060f22;
+  --me:#8db8ef; --me-soft:#16305a; --you:#f0b57a; --you-soft:#3a2614;
+  --good:#6fd39b; --warn:#f2b45a; --bad:#ff8a80; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{border-bottom:2px solid var(--accent);padding-bottom:22px;margin-bottom:8px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.1;margin:10px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-size:clamp(24px,4.6vw,30px);line-height:1.2;margin:48px 0 6px;text-wrap:balance}
+h3{font-size:17px;margin:26px 0 6px}
+p{margin:10px 0}
+.lede{font-size:18px;color:var(--muted);max-width:65ch}
+.meta{font-size:13px;color:var(--muted)}
+.deva{font-family:var(--deva)}
+a{color:var(--me)}
+.kicker{color:var(--muted);margin-top:0;max-width:65ch}
+/* findings */
+.findings{display:grid;gap:14px;margin-top:18px}
+.finding{display:grid;grid-template-columns:auto 1fr;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.finding .n{font-family:var(--display);font-size:28px;line-height:1;color:var(--accent);min-width:1.2em}
+.finding b{display:block;font-size:17px;margin-bottom:2px}
+.finding p{margin:4px 0 0;color:var(--muted)}
+.finding > div{min-width:0}
+/* tables */
+.tbl{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.q{font-style:normal;color:var(--fg)}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;letter-spacing:.02em}
+.p-gap{background:color-mix(in srgb,var(--bad) 14%,transparent);color:var(--bad)}
+.p-part{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}
+.p-ok{background:color-mix(in srgb,var(--good) 14%,transparent);color:var(--good)}
+.who{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:6px;white-space:nowrap}
+.w-me{background:var(--me-soft);color:var(--me)}
+.w-you{background:var(--you-soft);color:var(--you)}
+/* plan */
+.phase{margin-top:22px}
+.phase h3{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
+.phase h3 span{font-size:12px;font-weight:600;color:var(--muted)}
+ol.steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:s}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:2.2em 1fr;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+ol.steps li::before{content:counter(s);font-family:var(--display);font-size:20px;color:var(--accent);line-height:1.2}
+ol.steps li > div{min-width:0}
+ol.steps b{font-size:15.5px}
+ol.steps p{margin:4px 0 0;color:var(--muted);font-size:14.5px}
+.quote{border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:12px 0;color:var(--fg)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;min-width:0}
+.box h3{margin-top:0}
+.box ul{margin:6px 0 0;padding-left:18px}
+.box li{margin:4px 0}
+.decide{background:var(--accent-soft);border:1px solid var(--accent);border-radius:10px;padding:16px 18px;margin-top:16px}
+.decide h3{margin-top:0}
+.legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:8px}
+footer{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+footer ul{padding-left:18px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Research · 26 November 2026 · free sources only</div>
+  <h1>Pune Defence Search Research</h1>
+  <p class="lede">What people in Pune search when they need bail, anticipatory bail or FIR quashing, what worries them, how competing lawyers win those searches, and what we do next for advocateakashchikate.com.</p>
+  <p class="meta">Sources: your Google Search Console (last 90 days), 2,474 Google search-suggestion lookups in English, Hindi and Marathi (5,738 phrases kept), about 60 forum searches with 24 threads read (LawRato, LawyersClubIndia, Kaanoon, Quora headings), and a teardown of 10 competitor websites.</p>
+</header>
+
+<h2>What we found</h2>
+<p class="kicker">Five findings decide the plan.</p>
+<div class="findings">
+  <div class="finding"><div class="n">1</div><div><b>Fee and "how many days" searches are your closest-to-hiring traffic, and you already rank for them.</b><p>"fir quashing fees" and similar phrases sent your quashing guide about 600 Google views in 90 days at position about 6, but only 4 clicks. The page appears but does not answer the cost question in the search result. Hindi phrases like <span class="deva">अग्रिम जमानत में कितना पैसा लगता है</span> and <span class="deva">हाई कोर्ट से जमानत कितने दिन में होती है</span> (184 views) have no page of their own.</p></div></div>
+  <div class="finding"><div class="n">2</div><div><b>Your hiring pages don't say "lawyer".</b><p>Your anticipatory bail page is titled "Anticipatory Bail in Pune: Meaning, Process, Section 482" and the quashing page "Quashing of FIR in Bombay High Court". Competitors that rank use "Anticipatory Bail Lawyer in Pune". You are at about 31 for "anticipatory bail lawyer pune" and about 36 for "criminal lawyer in pune".</p></div></div>
+  <div class="finding"><div class="n">3</div><div><b>Reviews and directory listings are the gap, not content.</b><p>The strongest local competitor shows "5.0 on Google · 351+ reviews" on every page; you have 20 and show them nowhere on your site. Directories (mostly LawRato) hold most page-1 places for "criminal lawyer Pune" type searches, and we could not find you on LawRato, RestTheCase or ThreeBestRated.</p></div></div>
+  <div class="finding"><div class="n">4</div><div><b>Two large groups of searches have no good page anywhere on your site.</b><p>Bank accounts frozen by cyber police (60+ distress phrases such as "account freeze ho gaya kya kare", "kitne din me khulta hai", freeze application format) and Pune courts (260+ phrases: which court hears a police station's cases, Shivajinagar and Morwadi court timings, case status).</p></div></div>
+  <div class="finding"><div class="n">5</div><div><b>Clients search with old section numbers and fear unclear fees.</b><p>Forum posters write "41A", "498a 406 34", "420/120b", not BNS numbers. Their most common complaints about lawyers: no clear fee, advance taken with no work, no copy of orders, missed dates. Trust words in reviews: "explained every document", "calm", "command over bail law".</p></div></div>
+</div>
+
+<h2>What people search</h2>
+<p class="kicker">Lead-heavy searches by topic, in the words people type. "Status" compares them with your current pages.</p>
+<div class="legend"><span class="pill p-gap">No page</span><span class="pill p-part">Partly covered</span><span class="pill p-ok">Covered, needs strengthening</span></div>
+<div class="tbl"><table>
+<thead><tr><th>Topic</th><th>Searches people type</th><th>Your evidence</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>FIR quashing: fees and time</td><td>fir quashing fees · quash petition cost · 498a quashing fees · high court quashing fees · quash petition time period</td><td class="num">~600 views, pos ~6, 4 clicks</td><td><span class="pill p-part">Partly covered</span></td></tr>
+<tr><td>Anticipatory bail: cost and days</td><td>anticipatory bail me kitna paisa lagta hai · <span class="deva">अग्रिम जमानत में कितना पैसा लगता है</span> · anticipatory bail kitne din me milta hai · lawyer fees for anticipatory bail</td><td class="num">~250 views</td><td><span class="pill p-part">Partly covered</span></td></tr>
+<tr><td>High Court bail: how many days</td><td><span class="deva">हाई कोर्ट से जमानत कितने दिन में होती है</span> · high court se jamanat kitne din · how many days for bail in high court</td><td class="num">184 views for one phrase</td><td><span class="pill p-gap">No page</span></td></tr>
+<tr><td>Bank account frozen by cyber police</td><td>bank account freeze kaise hataye · account freeze ho gaya kya kare · kitne din me khulta hai · freeze application format · by cyber crime how to unfreeze SBI</td><td class="num">60+ phrases in suggestions</td><td><span class="pill p-gap">No page</span> one English blog only</td></tr>
+<tr><td>Pune courts guide</td><td>which court for my police station · pune district court timings · shivajinagar court case status · morwadi court pimpri timings · khadki court · pimpri chinchwad district court jurisdiction</td><td class="num">260+ phrases</td><td><span class="pill p-gap">No page</span></td></tr>
+<tr><td>Hiring: criminal lawyer</td><td>criminal lawyer in pune · criminal advocate in pune · criminal lawyer fees in pune · criminal lawyer in pimpri chinchwad · criminal lawyers pune shivaji nagar</td><td class="num">pos 24 to 39</td><td><span class="pill p-ok">Covered</span></td></tr>
+<tr><td>Anticipatory bail lawyer</td><td>anticipatory bail lawyer pune · anticipatory bail advocate pune · pre arrest bail lawyer pune</td><td class="num">pos ~31</td><td><span class="pill p-ok">Covered</span></td></tr>
+<tr><td>Cyber crime lawyer</td><td>cyber crime lawyer in pune · cyber crime advocate pune · lawyer for cyber crime near me</td><td class="num">pos ~36</td><td><span class="pill p-ok">Covered</span></td></tr>
+<tr><td>Quashing on settlement</td><td>quashing fir on compromise · 498a quashing petition on compromise · compromise deed format</td><td class="num">in suggestions</td><td><span class="pill p-gap">No page</span></td></tr>
+<tr><td>498A in Hindi</td><td><span class="deva">दहेज केस में अग्रिम जमानत</span> · 498a case kitne din chalta hai · 498a case fees</td><td class="num">in suggestions</td><td><span class="pill p-gap">No Hindi page</span></td></tr>
+<tr><td>Police notice 35(3) / 41A</td><td>41a notice · police notice ka jawab kaise de · section 35 3 bnss notice format</td><td class="num">in suggestions</td><td><span class="pill p-ok">Covered</span></td></tr>
+<tr><td>New area pages</td><td>criminal lawyer in wagholi · advocate in kharadi · lawyer in pimple gurav</td><td class="num">in suggestions</td><td><span class="pill p-gap">No page</span></td></tr>
+</tbody></table></div>
+<p class="meta">Google's suggestions show that a phrase is a real, repeated search but give no monthly counts. Priority comes from the intent of the phrase plus your own Search Console numbers.</p>
+
+<h2>What clients worry about</h2>
+<p class="kicker">From public legal Q&amp;A forums. Reddit could not be read from this environment, so these come from LawRato, LawyersClubIndia, Kaanoon and Quora question titles. Most posters were outside Pune.</p>
+<div class="two">
+  <div class="box"><h3>What makes them search right now</h3><ul>
+    <li>Police keep phoning, but no written notice has come.</li>
+    <li>A 41A / 35(3) notice arrived, though "my name is not in the FIR".</li>
+    <li>Called to the Bharosa Cell or women's cell for counselling.</li>
+    <li>The wife's complaint names parents and sister too.</li>
+    <li>An NRI has just landed and fears arrest; job, visa or passport at risk.</li>
+    <li>Bank account frozen with no notice; the bank only says "police".</li>
+    <li>Sessions court rejected anticipatory bail: "will I be arrested on the spot?"</li>
+  </ul></div>
+  <div class="box"><h3>What they say about lawyers</h3><ul>
+    <li>The fee was never stated clearly, or grew later.</li>
+    <li>Advance paid, nothing done for months.</li>
+    <li>No copy of the order; missed hearing dates.</li>
+    <li>Fear of "money for the judge or police" demands.</li>
+    <li>Trust comes from being explained every document, calmness, and clear command of bail law.</li>
+  </ul></div>
+</div>
+<div class="quote">Forum fee figures (anecdotal, mostly 2016 to 2024): anticipatory bail most often ₹20,000 to ₹50,000; Bombay High Court quashing from about ₹40,000 to ₹50,000, some up to ₹1.5 lakh. Recent Bombay High Court quashing orders after settlement have also imposed costs on the parties.</div>
+
+<h2>How competitors win</h2>
+<p class="kicker">Ranking checks used a general web-search index, not Google India, so ads and the Google map results could not be seen.</p>
+<div class="tbl"><table>
+<thead><tr><th>Competitor</th><th>What they do that you don't</th></tr></thead>
+<tbody>
+<tr><td><b>LawRato</b> (directory)</td><td>Holds most page-1 places for "criminal lawyer Pune" style searches, including a Shivajinagar page. Listing for lawyers is free; clients contact lawyers through it.</td></tr>
+<tr><td><b>Indrajit Dongre &amp; Associates</b>, Kasba Peth</td><td>"5.0 on Google · 351+ reviews" on every page; anonymised recent outcomes; "Replies within 2 hours"; consultations in Marathi, Hindi and English; Pune court guides; page titles "Criminal Lawyer in Pune".</td></tr>
+<tr><td><b>Adv. Vikram Sawant Inamdar</b>, Shivajinagar</td><td>No website, yet appears for 6 of 20 hiring searches through listings on Justia, LawRato, RestTheCase (English, Hindi, Marathi) and several free profile sites.</td></tr>
+<tr><td><b>Adv. Aashuutosh Srivastava</b>, Camp</td><td>YouTube channel with videos on the site; news-style posts about bail orders he argued.</td></tr>
+<tr><td><b>Trident Legal</b>, Katraj</td><td>Owns cyber crime: one 3,800-word "Cybercrime Lawyer in Pune" page and 570 blog posts.</td></tr>
+<tr><td><b>Dhende Associates</b>, Gokhalenagar</td><td>Free calculators (stamp duty, accident claim, cheque-bounce limitation) that attract links; a WhatsApp enquiry form.</td></tr>
+<tr><td><b>Upadhye &amp; Associates</b>, Sadashiv Peth</td><td>Top Justdial listing for criminal lawyers in Sadashiv Peth.</td></tr>
+</tbody></table></div>
+<p class="meta">Not worth copying: phone numbers in page titles, thousands of auto-generated city pages, and self-written star ratings in page code. Google treats these as spam.</p>
+
+<h2>The plan</h2>
+<p class="kicker">Ranked by expected leads per hour of work.</p>
+<div class="legend"><span class="who w-me">I do</span> on your website and profile · <span class="who w-you">You do</span> needs your phone, OTP or decision</div>
+
+<div class="phase"><h3>This week <span>quick, high impact</span></h3>
+<ol class="steps">
+  <li><div><b><span class="who w-me">I do</span> Put "lawyer" in your hiring pages' Google titles and headings</b><p>Anticipatory Bail Lawyer in Pune · FIR Quashing Lawyer, Bombay High Court · Cyber Crime Lawyer in Pune · 498A Lawyer in Pune · Criminal Lawyer in Pune (homepage). The explanatory wording stays in the page body.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> Show your Google rating and your 11 Bombay High Court results</b><p>A "5.0 on Google · 20 reviews" line linking to your profile, near the top of every page, and your recent case results on the homepage and matching service pages. Your 11 case results exist but are hard to find.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> Answer the fee and timing question on the quashing guide</b><p>A short section at the top: what decides the cost (stage, number of hearings, court fees, costs the High Court may order after settlement) and how long it usually takes, with a call and WhatsApp box. This page already gets about 600 fee searches every 90 days.</p></div></li>
+  <li><div><b><span class="who w-you">You do</span> Ask for reviews</b><p>Use the QR card and WhatsApp messages. Target: 50 reviews by mid-January.</p></div></li>
+  <li><div><b><span class="who w-you">You do</span> Create a free LawRato profile</b><p>lawrato.com/lawyer-signup. Choose Shivajinagar and the District Court as your locality, and criminal, anticipatory bail, cyber, 498A, NDPS and High Court as practice areas. I can write the profile text for you to paste.</p></div></li>
+</ol></div>
+
+<div class="phase"><h3>Next 2 to 3 weeks <span>new pages for unserved searches</span></h3>
+<ol class="steps">
+  <li><div><b><span class="who w-me">I do</span> Bank account frozen by cyber police</b><p>English, Hindi and Hinglish, with the steps to get it released and an application format. The largest unserved group of urgent searches.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> Pune courts guide</b><p>Which court hears cases from each police station (Shivajinagar, Morwadi/Pimpri, Khadki, special MCOCA and POCSO courts), timings, how to check case status. A natural page for links and for your Business Profile.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> High Court bail: how many days (Hindi, with English version)</b><p>Answers <span class="deva">हाई कोर्ट से जमानत कितने दिन में होती है</span> and the anticipatory bail cost and time questions in Hindi.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> Pages for the worries clients actually write</b><p>"Police are calling but no notice has come", "Sessions court rejected anticipatory bail: what next", "Whole family named in a 498A: anticipatory bail for everyone", "NRI facing a 498A in Pune", "Quashing after settlement".</p></div></li>
+  <li><div><b><span class="who w-you">You do</span> RestTheCase and ThreeBestRated listings; complete your Justdial listing</b><p>Free sign-ups with OTP. I will prepare the exact name, address, phone, description and services so every listing matches your Google profile.</p></div></li>
+</ol></div>
+
+<div class="phase"><h3>This month and after <span>build authority</span></h3>
+<ol class="steps">
+  <li><div><b><span class="who w-me">I do</span> Wagholi, Kharadi and Pimple Gurav area pages</b><p>The three areas with search evidence and no page.</p></div></li>
+  <li><div><b><span class="who w-me">I do</span> A free old-to-new section converter (IPC to BNS, CrPC to BNSS)</b><p>People search by old numbers. A free tool earns links, and your "103 BNS" pages already show this demand.</p></div></li>
+  <li><div><b><span class="who w-you">You do</span> One 60-second video a week</b><p>Your answer to one real question from this research. Upload to YouTube with the question as the title; I add it to the matching page.</p></div></li>
+</ol></div>
+
+<div class="decide"><h3>Your decision: publish fee ranges or not</h3>
+<p>Fee searches are your highest-intent traffic, and an unclear fee is clients' most common complaint about lawyers. You told me earlier you prefer not to state your price. The plan above explains what decides the cost without quoting your fee. If you want, we can add "fees discussed in writing before work starts" as a promise, which answers the trust concern without a number.</p></div>
+
+<footer>
+  <b>Limits of this research</b>
+  <ul>
+    <li>No search volumes: Google suggestions confirm real searches but not how many.</li>
+    <li>Reddit, Google and Bing results could not be read from this environment; competitor rankings come from a general search index, and Google ads and map results were not visible. Checking 5 searches by hand in an incognito window from Shivajinagar would fill that gap.</li>
+    <li>Forum posts were mostly from outside Pune and fee figures are anecdotal.</li>
+  </ul>
+  <p>Full working files (5,738-phrase list, competitor teardown, client-question notes) are saved with the website project.</p>
+</footer>
+</div>
