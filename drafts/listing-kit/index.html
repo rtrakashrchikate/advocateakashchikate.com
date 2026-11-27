@@ -1,0 +1,209 @@
+<title>Directory Listing Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap">
+<style>
+/* Layout: one phone-first column of copy-ready fields (label, text, copy button), then a site checklist with per-site tracked links. Chambers palette: navy and brass. */
+:root{
+  --bg:#f3f5f9; --card:#ffffff; --fg:#14203a; --muted:#5a6680; --line:#dce2ec;
+  --brass:#8a6b0e; --brass-soft:#f4edd8; --navy:#0b1730; --ok:#1d7a4a; --ok-soft:#e3f3ea;
+  --display:'Playfair Display',Georgia,serif;
+  --body:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --deva:'Noto Sans Devanagari',Inter,system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1730; --card:#12223f; --fg:#eef1f7; --muted:#aab5ca; --line:#26385c;
+  --brass:#e4c35c; --brass-soft:#2b2a1d; --navy:#050d1f; --ok:#73d6a0; --ok-soft:#163626; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1730; --card:#12223f; --fg:#eef1f7; --muted:#aab5ca; --line:#26385c;
+  --brass:#e4c35c; --brass-soft:#2b2a1d; --navy:#050d1f; --ok:#73d6a0; --ok-soft:#163626; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:780px;margin:0 auto;padding-block:26px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{border-bottom:2px solid var(--brass);padding-bottom:18px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brass)}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,42px);line-height:1.1;margin:8px 0 10px;text-wrap:balance}
+h2{font-family:var(--display);font-size:clamp(22px,4.4vw,28px);margin:40px 0 4px;text-wrap:balance}
+.lede{color:var(--muted);margin:0;max-width:62ch}
+.rules{margin:16px 0 0;padding:14px 16px;background:var(--brass-soft);border:1px solid var(--brass);border-radius:10px;font-size:15px}
+.rules b{display:block;margin-bottom:4px}
+.rules ul{margin:4px 0 0;padding-left:18px}
+.kicker{color:var(--muted);margin:0 0 12px}
+.fields{display:grid;gap:10px}
+.field{display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.field > div{min-width:0}
+.label{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.val{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:3px}
+.val.deva,.deva{font-family:var(--deva)}
+.meta{font-size:12.5px;color:var(--muted);margin-top:4px}
+button.copy{font:600 13px var(--body);color:var(--navy);background:var(--brass);border:0;border-radius:7px;padding:8px 12px;cursor:pointer;white-space:nowrap}
+:root[data-theme="dark"] button.copy{color:#0b1730}
+button.copy:focus-visible,.tab:focus-visible,.done:focus-within{outline:3px solid var(--brass);outline-offset:2px}
+button.copy.ok{background:var(--ok);color:#fff}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+.tab{font:600 14px var(--body);border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 14px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--navy);color:#f3e7c4;border-color:var(--navy)}
+:root[data-theme="dark"] .tab[aria-selected="true"]{background:var(--brass);color:#0b1730;border-color:var(--brass)}
+.sites{display:grid;gap:10px}
+.site{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px}
+.site.is-done{border-color:var(--ok);background:var(--ok-soft)}
+.site-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.site-top b{font-size:16px}
+.pri{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--brass-soft);color:var(--brass);letter-spacing:.04em}
+.done{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:13.5px;font-weight:600;color:var(--muted)}
+.done input{width:18px;height:18px;accent-color:var(--ok)}
+.site p{margin:0;color:var(--muted);font-size:14.5px}
+.site a{color:var(--fg);font-weight:600}
+.linkrow{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
+.linkrow code{font-size:12.5px;overflow-wrap:anywhere;color:var(--muted)}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Adv. Akash R. Chikate · Shivajinagar, Pune</div>
+  <h1>Directory Listing Kit</h1>
+  <p class="lede">Everything you need to create a profile on legal and local directories. Tap Copy next to a field, paste it into the site, then tick the site off below.</p>
+  <div class="rules"><b>Three rules for every listing</b>
+    <ul>
+      <li>Copy the name, address and phone exactly as written here. Google compares them across sites.</li>
+      <li>Use the tracked website link given for each site, so leads from it show in your analytics.</li>
+      <li>Choose "Criminal Lawyer" or "Lawyers &amp; Advocates" as the category, and Pune / Shivajinagar as the location.</li>
+    </ul></div>
+</header>
+
+<h2>Core details</h2>
+<p class="kicker">Same on every site.</p>
+<div class="fields">
+  <div class="field"><div><div class="label">Business name</div><div class="val">Advocate Akash Chikate</div><div class="meta">If the site asks for a firm name: Advocate Akash R. Chikate &amp; Associates</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Person name</div><div class="val">Akash R. Chikate</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Address (main office)</div><div class="val">Office No. 202-203, Second Floor, Ekbote Complex, Above Dr. Gajanan Ekbote Hospital, Revenue Colony, Shivajinagar, Pune, Maharashtra 411005</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Address line 1 / line 2 / city / PIN</div><div class="val">Office No. 202-203, Second Floor, Ekbote Complex
+Above Dr. Gajanan Ekbote Hospital, Revenue Colony, Shivajinagar
+Pune · Maharashtra · 411005</div><div class="meta">For forms with separate fields.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Phone</div><div class="val">+91 84119 82241</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">WhatsApp</div><div class="val">+91 86984 00302</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Website (plain)</div><div class="val">https://advocateakashchikate.com/</div><div class="meta">Prefer the tracked link listed with each site below.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Office hours</div><div class="val">Monday to Saturday, 10:00 AM to 7:00 PM. Sunday closed.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Bar enrolment</div><div class="val">Bar Council of Maharashtra &amp; Goa, Enrolment No. MAH/4681/2020</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Education</div><div class="val">B.A. LL.B.; LL.M. (Science &amp; Technology Laws), Department of Law, Savitribai Phule Pune University; Diploma in Cyber Laws</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Courts</div><div class="val">Pune District and Sessions Court, Shivajinagar; Bombay High Court, Mumbai</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Languages</div><div class="val">English, Hindi, Marathi</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Practising since</div><div class="val">2021</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Second office (only if the site allows two)</div><div class="val">B-701, Ravikaran Heights, Shivdatta Nagar, Pimple Gurav, Pune, Maharashtra 411061 (by appointment)</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Google profile</div><div class="val">https://www.google.com/maps?cid=2771672946981232004</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">LinkedIn · Facebook · X</div><div class="val">https://www.linkedin.com/in/advocateakashchikate
+https://www.facebook.com/advakashchikate
+https://x.com/advakashchikate</div></div><button class="copy" type="button">Copy</button></div>
+</div>
+
+<h2>Descriptions</h2>
+<p class="kicker">Pick the length the site allows. Use English by default; add Hindi or Marathi where the site has a field for it.</p>
+<div class="tabs" role="tablist" aria-label="Description language">
+  <button class="tab" role="tab" id="tab-en" aria-selected="true" data-lang="en" type="button">English</button>
+  <button class="tab" role="tab" id="tab-hi" aria-selected="false" data-lang="hi" type="button">हिंदी</button>
+  <button class="tab" role="tab" id="tab-mr" aria-selected="false" data-lang="mr" type="button">मराठी</button>
+</div>
+
+<div class="fields" data-pane="en">
+  <div class="field"><div><div class="label">Short · tagline</div><div class="val">Criminal defence advocate in Shivajinagar, Pune: anticipatory bail, bail, FIR quashing at the Bombay High Court, trials and appeals. English, Hindi, Marathi.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Medium · profile summary</div><div class="val">Advocate Akash R. Chikate is a criminal defence lawyer based in Shivajinagar, Pune, enrolled with the Bar Council of Maharashtra &amp; Goa (MAH/4681/2020). He handles anticipatory bail, regular bail, FIR quashing and criminal appeals before the Pune District and Sessions Court and the Bombay High Court, along with cases under MCOCA, MPID, NDPS, POCSO, Section 498A and cyber crime. Consultations in English, Hindi and Marathi. Office hours: Monday to Saturday, 10 am to 7 pm.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Long · about / bio</div><div class="val">Advocate Akash R. Chikate is a criminal defence lawyer with his main office in Shivajinagar, Pune, close to the Pune District and Sessions Court. He is enrolled with the Bar Council of Maharashtra &amp; Goa (MAH/4681/2020) and holds a B.A. LL.B. and an LL.M. in Science &amp; Technology Laws from Savitribai Phule Pune University, with a Diploma in Cyber Laws.
+
+His practice covers anticipatory bail and regular bail, police notices under Section 35 BNSS, police custody and remand hearings, default bail, discharge applications, sessions trials, criminal appeals and suspension of sentence, and FIR quashing petitions at the Bombay High Court. He also handles cases under MCOCA, the MPID Act and EOW investigations, NDPS, POCSO, the SC/ST Act, Section 498A / Section 85 BNS, cheque bounce and cyber crime, including bank accounts frozen by cyber police.
+
+Clients come from across Pune and Pimpri-Chinchwad; a second office at Pimple Gurav is open by appointment. Consultations are in English, Hindi and Marathi. Office hours: Monday to Saturday, 10 am to 7 pm.</div></div><button class="copy" type="button">Copy</button></div>
+</div>
+
+<div class="fields" data-pane="hi" hidden>
+  <div class="field"><div><div class="label">छोटा</div><div class="val deva">शिवाजीनगर, पुणे के क्रिमिनल डिफेंस वकील: अग्रिम जमानत, जमानत, बॉम्बे हाई कोर्ट में FIR रद्द (quashing), ट्रायल और अपील। हिंदी, मराठी, अंग्रेज़ी में सलाह।</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">मध्यम</div><div class="val deva">एडवोकेट आकाश आर. चिकटे शिवाजीनगर, पुणे के क्रिमिनल डिफेंस वकील हैं (बार काउंसिल ऑफ महाराष्ट्र एंड गोवा, नामांकन MAH/4681/2020)। वे पुणे जिला एवं सत्र न्यायालय और बॉम्बे हाई कोर्ट में अग्रिम जमानत, नियमित जमानत, FIR रद्द (quashing) और आपराधिक अपील के मामले देखते हैं, साथ ही MCOCA, MPID, NDPS, POCSO, धारा 498A और साइबर अपराध के मामले भी। सलाह हिंदी, मराठी और अंग्रेज़ी में। कार्यालय समय: सोमवार से शनिवार, सुबह 10 से शाम 7 बजे।</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">लंबा</div><div class="val deva">एडवोकेट आकाश आर. चिकटे क्रिमिनल डिफेंस वकील हैं। उनका मुख्य कार्यालय शिवाजीनगर, पुणे में, पुणे जिला एवं सत्र न्यायालय के पास है। वे बार काउंसिल ऑफ महाराष्ट्र एंड गोवा में नामांकित हैं (MAH/4681/2020) और सावित्रीबाई फुले पुणे विश्वविद्यालय से B.A. LL.B. तथा LL.M. (Science &amp; Technology Laws) हैं, साथ में साइबर लॉ में डिप्लोमा।
+
+वे अग्रिम जमानत और नियमित जमानत, धारा 35 BNSS के पुलिस नोटिस, पुलिस कस्टडी और रिमांड, डिफ़ॉल्ट जमानत, डिस्चार्ज अर्जी, सेशन ट्रायल, आपराधिक अपील और सज़ा निलंबन, तथा बॉम्बे हाई कोर्ट में FIR रद्द करने की याचिकाओं के मामले देखते हैं। MCOCA, MPID और EOW जांच, NDPS, POCSO, SC/ST एक्ट, धारा 498A / धारा 85 BNS, चेक बाउंस और साइबर अपराध के मामले भी, जिनमें साइबर पुलिस द्वारा फ़्रीज़ किए गए बैंक खाते शामिल हैं।
+
+पुणे और पिंपरी-चिंचवड़ से क्लाइंट आते हैं; पिंपले गुरव में दूसरा कार्यालय अपॉइंटमेंट पर खुला है। सलाह हिंदी, मराठी और अंग्रेज़ी में। कार्यालय समय: सोमवार से शनिवार, सुबह 10 से शाम 7 बजे।</div></div><button class="copy" type="button">Copy</button></div>
+</div>
+
+<div class="fields" data-pane="mr" hidden>
+  <div class="field"><div><div class="label">लहान</div><div class="val deva">शिवाजीनगर, पुणे येथील फौजदारी वकील: अटकपूर्व जामीन, जामीन, मुंबई उच्च न्यायालयात एफआयआर रद्द (quashing), खटले आणि अपील. मराठी, हिंदी, इंग्रजीत सल्ला.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">मध्यम</div><div class="val deva">अ‍ॅड. आकाश आर. चिकटे हे शिवाजीनगर, पुणे येथील फौजदारी (क्रिमिनल) वकील आहेत (बार कौन्सिल ऑफ महाराष्ट्र अँड गोवा, नोंदणी क्र. MAH/4681/2020). पुणे जिल्हा व सत्र न्यायालय आणि मुंबई उच्च न्यायालयात ते अटकपूर्व जामीन, नियमित जामीन, एफआयआर रद्द (quashing) आणि फौजदारी अपील यांची प्रकरणे हाताळतात; तसेच मकोका (MCOCA), एमपीआयडी, एनडीपीएस, पॉक्सो, कलम 498A आणि सायबर गुन्ह्यांची प्रकरणे. सल्ला मराठी, हिंदी आणि इंग्रजीत. कार्यालयीन वेळ: सोमवार ते शनिवार, सकाळी 10 ते सायंकाळी 7.</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">मोठे</div><div class="val deva">अ‍ॅड. आकाश आर. चिकटे हे फौजदारी वकील असून त्यांचे मुख्य कार्यालय शिवाजीनगर, पुणे येथे, पुणे जिल्हा व सत्र न्यायालयाजवळ आहे. ते बार कौन्सिल ऑफ महाराष्ट्र अँड गोवा येथे नोंदणीकृत आहेत (MAH/4681/2020). त्यांनी सावित्रीबाई फुले पुणे विद्यापीठातून B.A. LL.B. आणि LL.M. (Science &amp; Technology Laws) केले असून सायबर कायद्यातील डिप्लोमाही केला आहे.
+
+अटकपूर्व जामीन व नियमित जामीन, कलम 35 BNSS च्या पोलीस नोटिसा, पोलीस कोठडी व रिमांड, डिफॉल्ट जामीन, दोषमुक्ती अर्ज, सत्र खटले, फौजदारी अपील व शिक्षा स्थगिती, आणि मुंबई उच्च न्यायालयात एफआयआर रद्द करण्याच्या याचिका ही त्यांची प्रमुख कामे आहेत. मकोका, एमपीआयडी व आर्थिक गुन्हे शाखेचे (EOW) तपास, एनडीपीएस, पॉक्सो, अ‍ॅट्रॉसिटी कायदा, कलम 498A / कलम 85 BNS, चेक बाउन्स आणि सायबर गुन्हे, ज्यात सायबर पोलिसांनी गोठवलेली बँक खातीही येतात, अशी प्रकरणेही ते हाताळतात.
+
+पुणे आणि पिंपरी-चिंचवड परिसरातील क्लायंट येतात; पिंपळे गुरव येथील दुसरे कार्यालय पूर्वनियोजित भेटीसाठी उपलब्ध आहे. सल्ला मराठी, हिंदी आणि इंग्रजीत. कार्यालयीन वेळ: सोमवार ते शनिवार, सकाळी 10 ते सायंकाळी 7.</div></div><button class="copy" type="button">Copy</button></div>
+</div>
+
+<h2>Services and keywords</h2>
+<div class="fields">
+  <div class="field"><div><div class="label">Services list (comma separated)</div><div class="val">Anticipatory Bail, Bail Application, FIR Quashing (Bombay High Court), Criminal Trial Defence, Criminal Appeals and Suspension of Sentence, Default Bail, Police Notice (Section 35 BNSS / 41A CrPC), Police Custody and Remand, 498A / Dowry Case Defence, MCOCA Defence, MPID and EOW Cases, NDPS Drug Case Defence, POCSO Case Defence, Cyber Crime and Bank Account Freeze, SC/ST Atrocities Act Defence, Cheque Bounce (Section 138 NI Act), Discharge Application, Mutual Consent Divorce</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Categories to pick</div><div class="val">Criminal Lawyer; Lawyers &amp; Advocates; Bail Lawyer; High Court Lawyer; Cyber Crime Lawyer; Divorce Lawyer (secondary)</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Keywords / tags</div><div class="val">criminal lawyer Pune, criminal advocate Shivajinagar, anticipatory bail lawyer Pune, bail lawyer Pune, FIR quashing Bombay High Court, 498A lawyer Pune, MCOCA lawyer Pune, cyber crime lawyer Pune, Pune District Court advocate</div></div><button class="copy" type="button">Copy</button></div>
+  <div class="field"><div><div class="label">Areas served</div><div class="val">Pune, Shivajinagar, Pimpri-Chinchwad, Pimple Gurav, Wakad, Hinjewadi, Baner, Aundh, Kothrud, Hadapsar, Viman Nagar, Yerawada, Pune Camp, Mumbai (Bombay High Court)</div></div><button class="copy" type="button">Copy</button></div>
+</div>
+
+<h2>Sites to list on</h2>
+<p class="kicker">In order. Signup pages were not all checked, so on each site look for "Add listing", "List your business" or "Lawyer signup". Ticks are saved on this device only.</p>
+<div class="sites" id="sites"></div>
+
+<footer>
+  Built 28 November 2026 from your Google Business Profile, website and the competitor backlink review. If your hours, phone or address change, update the Google profile first, then every site here.
+</footer>
+</div>
+
+<script>
+(function(){
+  var SITES=[
+    ['lawrato','LawRato','https://lawrato.com/lawyer-signup','P1','Free. Holds most of page 1 for "criminal lawyer Pune" searches, including a Shivajinagar page. Choose locality Shivajinagar / District Court.'],
+    ['restthecase','RestTheCase','https://restthecase.com/','P1','Free signup. Creates English, Hindi and Marathi profile pages automatically. Check before paying for any upgrade.'],
+    ['justdial','Justdial','https://www.justdial.com/','P1','You already have a listing. Complete it: categories, photos, hours, services, and ask clients to rate there.'],
+    ['threebestrated','ThreeBestRated','https://threebestrated.in/','P1','Apply to be reviewed for "criminal case lawyers in Pune". They pick 3 per city after their own check; your Google reviews count.'],
+    ['bharathlisting','BharathListing','https://bharathlisting.com/','P1','Free "Lawyers & Advocates" listing. Followed link.'],
+    ['pathlegal','PathLegal','https://www.pathlegal.in/','P1','Indian lawyer directory profile.'],
+    ['onlinelegalquery','OnlineLegalQuery','https://onlinelegalquery.com/','P1','Lawyer profile; answering public legal questions there adds visibility.'],
+    ['justia','Justia Lawyers','https://www.justia.com/lawyers','P2','Free lawyer profile used by a Shivajinagar competitor.'],
+    ['advocatekhoj','AdvocateKhoj','https://www.advocatekhoj.com/','P2','Indian lawyer directory.'],
+    ['lawyersclubindia','LawyersClubIndia','https://www.lawyersclubindia.com/','P2','Profile plus answering forum questions.'],
+    ['crivva','Crivva','https://crivva.com/','P2','Business profile. Followed link.'],
+    ['gullydirectory','GullyDirectory','https://www.gullydirectory.com/','P2','Local Pune listing; links three competitors.'],
+    ['pinkbazaar','PinkBazaar','https://pinkbazaar.in/','P2','Local listing; links three competitors.'],
+    ['bizcomnetwork','BizcomNetwork','https://bizcomnetwork.co.in/','P2','Business directory listing.'],
+    ['sulekha','Sulekha','https://www.sulekha.com/','P3','Local services listing for Pune lawyers.'],
+    ['servicebazzar','ServiceBazzar','https://servicebazzar.com/','P3','Local directory.'],
+    ['bharatdirectory','BharatDirectory','https://bharatdirectory.in/','P3','Local directory.'],
+    ['quickfinds','QuickFinds','https://quickfinds.in/','P3','Local directory.'],
+    ['yellowpages','YellowPages.net.in','https://yellowpages.net.in/','P3','Local directory.']
+  ];
+  var KEY='akc-listing-done';
+  var done={};
+  try{done=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){done={}}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(done))}catch(e){}}
+  var box=document.getElementById('sites');
+  SITES.forEach(function(s){
+    var tracked='https://advocateakashchikate.com/?utm_source='+s[0]+'&utm_medium=directory&utm_campaign=listing';
+    var el=document.createElement('div');el.className='site'+(done[s[0]]?' is-done':'');
+    el.innerHTML='<div class="site-top"><span class="pri">'+s[3]+'</span><b><a href="'+s[2]+'" target="_blank" rel="noopener">'+s[1]+'</a></b>'+
+      '<label class="done"><input type="checkbox" id="done-'+s[0]+'"'+(done[s[0]]?' checked':'')+'> Listed</label></div>'+
+      '<p>'+s[4]+'</p>'+
+      '<div class="linkrow"><code class="val">'+tracked+'</code><button class="copy" type="button">Copy link</button></div>';
+    el.querySelector('input').addEventListener('change',function(ev){done[s[0]]=ev.target.checked;if(!ev.target.checked)delete done[s[0]];el.classList.toggle('is-done',ev.target.checked);save();});
+    box.appendChild(el);
+  });
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest('button.copy');if(!b)return;
+    var holder=b.parentElement.querySelector('.val');if(!holder)return;
+    var text=holder.textContent.trim();
+    var label=b.textContent;
+    function flash(t){b.textContent=t;b.classList.add('ok');setTimeout(function(){b.textContent=label;b.classList.remove('ok')},1400)}
+    function fallback(){var r=document.createRange();r.selectNodeContents(holder);var sel=getSelection();sel.removeAllRanges();sel.addRange(r);flash('Selected')}
+    try{navigator.clipboard.writeText(text).then(function(){flash('Copied')},fallback)}catch(e){fallback()}
+  });
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected',x===t?'true':'false')});
+    document.querySelectorAll('[data-pane]').forEach(function(p){p.hidden=p.getAttribute('data-pane')!==t.dataset.lang});
+  })});
+})();
+</script>
